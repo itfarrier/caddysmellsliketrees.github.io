@@ -1,0 +1,149 @@
+//
+// 8 Lyrics
+// Strusture:
+//   <section class="lyrics">//for full (not at all) lyrics
+//     <article class="lyrics__text">//for text itself
+//       <header class="lyrics__subtitle"></header>//just header h2 if needed
+//       <section class="lyrics__stanza"></section>//for part of text
+//     </article>
+//   </section>
+// class="lyrics_italic"//for epigraph etc.
+//
+
+.lyrics {
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+  &__title {
+    font-family: $hagin;
+    font-size: 2em;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  &__subtitle {
+    @extend .lyrics__title;
+
+    font-size: 1.5em;
+
+    &_little {
+      font-size: 1em;
+    }
+  }
+
+  &_italic {
+    font-style: italic;
+  }
+
+  &__text {
+    align-self: center;
+    margin: auto;
+  }
+
+  &_margin-top {
+    margin-top: 1em;
+  }
+
+  &_margin-bottom {
+    margin-bottom: 1em;
+  }
+
+  &_margin-top-big {
+    margin-top: 2em;
+  }
+
+  &_margin-bottom-big {
+    margin-bottom: 2em;
+  }
+}
+
+.toc {
+  position: fixed;
+  top: $hamburger-button-height-width-left-top-size * 3;
+  left: 1.5rem;
+  width: min-content;
+  backface-visibility: hidden;
+  font-family: $hagin;
+  font-size: $toc-indicator-size;
+  line-height: $toc-indicator-size;
+
+  &:hover a {
+    background-color: $white-for-toc-tooltip;
+    border-radius: 2px;
+    color: $black-for-toc-tooltip;
+  }
+
+  ul {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    &::before {
+      position: absolute;
+      left: ($toc-indicator-size / 2);
+      display: block;
+      width: 1px;
+      height: 100%;
+      background-color: $black;
+      content: "";
+      transition: 0.25s ease;
+    }
+  }
+
+  li {
+    &:not(:last-child) {
+      a {
+        margin-bottom: $toc-indicator-size;
+      }
+    }
+
+    a {
+      position: relative;
+      left: ($toc-indicator-size * 2);
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      padding: ($toc-indicator-size / 8);
+      color: transparent;
+      text-decoration: none;
+      transition: 0.25s ease;
+      white-space: nowrap;
+
+      &::before {
+        position: absolute;
+        left: ($toc-indicator-size * -2);
+        display: block;
+        width: $toc-indicator-size;
+        height: $toc-indicator-size;
+        background-color: $white;
+        border-radius: 50%;
+        box-shadow: 0 0 0 1px $black;
+        content: "";
+      }
+
+      &:hover {
+        color: $black;
+
+        &::before {
+          background-color: $black;
+          box-shadow: 0 0 0 2px $black;
+          transition: 0.25s ease;
+        }
+      }
+    }
+
+    &.selected {
+      a {
+        &::before {
+          background-color: $black;
+        }
+      }
+    }
+  }
+}

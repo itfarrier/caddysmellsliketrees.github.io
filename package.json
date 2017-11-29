@@ -1,0 +1,52 @@
+{
+  "author": "Dmitrij Podabed",
+  "dependencies": {
+    "font-awesome-svg-png": "^1.2.2",
+    "gatsby": "^1.9.126",
+    "gatsby-image": "^1.0.27",
+    "gatsby-link": "^1.6.30",
+    "gatsby-plugin-manifest": "^1.0.9",
+    "gatsby-plugin-offline": "^1.0.11",
+    "gatsby-plugin-purify-css": "^2.2.1",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.14",
+    "gatsby-plugin-sitemap": "^1.2.6",
+    "normalize.css": "^7.0.0",
+    "react-burger-menu": "^2.1.11",
+    "react-responsive": "^4.0.3"
+  },
+  "description": "Psychedelic trash-folk",
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.12.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.5.1",
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.8.2",
+    "serve": "^6.4.1",
+    "stylelint": "^8.3.1",
+    "stylelint-config-idiomatic-order": "^5.0.0",
+    "stylelint-config-recommended-scss": "^2.0.0",
+    "stylelint-images": "^1.1.0",
+    "stylelint-scss": "^2.1.0"
+  },
+  "email": "dmitrij@podabed.org",
+  "keywords": [
+    "CADDY SMELLS LIKE TREES"
+  ],
+  "license": "GPL-3.0",
+  "main": "index.html",
+  "name": "CADDY-SMELLS-LIKE-TREES",
+  "repository": {
+    "url": "caddysmellsliketrees.github.io",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build && cp ./src/CNAME public/ && gh-pages -d public --branch master",
+    "develop": "gatsby develop",
+    "serve": "serve public -p 8000"
+  },
+  "version": "2.0.0"
+}
