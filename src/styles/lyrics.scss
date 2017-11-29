@@ -77,6 +77,10 @@
     color: $black-for-toc-tooltip;
   }
 
+  &:hover ~ .lyrics {
+    filter: blur(5px);
+  }
+
   ul {
     position: relative;
     padding: 0;
