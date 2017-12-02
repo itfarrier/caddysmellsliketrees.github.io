@@ -86,7 +86,7 @@ const Lyrics = () => (
           Утром ранним<br />
           пикой солнц<br />
           ранил ронина<br />
-          Муссон —
+          Муссон
         </section>
         <section className="lyrics__stanza lyrics_margin-top">
           ронин ранен<br />
@@ -118,7 +118,7 @@ const Lyrics = () => (
           Утром ранним<br />
           солнцем пик<br />
           ранил ронина<br />
-          Родник —
+          Родник
         </section>
         <section className="lyrics__stanza lyrics_margin-top">
           он упал лежал угрём<br />
@@ -813,10 +813,7 @@ const Lyrics = () => (
           я морской волк<br />
           а на руке крутая переводная наколка
         </section>
-        <header className="lyrics__subtitle lyrics__subtitle_little lyrics_margin-top">
-          ***
-        </header>
-        <section className="lyrics__stanza lyrics_margin-top">
+        <section className="lyrics__stanza lyrics_margin-top-big">
           Сердце в прошлое обуто —<br />
           я ударился об утро:<br />
           зажужжало за диваном<br />
