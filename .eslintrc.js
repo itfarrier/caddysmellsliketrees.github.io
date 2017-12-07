@@ -5,6 +5,9 @@ module.exports = {
     serviceworker: true
   },
   extends: ["plugin:react/recommended", "prettier", "prettier/react"],
+  globals: {
+    graphql: true
+  },
   parser: "babel-eslint",
   parserOptions: {
     allowImportExportEverywhere: false,
