@@ -14,16 +14,21 @@ import favicon16 from "../static/favicons/favicon-16x16.png";
 import safariPinnedTab from "../static/favicons/safari-pinned-tab.svg";
 import mstile from "../static/favicons/mstile-144x144.png";
 
-const Index = ({ children }) => (
+const Index = ({ children, data }) => (
   <div>
     <Helmet>
-      <title>КЭДДИ ПАХНЕТ ДЕРЕВЬЯМИ</title>
-      <meta name="description" content="Sample" />
+      <title>
+        {data.site.siteMetadata.title +
+          " — " +
+          data.site.siteMetadata.description}
+      </title>
+      <meta name="description" content={data.site.siteMetadata.description} />
       <meta name="keywords" content="sample, something" />
       <meta charSet="utf-8" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
+      <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
       <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
       <link rel="icon" type="image/png" sizes="194x194" href={favicon194} />
       <link
@@ -49,7 +54,20 @@ const Index = ({ children }) => (
 );
 
 Index.propTypes = {
-  children: PropTypes.func.isRequired
+  children: PropTypes.func.isRequired,
+  data: PropTypes.object.isRequired
 };
+
+export const IndexQuery = graphql`
+  query IndexQuery {
+    site {
+      siteMetadata {
+        description
+        siteUrl
+        title
+      }
+    }
+  }
+`;
 
 export default Index;

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     description: "Психоделический трэш-фолк",
     pathPrefix: "/",
-    siteUrl: "http://caddysmellsliketrees.ru",
+    siteUrl: "https://test.caddysmellsliketrees.ru",
     title: "КЭДДИ ПАХНЕТ ДЕРЕВЬЯМИ"
   },
   plugins: [

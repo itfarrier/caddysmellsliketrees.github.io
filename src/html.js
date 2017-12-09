@@ -22,7 +22,7 @@ class HTML extends React.Component {
         />
       ) : null;
     return (
-      <html {...this.props.htmlAttributes}>
+      <html dir="ltr" lang="ru" {...this.props.htmlAttributes}>
         <head>
           {this.props.headComponents}
           {css}

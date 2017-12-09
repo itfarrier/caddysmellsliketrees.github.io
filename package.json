@@ -18,7 +18,7 @@
   "description": "Psychedelic trash-folk",
   "devDependencies": {
     "babel-eslint": "^8.0.2",
-    "eslint": "^4.12.0",
+    "eslint": "^4.13.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.5.1",
@@ -32,9 +32,7 @@
     "stylelint-scss": "^2.1.0"
   },
   "email": "dmitrij@podabed.org",
-  "keywords": [
-    "CADDY SMELLS LIKE TREES"
-  ],
+  "keywords": ["CADDY SMELLS LIKE TREES"],
   "license": "GPL-3.0",
   "main": "index.html",
   "name": "CADDY-SMELLS-LIKE-TREES",
@@ -44,7 +42,8 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && cp ./src/CNAME public/ && gh-pages -d public --branch master",
+    "deploy":
+      "gatsby build && cp ./src/CNAME public/ && gh-pages -d public --branch master",
     "develop": "gatsby develop",
     "serve": "serve public -p 8000"
   },
