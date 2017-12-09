@@ -1,5 +1,5 @@
 //
-// 8 Lyrics
+// Lyrics
 // Strusture:
 //   <section class="lyrics">//for full (not at all) lyrics
 //     <article class="lyrics__text">//for text itself
@@ -17,6 +17,18 @@
   align-content: center;
   align-items: center;
   justify-content: center;
+
+  &__ul {
+    li {
+      list-style-type: none;
+      text-align: center;
+
+      a {
+        color: $black;
+        font-family: $hagin;
+      }
+    }
+  }
 
   &__title {
     font-family: $hagin;
@@ -58,96 +70,5 @@
 
   &_margin-bottom-big {
     margin-bottom: 3em;
-  }
-}
-
-.toc {
-  position: fixed;
-  top: $hamburger-button-height-width-left-top-size * 3;
-  left: 1.5rem;
-  width: min-content;
-  backface-visibility: hidden;
-  font-family: $hagin;
-  font-size: $toc-indicator-size;
-  line-height: $toc-indicator-size;
-
-  &:hover a {
-    background-color: $white-for-toc-tooltip;
-    border-radius: 2px;
-    color: $black-for-toc-tooltip;
-  }
-
-  &:hover ~ .lyrics {
-    filter: blur(5px);
-  }
-
-  ul {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-
-    &::before {
-      position: absolute;
-      left: ($toc-indicator-size / 2);
-      display: block;
-      width: 1px;
-      height: 100%;
-      background-color: $black;
-      content: "";
-      transition: 0.25s ease;
-    }
-  }
-
-  li {
-    &:not(:last-child) {
-      a {
-        margin-bottom: $toc-indicator-size;
-      }
-    }
-
-    a {
-      position: relative;
-      left: ($toc-indicator-size * 2);
-      display: flex;
-      align-content: center;
-      align-items: center;
-      justify-content: center;
-      padding: ($toc-indicator-size / 8);
-      color: transparent;
-      text-decoration: none;
-      transition: 0.25s ease;
-      white-space: nowrap;
-
-      &::before {
-        position: absolute;
-        left: ($toc-indicator-size * -2);
-        display: block;
-        width: $toc-indicator-size;
-        height: $toc-indicator-size;
-        background-color: $white;
-        border-radius: 50%;
-        box-shadow: 0 0 0 1px $black;
-        content: "";
-      }
-
-      &:hover {
-        color: $black;
-
-        &::before {
-          background-color: $black;
-          box-shadow: 0 0 0 2px $black;
-          transition: 0.25s ease;
-        }
-      }
-    }
-
-    &.selected {
-      a {
-        &::before {
-          background-color: $black;
-        }
-      }
-    }
   }
 }
