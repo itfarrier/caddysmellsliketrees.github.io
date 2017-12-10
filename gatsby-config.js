@@ -233,6 +233,14 @@ module.exports = {
           rejected: true
         }
       }
-    }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "lyrics",
+        path: `${__dirname}/src/pages/lyrics`
+      }
+    },
+    "gatsby-transformer-remark"
   ]
 };
