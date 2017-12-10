@@ -4,8 +4,7 @@ import React from "react";
 const lyricsTemplate = ({ data }) => {
   const lyrics = data.markdownRemark;
   return (
-    <div className="main">
-      <h1>{lyrics.frontmatter.title}</h1>
+    <div className="main lyrics">
       <div dangerouslySetInnerHTML={{ __html: lyrics.html }} />
     </div>
   );
@@ -14,9 +13,6 @@ const lyricsTemplate = ({ data }) => {
 export const lyricsTemplateQuery = graphql`
   query lyricsTemplateQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      frontmatter {
-        title
-      }
       html
     }
   }

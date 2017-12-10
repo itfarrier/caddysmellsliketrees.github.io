@@ -11,13 +11,6 @@
 //
 
 .lyrics {
-  display: flex;
-  width: 100%;
-  flex-flow: column nowrap;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-
   &__ul {
     li {
       list-style-type: none;
@@ -30,45 +23,13 @@
     }
   }
 
-  &__title {
+  h1 {
     font-family: $hagin;
-    font-size: 2em;
-    line-height: 1.25;
+    font-weight: 400;
     text-align: center;
   }
 
-  &__subtitle {
-    @extend .lyrics__title;
-
-    font-size: 1.5em;
-
-    &_little {
-      font-size: 1em;
-    }
-  }
-
-  &_italic {
-    font-style: italic;
-  }
-
-  &__text {
-    align-self: center;
-    margin: auto;
-  }
-
-  &_margin-top {
-    margin-top: 1em;
-  }
-
-  &_margin-bottom {
-    margin-bottom: 1em;
-  }
-
-  &_margin-top-big {
-    margin-top: 3em;
-  }
-
-  &_margin-bottom-big {
-    margin-bottom: 3em;
+  h3 {
+    @extend h1;
   }
 }
