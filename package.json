@@ -2,7 +2,7 @@
   "author": "Dmitrij Podabed",
   "dependencies": {
     "font-awesome-svg-png": "^1.2.2",
-    "gatsby": "^1.9.129",
+    "gatsby": "^1.9.130",
     "gatsby-image": "^1.0.28",
     "gatsby-link": "^1.6.31",
     "gatsby-plugin-manifest": "^1.0.10",
@@ -38,7 +38,7 @@
     "CADDY SMELLS LIKE TREES"
   ],
   "license": "GPL-3.0",
-  "main": "index.html",
+  "main": "html.js",
   "name": "CADDY-SMELLS-LIKE-TREES",
   "repository": {
     "url": "caddysmellsliketrees.github.io",
