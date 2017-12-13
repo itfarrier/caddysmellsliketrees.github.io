@@ -2,6 +2,11 @@ import React from "react";
 
 const Index = () => (
   <div className="full-logo">
+    <div
+      style={{ position: "absolute", right: 0, top: 0, fontSize: "0.75rem" }}
+    >
+      &laquo;Все хотят уволиться, но&nbsp;не&nbsp;все увольняются&raquo;,&nbsp;&mdash; Сергей Неведьев, Откровения, 1:1.
+    </div>
     <div className="img-logo img-logo_margin-right">
       <svg
         alt="ДЕРЕВО"

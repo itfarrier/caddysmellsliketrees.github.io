@@ -1,6 +1,8 @@
 html {
   background-color: $white;
   color: $black;
+  font-family: serif;
+  font-weight: 400;
   scroll-behavior: smooth;
 }
 
@@ -14,4 +16,11 @@ html {
 *:active {
   color: $black;
   text-decoration: none;
+}
+
+h1,
+h2 {
+  font-family: "Hagin Caps", serif;
+  font-weight: 400;
+  text-align: center;
 }

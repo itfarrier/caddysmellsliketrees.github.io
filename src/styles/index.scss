@@ -1,10 +1,11 @@
 @import "~normalize.css";
 
 @import "variables";
+@import "main";
 @import "fonts";
 @import "caddy-smells-like-trees-logo";
-@import "main";
 @import "sidebar";
-@import "band";
 
 @import "~bulma/bulma";
+
+@import "rhythm";
