@@ -33,7 +33,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         result.data.allMarkdownRemark.edges.map(({ node }) => {
           return createPage({
             path: node.fields.slug,
-            component: path.resolve("./src/templates/lyrics.js"),
+            component: path.resolve("./src/templates/lyricsTemplate.js"),
             context: {
               slug: node.fields.slug
             }

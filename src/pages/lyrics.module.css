@@ -1,0 +1,15 @@
+.toc {
+  min-height: 100vh;
+}
+
+.link {
+  margin: 0 0 1.5em;
+  font-family: "Hagin Caps", serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.ul {
+  display: flex;
+  flex-flow: column nowrap;
+}

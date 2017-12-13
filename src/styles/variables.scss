@@ -1,7 +1,6 @@
 // Logo and title's font
 $hagin: "Hagin Caps", serif;
 
-
 //
 //Colors
 //
@@ -34,8 +33,24 @@ $sidebar-toggle-width_landscape: 50vw;
 
 $tree-with-grass__tree-size: 30vw;
 
-$tree-with-grass__tree-size_landscape: 20vw;
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
-$sidebar-toggle__animation: all 0.25s linear;
+//
+// Color system
+//
 
-$toc-indicator-size: 2.5vh;
+$body-bg: $white;
+$body-color: $black;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color: $black;
+$link-hover-color: $black;
+$link-hover-decoration: none;
+
+$family-primary: serif;

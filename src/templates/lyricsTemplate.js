@@ -1,11 +1,15 @@
 import PropTypes from "prop-types";
 import React from "react";
 
+import styles from "./lyricsTemplate.module.css";
+
 const lyricsTemplate = ({ data }) => {
   const lyrics = data.markdownRemark;
   return (
-    <div className="main lyrics">
-      <div dangerouslySetInnerHTML={{ __html: lyrics.html }} />
+    <div className={"level is-mobile " + styles.lyrics}>
+      <div className="level-item">
+        <div dangerouslySetInnerHTML={{ __html: lyrics.html }} />
+      </div>
     </div>
   );
 };
