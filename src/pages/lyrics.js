@@ -2,26 +2,26 @@ import Link from "gatsby-link";
 import PropTypes from "prop-types";
 import React from "react";
 
-const Lyrics = ({ data }) => (
-  <div className="main">
-    <ul className="lyrics__ul">
-      {data.allMarkdownRemark.edges.map(({ node }) => {
-        return (
-          <li key={node.id}>
-            <Link to={"/" + node.fields.slug}>{node.headings[0].value}</Link>
-          </li>
-        );
-      })}
-    </ul>
+const lyrics = ({ data }) => (
+  <div className="container">
+    {data.allMarkdownRemark.edges.map(({ node }) => {
+      return (
+        <div className="row" key={node.id}>
+          <div className="col-8 offset-2">
+            <Link className="lyrics-link" to={"/" + node.fields.slug}>{node.headings[0].value}</Link>
+          </div>
+        </div>
+      );
+    })}
   </div>
 );
 
-Lyrics.propTypes = {
+lyrics.propTypes = {
   data: PropTypes.object.isRequired
 };
 
-export const LyricsQuery = graphql`
-  query LyricsQuery {
+export const lyricsQuery = graphql`
+  query lyricsQuery {
     allMarkdownRemark {
       edges {
         node {
@@ -38,4 +38,4 @@ export const LyricsQuery = graphql`
   }
 `;
 
-export default Lyrics;
+export default lyrics;

@@ -14,7 +14,7 @@ import favicon16 from "../static/favicons/favicon-16x16.png";
 import safariPinnedTab from "../static/favicons/safari-pinned-tab.svg";
 import mstile from "../static/favicons/mstile-144x144.png";
 
-const Index = ({ children, data }) => (
+const indexLayout = ({ children, data }) => (
   <div>
     <Helmet>
       <title>
@@ -53,13 +53,13 @@ const Index = ({ children, data }) => (
   </div>
 );
 
-Index.propTypes = {
+indexLayout.propTypes = {
   children: PropTypes.func.isRequired,
   data: PropTypes.object.isRequired
 };
 
-export const IndexQuery = graphql`
-  query IndexQuery {
+export const indexLayoutQuery = graphql`
+  query indexLayoutQuery {
     site {
       siteMetadata {
         description
@@ -70,4 +70,4 @@ export const IndexQuery = graphql`
   }
 `;
 
-export default Index;
+export default indexLayout;
