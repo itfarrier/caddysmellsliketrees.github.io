@@ -11,6 +11,7 @@
   flex-flow: column nowrap;
   justify-content: center;
   margin: auto;
+  hyphens: none;
 
   @media all and (orientation: landscape) {
     width: 100vw;
