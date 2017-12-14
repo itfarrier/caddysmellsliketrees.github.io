@@ -1,7 +1,10 @@
 import { slide as Menu } from "react-burger-menu";
+import isMobile from "ismobilejs";
 import Link from "gatsby-link";
 import PropTypes from "prop-types";
 import React from "react";
+
+import styles from "./Sidebar.module.scss";
 
 class Sidebar extends React.Component {
   constructor(props, context) {
@@ -15,6 +18,8 @@ class Sidebar extends React.Component {
   render() {
     return (
       <Menu
+        burgerBarClassName={styles.burger}
+        burgerButtonClassName={isMobile.any ? styles.button : styles.button2}
         customBurgerIcon={
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792">
             <path
@@ -24,15 +29,18 @@ class Sidebar extends React.Component {
           </svg>
         }
         isOpen={this.state.isOpen}
+        itemListClassName={styles.list}
+        menuClassName={styles.menu}
+        overlayClassName={styles.overlay}
         width={this.props.width}
       >
-        <Link onClick={this.isOpen} title="ГЛАВНАЯ" to="/">
+        <Link onClick={this.isOpen} to="/">
           ГЛАВНАЯ
         </Link>
-        <Link onClick={this.isOpen} title="ТЕКСТЫ" to="/lyrics">
+        <Link onClick={this.isOpen} to="/lyrics">
           ТЕКСТЫ
         </Link>
-        <Link onClick={this.isOpen} title="О ГРУППЕ" to="/about">
+        <Link onClick={this.isOpen} to="/about">
           О ГРУППЕ
         </Link>
         <address>

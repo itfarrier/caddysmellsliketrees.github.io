@@ -1,0 +1,72 @@
+$size: 1.25rem;
+
+$desktop-size: $size / 2;
+
+$hagin: "Hagin Caps", serif;
+
+$white: rgba(240, 240, 240, 1);
+
+$black: rgba(10, 10, 10, 1);
+
+.button {
+  position: fixed;
+  top: $size;
+  left: $size;
+  width: $size * 2 !important;
+  height: $size * 2 !important;
+}
+
+.button2 {
+  position: fixed;
+  top: $desktop-size;
+  left: $desktop-size;
+  width: $desktop-size * 2 !important;
+  height: $desktop-size * 2 !important;
+}
+
+.burger {
+  background: $black;
+}
+
+.menu {
+  background-color: $black;
+  color: $white;
+}
+
+.list {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: $black;
+  color: $white;
+  font-family: $hagin;
+  font-size: 2rem;
+  justify-items: center;
+
+  *:link,
+  *:visited,
+  *:active {
+    color: $white;
+    text-decoration: none;
+  }
+
+  address {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem;
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+      margin: 0.5rem 1rem;
+    }
+  }
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.75) !important;
+}
