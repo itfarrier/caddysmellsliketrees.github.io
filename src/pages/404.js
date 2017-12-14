@@ -1,8 +1,10 @@
 import React from "react";
 
+import styles from "./404.module.css";
+
 const NotFoundPage = () => (
-  <div className="main">
-    <h1 className="lyrics__title">404</h1>
+  <div className={"container " + styles.center}>
+    <h1>404</h1>
     <p>Эта ветка высохла.</p>
   </div>
 );
