@@ -5,18 +5,22 @@ import React from "react";
 import styles from "./lyrics.module.css";
 
 const lyrics = ({ data }) => (
-  <div className={"level is-mobile " + styles.toc}>
-    <ul className={"level-item " + styles.ul}>
-      {data.allMarkdownRemark.edges.map(({ node }) => {
-        return (
-          <li key={node.id}>
-            <Link className={styles.link} to={"/" + node.fields.slug}>
-              {node.headings[0].value}
-            </Link>
-          </li>
-        );
-      })}
-    </ul>
+  <div className="container">
+    <div className="row">
+      <div className={"col " + styles.toc}>
+        <ul className={styles.list}>
+          {data.allMarkdownRemark.edges.map(({ node }) => {
+            return (
+              <li className={styles.link} key={node.id}>
+                <Link to={"/" + node.fields.slug}>
+                  {node.headings[0].value}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
   </div>
 );
 

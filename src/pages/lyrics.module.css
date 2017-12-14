@@ -1,12 +1,17 @@
 .toc {
-  min-height: 100vh;
+  display: flex;
+  min-height: 100vh !important;
+  align-items: center;
+  justify-content: center;
 }
 
 .link {
   font-family: "Hagin Caps", serif;
+  list-style: none outside;
+  text-align: center;
 }
 
-.ul {
-  display: flex;
-  flex-flow: column nowrap;
+.list {
+  padding: 0;
+  list-style: none;
 }
