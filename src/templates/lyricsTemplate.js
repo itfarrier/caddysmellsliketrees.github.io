@@ -6,9 +6,11 @@ import styles from "./lyricsTemplate.module.css";
 const lyricsTemplate = ({ data }) => {
   const lyrics = data.markdownRemark;
   return (
-    <div className={"level is-mobile " + styles.lyrics}>
-      <div className="level-item">
-        <div dangerouslySetInnerHTML={{ __html: lyrics.html }} />
+    <div className="container">
+      <div className="row">
+        <div className={"col " + styles.lyrics}>
+          <div dangerouslySetInnerHTML={{ __html: lyrics.html }} />
+        </div>
       </div>
     </div>
   );
