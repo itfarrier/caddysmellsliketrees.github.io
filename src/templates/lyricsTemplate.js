@@ -1,3 +1,4 @@
+import MediaQuery from "react-responsive";
 import PropTypes from "prop-types";
 import React from "react";
 
@@ -8,9 +9,18 @@ const lyricsTemplate = ({ data }) => {
   return (
     <div className="container">
       <div className="row">
-        <div className={"col " + styles.lyrics}>
-          <div dangerouslySetInnerHTML={{ __html: lyrics.html }} />
-        </div>
+        <MediaQuery query="(orientation: portrait)">
+          <div
+            className={"col-8 offset-2 " + styles.lyrics}
+            dangerouslySetInnerHTML={{ __html: lyrics.html }}
+          />
+        </MediaQuery>
+        <MediaQuery query="(orientation: landscape)">
+          <div
+            className={"col-4 offset-4 " + styles.lyrics}
+            dangerouslySetInnerHTML={{ __html: lyrics.html }}
+          />
+        </MediaQuery>
       </div>
     </div>
   );

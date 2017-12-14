@@ -3,6 +3,8 @@ html {
   color: $black;
   font-family: serif;
   font-weight: 400;
+  hanging-punctuation: first force-end last;
+  hyphens: auto;
   scroll-behavior: smooth;
 }
 

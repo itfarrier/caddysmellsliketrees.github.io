@@ -2,7 +2,11 @@
   display: flex;
   min-height: 100vh !important;
   flex-flow: column nowrap;
-  align-items: center;
   justify-content: center;
   font-family: serif;
+}
+
+.wordbreak {
+  hyphens: none;
+  word-break: normal;
 }
