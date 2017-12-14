@@ -2,7 +2,6 @@
   "author": "Dmitrij Podabed",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
-    "bulma": "^0.6.1",
     "font-awesome-svg-png": "^1.2.2",
     "gatsby": "^1.9.134",
     "gatsby-image": "^1.0.29",
@@ -16,7 +15,6 @@
     "gatsby-source-filesystem": "^1.5.11",
     "gatsby-transformer-remark": "^1.7.25",
     "ismobilejs": "^0.4.1",
-    "normalize.css": "^7.0.0",
     "react-burger-menu": "^2.1.11",
     "react-responsive": "^4.0.3"
   },
