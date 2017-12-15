@@ -4,9 +4,7 @@
   flex-flow: column nowrap;
   justify-content: center;
   font-family: serif;
-}
-
-.wordbreak {
-  hyphens: none;
+  hanging-punctuation: first force-end last;
+  hyphens: manual;
   word-break: normal;
 }

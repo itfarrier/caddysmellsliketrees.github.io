@@ -3,8 +3,8 @@
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "font-awesome-svg-png": "^1.2.2",
-    "gatsby": "^1.9.134",
-    "gatsby-image": "^1.0.29",
+    "gatsby": "^1.9.135",
+    "gatsby-image": "^1.0.30",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-manifest": "^1.0.11",
     "gatsby-plugin-offline": "^1.0.12",
