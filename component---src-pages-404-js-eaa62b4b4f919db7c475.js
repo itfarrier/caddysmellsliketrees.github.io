@@ -1,0 +1,2 @@
+webpackJsonp([0x9427c64ab85d],{183:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var u=a(2),n=l(u),c=function(){return n.default.createElement("div",{className:"main"},n.default.createElement("h1",{className:"lyrics__title"},"404"),n.default.createElement("p",null,"Эта ветка высохла."))};t.default=c,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-404-js-eaa62b4b4f919db7c475.js.map

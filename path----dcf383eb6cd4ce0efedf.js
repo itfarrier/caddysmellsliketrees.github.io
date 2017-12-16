@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{88:function(t,e){t.exports={data:{site:{siteMetadata:{description:"Психоделический трэш-фолк",siteUrl:"https://test.caddysmellsliketrees.ru",title:"КЭДДИ ПАХНЕТ ДЕРЕВЬЯМИ"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----dcf383eb6cd4ce0efedf.js.map

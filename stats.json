@@ -1,0 +1,132 @@
+{
+  "assetsByChunkName": {
+    "path---lyrics-teplo-bezdonnoe": [
+      "path---lyrics-teplo-bezdonnoe-988cf81b00a14244ba6a.js",
+      "path---lyrics-teplo-bezdonnoe-988cf81b00a14244ba6a.js.map"
+    ],
+    "path---lyrics": [
+      "path---lyrics-675f371065d9652eecde.js",
+      "path---lyrics-675f371065d9652eecde.js.map"
+    ],
+    "component---src-templates-lyrics-template-js": [
+      "component---src-templates-lyrics-template-js-4135e634f150927cc22e.js",
+      "component---src-templates-lyrics-template-js-4135e634f150927cc22e.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-a3f74016e6c3611800fb.js",
+      "component---src-pages-index-js-a3f74016e6c3611800fb.js.map"
+    ],
+    "path---lyrics-bez-imeni": [
+      "path---lyrics-bez-imeni-e809a68fd84db42ac3b5.js",
+      "path---lyrics-bez-imeni-e809a68fd84db42ac3b5.js.map"
+    ],
+    "path---lyrics-gerbarij": [
+      "path---lyrics-gerbarij-00d9b363c11142dd1b68.js",
+      "path---lyrics-gerbarij-00d9b363c11142dd1b68.js.map"
+    ],
+    "path---": [
+      "path----24e55f403530d99d2067.js",
+      "path----24e55f403530d99d2067.js.map"
+    ],
+    "path---lyrics-chernoknizhnica": [
+      "path---lyrics-chernoknizhnica-cc56925b0fe986f60bf1.js",
+      "path---lyrics-chernoknizhnica-cc56925b0fe986f60bf1.js.map"
+    ],
+    "path---lyrics-podrasti": [
+      "path---lyrics-podrasti-a2c9d3d18f0565688a3d.js",
+      "path---lyrics-podrasti-a2c9d3d18f0565688a3d.js.map"
+    ],
+    "path---lyrics-vnutri-gerbariya": [
+      "path---lyrics-vnutri-gerbariya-5f999928cb9d5c4a473f.js",
+      "path---lyrics-vnutri-gerbariya-5f999928cb9d5c4a473f.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-pages-lyrics-js": [
+      "component---src-pages-lyrics-js-1f8f5ab7f194407f88d8.js",
+      "component---src-pages-lyrics-js-1f8f5ab7f194407f88d8.js.map"
+    ],
+    "path---lyrics-igrushki": [
+      "path---lyrics-igrushki-b104c46852ee2d5bb6c1.js",
+      "path---lyrics-igrushki-b104c46852ee2d5bb6c1.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-332f2de8ae1c54fe1d76.js",
+      "component---src-layouts-index-js-332f2de8ae1c54fe1d76.js.map"
+    ],
+    "path---lyrics-v-kluvikah": [
+      "path---lyrics-v-kluvikah-438d68dbdf6fcd54b714.js",
+      "path---lyrics-v-kluvikah-438d68dbdf6fcd54b714.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---lyrics-terem": [
+      "path---lyrics-terem-e1288aba10ca89fc8e9f.js",
+      "path---lyrics-terem-e1288aba10ca89fc8e9f.js.map"
+    ],
+    "path---lyrics-kluviki-not": [
+      "path---lyrics-kluviki-not-feea0b8de9d4b84c1bf4.js",
+      "path---lyrics-kluviki-not-feea0b8de9d4b84c1bf4.js.map"
+    ],
+    "path---lyrics-malchik-batiskaf": [
+      "path---lyrics-malchik-batiskaf-0189917e2593c76b8d0a.js",
+      "path---lyrics-malchik-batiskaf-0189917e2593c76b8d0a.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-a8a58410f548f701882e.js",
+      "component---src-pages-404-js-a8a58410f548f701882e.js.map"
+    ],
+    "commons": [
+      "commons-cfe08c15100186618874.js",
+      "build-js-styles.css",
+      "commons-cfe08c15100186618874.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---lyrics-malo": [
+      "path---lyrics-malo-980f0bac9cd3eb0bf2f0.js",
+      "path---lyrics-malo-980f0bac9cd3eb0bf2f0.js.map"
+    ],
+    "path---lyrics-saga-o-ronine": [
+      "path---lyrics-saga-o-ronine-91aa812665ff0c19cc9a.js",
+      "path---lyrics-saga-o-ronine-91aa812665ff0c19cc9a.js.map"
+    ],
+    "path---lyrics-les": [
+      "path---lyrics-les-7bb0797e95c85495115d.js",
+      "path---lyrics-les-7bb0797e95c85495115d.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-5e25d496db1816291ba4.js",
+      "build-js-styles.css",
+      "app-5e25d496db1816291ba4.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-b0647085f04ce4acef99.js",
+      "component---src-pages-about-js-b0647085f04ce4acef99.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---lyrics-krasnaya-pesnya": [
+      "path---lyrics-krasnaya-pesnya-5e5973ae91fc901ad3b3.js",
+      "path---lyrics-krasnaya-pesnya-5e5973ae91fc901ad3b3.js.map"
+    ]
+  }
+}
