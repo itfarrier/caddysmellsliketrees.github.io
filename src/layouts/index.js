@@ -2,6 +2,7 @@ import Helmet from "react-helmet";
 import MediaQuery from "react-responsive";
 import PropTypes from "prop-types";
 import React from "react";
+import SnowStorm from "../components/Snowstorm";
 
 import Sidebar from "../components/Sidebar";
 
@@ -50,6 +51,7 @@ const indexLayout = ({ children, data }) => (
       <Sidebar width={"50vw"} />
     </MediaQuery>
     <main>{children()}</main>
+    <SnowStorm />
   </div>
 );
 

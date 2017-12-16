@@ -10,8 +10,8 @@ $black: rgba(10, 10, 10, 1);
 
 .button {
   position: fixed;
-  top: $size;
-  left: $size;
+  top: $size * 1.5;
+  left: $size * 1.5;
   width: $size !important;
   height: $size !important;
 }

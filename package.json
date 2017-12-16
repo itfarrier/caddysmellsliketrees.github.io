@@ -11,12 +11,14 @@
     "gatsby-plugin-purify-css": "^2.2.1",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.15",
-    "gatsby-plugin-sitemap": "^1.2.8",
+    "gatsby-plugin-sitemap": "^1.2.9",
     "gatsby-source-filesystem": "^1.5.11",
     "gatsby-transformer-remark": "^1.7.25",
     "ismobilejs": "^0.4.1",
+    "platform": "^1.3.4",
     "react-burger-menu": "^2.1.11",
-    "react-responsive": "^4.0.3"
+    "react-responsive": "^4.0.3",
+    "react-snowstorm": "0.0.2"
   },
   "description": "Psychedelic trash-folk",
   "devDependencies": {
