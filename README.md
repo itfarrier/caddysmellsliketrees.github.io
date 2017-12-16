@@ -1,16 +1,10 @@
-# gatsby-starter-default
-
-The default Gatsby starter
-
-For an overview of the project structure please refer to the
-[Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-
-```
-gatsby new gatsby-example-site
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+<h1 align="center">
+  <br/>
+  <a href="https://caddysmellsliketrees.ru">
+  	<img src="https://user-images.githubusercontent.com/4352168/34073203-e80107a4-e2c6-11e7-8389-b19b85d4861b.jpg" alt="Caddy smells like trees logo" width="100%">
+  </a>
+  <br/>
+  CADDY SMELLS LIKE TREES
+  <br/>
+</h1>
+<h4 align="center">Psychedelic free-folk</h4>
