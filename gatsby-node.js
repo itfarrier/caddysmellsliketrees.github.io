@@ -15,10 +15,10 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
     graphql(`
       {
-        allMarkdownRemark {
+        allMarkdownRemark(sort: { order: ASC, fields: html }) {
           edges {
             node {
               fields {
@@ -28,19 +28,17 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           }
         }
       }
-    `)
-      .then(result => {
-        result.data.allMarkdownRemark.edges.map(({ node }) => {
-          return createPage({
-            path: node.fields.slug,
-            component: path.resolve("./src/templates/lyricsTemplate.js"),
-            context: {
-              slug: node.fields.slug
-            }
-          });
+    `).then(result => {
+      result.data.allMarkdownRemark.edges.map(({ node }) => {
+        return createPage({
+          path: node.fields.slug,
+          component: path.resolve("./src/templates/lyricsTemplate.js"),
+          context: {
+            slug: node.fields.slug
+          }
         });
-        resolve();
-      })
-      .catch(reject => console.log(reject));
+      });
+      resolve();
+    });
   });
 };

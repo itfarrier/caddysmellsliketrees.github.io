@@ -10,16 +10,16 @@ $black: rgba(10, 10, 10, 1);
 
 .button {
   position: fixed;
-  top: $size;
-  left: $size;
+  top: $size / 2;
+  left: $size / 1.5;
   width: $size * 2 !important;
   height: $size * 2 !important;
 }
 
 .button2 {
   position: fixed;
-  top: $desktop-size;
-  left: $desktop-size;
+  top: $desktop-size / 2;
+  left: $desktop-size / 1.5;
   width: $desktop-size * 2 !important;
   height: $desktop-size * 2 !important;
 }
