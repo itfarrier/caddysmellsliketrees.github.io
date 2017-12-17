@@ -16,12 +16,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "КЭДДИ ПАХНЕТ ДЕРЕВЬЯМИ",
-        short_name: "КПД",
-        start_url: "/",
         background_color: "#f0f0f0",
-        theme_color: "#f0f0f0",
-        display: "minimal-ui",
+        display: "standalone",
         icons: [
           {
             src: "/favicons/android-chrome-36x36.png",
@@ -218,7 +214,11 @@ module.exports = {
             sizes: "3467x3467",
             type: "image/svg+xml"
           }
-        ]
+        ],
+        name: "КЭДДИ ПАХНЕТ ДЕРЕВЬЯМИ",
+        short_name: "КПД",
+        start_url: "/?utm_source=homescreen",
+        theme_color: "#f0f0f0"
       }
     },
     "gatsby-plugin-sitemap",
