@@ -1,2 +1,0 @@
-webpackJsonp([64677216767954],{188:function(e,t,a){"use strict";function r(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0,t.lyricsTemplateQuery=void 0;var l=a(7),n=r(l),u=a(2),d=r(u),c=function(e){var t=e.data,a=t.markdownRemark;return d.default.createElement("div",{className:"main lyrics"},d.default.createElement("div",{dangerouslySetInnerHTML:{__html:a.html}}))};t.lyricsTemplateQuery="** extracted graphql fragment **";c.propTypes={data:n.default.object.isRequired},t.default=c}});
-//# sourceMappingURL=component---src-templates-lyrics-js-6aeea341196464fabb15.js.map

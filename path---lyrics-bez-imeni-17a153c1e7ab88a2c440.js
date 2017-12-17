@@ -1,2 +1,0 @@
-webpackJsonp([43474852642065],{328:function(n,r){n.exports={data:{markdownRemark:{html:"<h1>***</h1>\n<p>когда она пахнет деревьями<br>\nвся весна цветёт у меня в гру-<br>\nди-<br>\nревьями<br>\nтёплые веки твои<br>\nтени в тени<br>\nмне обереги<br>\nкогда<br>\nони<br>\nпахнут деревьями</p>"}},pathContext:{slug:"lyrics/bezImeni"}}}});
-//# sourceMappingURL=path---lyrics-bez-imeni-17a153c1e7ab88a2c440.js.map
