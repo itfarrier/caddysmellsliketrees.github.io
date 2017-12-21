@@ -2,8 +2,9 @@
   display: flex;
   min-height: 100vh !important;
   flex-flow: column nowrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  padding-top: calc(1.75rem * 0.16);
   font-family: serif;
   hanging-punctuation: first force-end last;
   hyphens: manual;
