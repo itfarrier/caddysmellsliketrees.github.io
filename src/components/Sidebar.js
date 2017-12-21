@@ -34,15 +34,17 @@ class Sidebar extends React.Component {
         overlayClassName={styles.overlay}
         width={this.props.width}
       >
-        <Link onClick={this.isOpen} to="/">
-          ГЛАВНАЯ
-        </Link>
-        <Link onClick={this.isOpen} to="/lyrics">
-          ТЕКСТЫ
-        </Link>
-        <Link onClick={this.isOpen} to="/about">
-          О ГРУППЕ
-        </Link>
+        <div className={styles.links}>
+          <Link onClick={this.isOpen} to="/">
+            ГЛАВНАЯ
+          </Link>
+          <Link onClick={this.isOpen} to="/lyrics">
+            ТЕКСТЫ
+          </Link>
+          <Link onClick={this.isOpen} to="/about">
+            О ГРУППЕ
+          </Link>
+        </div>
         <address>
           <a
             href="https://vk.com/caddysmelledliketrees"
