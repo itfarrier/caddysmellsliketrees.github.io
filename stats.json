@@ -5,8 +5,8 @@
       "path---lyrics-teplo-bezdonnoe-988cf81b00a14244ba6a.js.map"
     ],
     "path---lyrics": [
-      "path---lyrics-675f371065d9652eecde.js",
-      "path---lyrics-675f371065d9652eecde.js.map"
+      "path---lyrics-4f6352759c1bae08b91f.js",
+      "path---lyrics-4f6352759c1bae08b91f.js.map"
     ],
     "component---src-templates-lyrics-template-js": [
       "component---src-templates-lyrics-template-js-4135e634f150927cc22e.js",
@@ -53,8 +53,8 @@
       "path---lyrics-igrushki-b104c46852ee2d5bb6c1.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-a4ebb1843db6be0dfdc8.js",
-      "component---src-layouts-index-js-a4ebb1843db6be0dfdc8.js.map"
+      "component---src-layouts-index-js-2950092909f10ff01960.js",
+      "component---src-layouts-index-js-2950092909f10ff01960.js.map"
     ],
     "path---lyrics-v-kluvikah": [
       "path---lyrics-v-kluvikah-438d68dbdf6fcd54b714.js",
@@ -107,9 +107,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-5e25d496db1816291ba4.js",
+      "app-b67d256af01f89d74eef.js",
       "build-js-styles.css",
-      "app-5e25d496db1816291ba4.js.map",
+      "app-b67d256af01f89d74eef.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
