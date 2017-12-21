@@ -221,6 +221,7 @@ module.exports = {
         theme_color: "#f0f0f0"
       }
     },
+    "gatsby-plugin-netlify",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
     {

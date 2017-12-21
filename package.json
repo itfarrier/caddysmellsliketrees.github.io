@@ -7,6 +7,7 @@
     "gatsby-image": "^1.0.31",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-manifest": "^1.0.12",
+    "gatsby-plugin-netlify": "^1.0.12",
     "gatsby-plugin-offline": "^1.0.12",
     "gatsby-plugin-purify-css": "^2.2.1",
     "gatsby-plugin-react-helmet": "^1.0.8",
@@ -37,11 +38,8 @@
     "stylelint-scss": "^2.2.0"
   },
   "email": "dmitrij@podabed.org",
-  "keywords": [
-    "CADDY SMELLS LIKE TREES"
-  ],
   "license": "GPL-3.0",
-  "main": "html.js",
+  "main": "./src/html.js",
   "name": "CADDY-SMELLS-LIKE-TREES",
   "repository": {
     "url": "caddysmellsliketrees.github.io",
@@ -50,7 +48,7 @@
   "scripts": {
     "build": "npm run clean && gatsby build",
     "clean": "rm -rf ./.cache/* && rm -rf ./public/*",
-    "deploy": "npm run build && cp ./src/CNAME public/ && gh-pages -d public --branch master",
+    "deploy": "npm run build && cp CNAME public/ && gh-pages -d public --branch master",
     "develop": "gatsby develop",
     "serve": "serve public -p 8000"
   },
