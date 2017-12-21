@@ -45,8 +45,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-pages-lyrics-js": [
-      "component---src-pages-lyrics-js-1f8f5ab7f194407f88d8.js",
-      "component---src-pages-lyrics-js-1f8f5ab7f194407f88d8.js.map"
+      "component---src-pages-lyrics-js-ff9c6b62eaf89b9f2254.js",
+      "component---src-pages-lyrics-js-ff9c6b62eaf89b9f2254.js.map"
     ],
     "path---lyrics-igrushki": [
       "path---lyrics-igrushki-b104c46852ee2d5bb6c1.js",
@@ -81,9 +81,9 @@
       "component---src-pages-404-js-a8a58410f548f701882e.js.map"
     ],
     "commons": [
-      "commons-cfe08c15100186618874.js",
+      "commons-3f8cdb987559d31a3a4e.js",
       "build-js-styles.css",
-      "commons-cfe08c15100186618874.js.map",
+      "commons-3f8cdb987559d31a3a4e.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
