@@ -15,8 +15,6 @@ export default class SnowStorm extends React.Component {
   }
 
   snowStorm() {
-    // --- common properties ---
-
     const defaultOptions = {
       autoStart: true,
       excludeMobile: false,
@@ -68,7 +66,7 @@ export default class SnowStorm extends React.Component {
       flakeTypes = 6,
       fixedForEverything = false,
       targetElementIsRelative = false,
-      opacitySupported = (function() {
+      opacitySupported = (() => {
         try {
           document.createElement("div").style.opacity = "0.5";
         } catch (e) {
@@ -79,7 +77,7 @@ export default class SnowStorm extends React.Component {
       didInit = false,
       docFrag = document.createDocumentFragment();
 
-    features = (function() {
+    features = (() => {
       /**
        * hat tip: paul irish
        * http://paulirish.com/2011/requestanimationframe-for-smart-animating/
@@ -171,7 +169,7 @@ export default class SnowStorm extends React.Component {
       }
     };
 
-    this.events = (function() {
+    this.events = (() => {
       const old = !window.addEventListener && window.attachEvent,
         slice = Array.prototype.slice,
         evt = {
@@ -228,7 +226,7 @@ export default class SnowStorm extends React.Component {
       return parseInt(rnd(2), 10) === 1 ? n * -1 : n;
     }
 
-    this.randomizeWind = function() {
+    this.randomizeWind = () => {
       vRndX = plusMinus(rnd(storm.vMaxX, 0.2));
       vRndY = rnd(storm.vMaxY, 0.2);
       if (this.flakes) {
@@ -240,7 +238,7 @@ export default class SnowStorm extends React.Component {
       }
     };
 
-    this.scrollHandler = function() {
+    this.scrollHandler = () => {
       // "attach" snowflakes to bottom of window if no absolute bottom value was given
       scrollY = storm.flakeBottom
         ? 0
@@ -262,7 +260,7 @@ export default class SnowStorm extends React.Component {
       }
     };
 
-    this.resizeHandler = function() {
+    this.resizeHandler = () => {
       if (window.innerWidth || window.innerHeight) {
         screenX = window.innerWidth - 16 - storm.flakeRightOffset;
         screenY = storm.flakeBottom || window.innerHeight;
@@ -283,14 +281,14 @@ export default class SnowStorm extends React.Component {
       screenX2 = parseInt(screenX / 2, 10);
     };
 
-    this.resizeHandlerAlt = function() {
+    this.resizeHandlerAlt = () => {
       screenX = storm.targetElement.offsetWidth - storm.flakeRightOffset;
       screenY = storm.flakeBottom || storm.targetElement.offsetHeight;
       screenX2 = parseInt(screenX / 2, 10);
       docHeight = document.body.offsetHeight;
     };
 
-    this.freeze = function() {
+    this.freeze = () => {
       // pause animation
       if (!storm.disabled) {
         storm.disabled = 1;
@@ -300,7 +298,7 @@ export default class SnowStorm extends React.Component {
       storm.timer = null;
     };
 
-    this.resume = function() {
+    this.resume = () => {
       if (storm.disabled) {
         storm.disabled = 0;
       } else {
@@ -309,7 +307,7 @@ export default class SnowStorm extends React.Component {
       storm.timerInit();
     };
 
-    this.stop = function() {
+    this.stop = () => {
       this.freeze();
       for (let i = 0; i < this.flakes.length; i++) {
         this.flakes[i].o.style.display = "none";
@@ -324,12 +322,6 @@ export default class SnowStorm extends React.Component {
           storm.events.remove(window, "blur", storm.freeze);
           storm.events.remove(window, "focus", storm.resume);
         }
-      }
-    };
-
-    this.show = function() {
-      for (let i = 0; i < this.flakes.length; i++) {
-        this.flakes[i].o.style.display = "block";
       }
     };
 
@@ -369,7 +361,7 @@ export default class SnowStorm extends React.Component {
       this.o.style.zIndex = storm.zIndex;
       docFrag.appendChild(this.o);
 
-      this.refresh = function() {
+      this.refresh = () => {
         if (isNaN(s.x) || isNaN(s.y)) {
           // safety check
           return false;
@@ -377,7 +369,7 @@ export default class SnowStorm extends React.Component {
         storm.setXY(s.o, s.x, s.y);
       };
 
-      this.stick = function() {
+      this.stick = () => {
         if (
           noFixed ||
           (storm.targetElement !== document.documentElement &&
@@ -394,7 +386,7 @@ export default class SnowStorm extends React.Component {
         }
       };
 
-      this.vCheck = function() {
+      this.vCheck = () => {
         if (s.vX >= 0 && s.vX < 0.2) {
           s.vX = 0.2;
         } else if (s.vX < 0 && s.vX > -0.2) {
@@ -405,7 +397,7 @@ export default class SnowStorm extends React.Component {
         }
       };
 
-      this.move = function() {
+      this.move = () => {
         const vX = s.vX * windOffset;
         s.x += vX;
         s.y += s.vY * s.vAmp;
@@ -459,7 +451,7 @@ export default class SnowStorm extends React.Component {
         }
       };
 
-      this.setVelocities = function() {
+      this.setVelocities = () => {
         s.vX = vRndX + rnd(storm.vMaxX * 0.12, 0.1);
         s.vY = vRndY + rnd(storm.vMaxY * 0.12, 0.1);
       };
@@ -471,7 +463,7 @@ export default class SnowStorm extends React.Component {
         o.style.opacity = opacity;
       };
 
-      this.melt = function() {
+      this.melt = () => {
         if (!storm.useMeltEffect || !s.melting) {
           s.recycle();
         } else {
@@ -491,7 +483,7 @@ export default class SnowStorm extends React.Component {
         }
       };
 
-      this.recycle = function() {
+      this.recycle = () => {
         s.o.style.display = "none";
         s.o.style.position = fixedForEverything ? "fixed" : "absolute";
         s.o.style.bottom = "auto";
@@ -517,7 +509,7 @@ export default class SnowStorm extends React.Component {
       this.refresh();
     };
 
-    this.snow = function() {
+    this.snow = () => {
       let active = 0;
       let flake = null;
       for (let i = 0, j = storm.flakes.length; i < j; i++) {
@@ -565,12 +557,12 @@ export default class SnowStorm extends React.Component {
       storm.targetElement.appendChild(docFrag);
     };
 
-    this.timerInit = function() {
+    this.timerInit = () => {
       storm.timer = true;
       storm.snow();
     };
 
-    this.init = function() {
+    this.init = () => {
       for (let i = 0; i < storm.meltFrameCount; i++) {
         storm.meltFrames.push(1 - i / storm.meltFrameCount);
       }
@@ -651,7 +643,7 @@ export default class SnowStorm extends React.Component {
     };
 
     function doDelayedStart() {
-      window.setTimeout(function() {
+      window.setTimeout(() => {
         storm.start(true);
       }, 20);
       // event cleanup
@@ -677,6 +669,7 @@ export default class SnowStorm extends React.Component {
 
     return this;
   }
+
   render() {
     return null;
   }

@@ -18,10 +18,9 @@
     "ismobilejs": "^0.4.1",
     "platform": "^1.3.4",
     "react-burger-menu": "^2.1.11",
-    "react-responsive": "^4.0.3",
-    "react-snowstorm": "0.0.2"
+    "react-responsive": "^4.0.3"
   },
-  "description": "Psychedelic trash-folk",
+  "description": "Psychedelic free-folk",
   "devDependencies": {
     "babel-eslint": "^8.0.3",
     "eslint": "^4.13.1",
