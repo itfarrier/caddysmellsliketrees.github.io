@@ -67,12 +67,12 @@ $black: rgba(10, 10, 10, 1);
 
   address {
     display: flex !important;
+    max-width: 60%;
     flex-wrap: wrap;
     align-items: center;
-    max-width: 60%;
     justify-content: center;
 
-    svg {
+    img {
       width: 2rem;
       height: 2rem;
       margin: 0.5rem;

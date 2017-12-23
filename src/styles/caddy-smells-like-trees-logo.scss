@@ -42,6 +42,11 @@
   align-items: center;
   justify-content: center;
 
+  //Tree
+  &__tree {
+    width: 100%;
+  }
+
   // Line below tree
   &__line {
     display: flex;
