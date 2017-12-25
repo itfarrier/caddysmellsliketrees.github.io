@@ -6,6 +6,7 @@ module.exports = {
     title: "Кэдди пахнет деревьями"
   },
   plugins: [
+    "gatsby-plugin-preact",
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-sass",

@@ -9,6 +9,7 @@
     "gatsby-plugin-manifest": "^1.0.12",
     "gatsby-plugin-netlify": "^1.0.12",
     "gatsby-plugin-offline": "^1.0.12",
+    "gatsby-plugin-preact": "^1.0.14",
     "gatsby-plugin-purify-css": "^2.2.1",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.15",
