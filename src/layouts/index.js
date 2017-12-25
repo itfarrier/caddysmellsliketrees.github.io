@@ -58,9 +58,9 @@ const indexLayout = ({ children, data }) => (
       <link rel="shortcut icon" href="/favicons/favicon.ico" />
       <meta
         name="apple-mobile-web-app-title"
-        content="CADDY SMELLS LIKE TREES"
+        content={data.site.siteMetadata.title}
       />
-      <meta name="application-name" content="CADDY SMELLS LIKE TREES" />
+      <meta name="application-name" content={data.site.siteMetadata.title} />
       <meta name="msapplication-TileColor" content="#f0f0f0" />
       <meta
         name="msapplication-TileImage"

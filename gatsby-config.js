@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    description: "Psychedelic free-folk",
+    description: "Психоделический фри-фолк",
     pathPrefix: "/",
     siteUrl: "https://caddysmellsliketrees.ru",
-    title: "CADDY SMELLS LIKE TREES"
+    title: "Кэдди пахнет деревьями"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -215,8 +215,8 @@ module.exports = {
             type: "image/svg+xml"
           }
         ],
-        name: "CADDY SMELLS LIKE TREES",
-        short_name: "CSLT",
+        name: "Кэдди пахнет деревьями",
+        short_name: "КПД",
         start_url: "/?utm_source=homescreen",
         theme_color: "#f0f0f0"
       }
