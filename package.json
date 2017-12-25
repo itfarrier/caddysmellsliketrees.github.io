@@ -47,7 +47,7 @@
   "scripts": {
     "build": "npm run clean && gatsby build",
     "clean": "rm -rf ./.cache/* && rm -rf ./public/*",
-    "deploy": "npm run build && cp CNAME public/ && gh-pages -d public --branch master",
+    "deploy": "git push origin source && npm run build && cp CNAME public/ && gh-pages -d public --branch master",
     "develop": "gatsby develop",
     "serve": "serve public -p 8000"
   },
