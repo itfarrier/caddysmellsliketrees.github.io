@@ -8,7 +8,7 @@ const lyricsTemplate = ({ data }) => {
   return (
     <div className="container">
       <div className="row">
-        <div
+        <article
           className={"col-8 offset-2 " + styles.lyrics}
           dangerouslySetInnerHTML={{ __html: lyrics.html }}
         />

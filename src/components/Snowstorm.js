@@ -17,7 +17,7 @@ export default class SnowStorm extends React.Component {
   snowStorm() {
     const defaultOptions = {
       autoStart: true,
-      excludeMobile: false,
+      excludeMobile: true,
       flakesMax: 128,
       flakesMaxActive: 64,
       animationInterval: 33,
@@ -26,7 +26,7 @@ export default class SnowStorm extends React.Component {
       flakeBottom: null,
       followMouse: true,
       snowColor: "#0a0a0a",
-      snowCharacter: "&bull;",
+      snowCharacter: "&#10052;",
       snowStick: true,
       targetElement: null,
       useTwinkleEffect: false,
@@ -35,8 +35,8 @@ export default class SnowStorm extends React.Component {
       freezeOnBlur: true,
       flakeLeftOffset: 0,
       flakeRightOffset: 0,
-      flakeWidth: 8,
-      flakeHeight: 8,
+      flakeWidth: 20,
+      flakeHeight: 20,
       vMaxX: 5,
       vMaxY: 4,
       zIndex: 0
@@ -354,7 +354,7 @@ export default class SnowStorm extends React.Component {
       }
       this.o.style.width = storm.flakeWidth + "px";
       this.o.style.height = storm.flakeHeight + "px";
-      this.o.style.fontFamily = "arial,verdana";
+      this.o.style.fontFamily = "serif";
       this.o.style.cursor = "default";
       this.o.style.overflow = "hidden";
       this.o.style.fontWeight = "normal";

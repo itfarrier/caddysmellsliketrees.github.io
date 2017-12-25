@@ -18,11 +18,14 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   return new Promise(resolve => {
     graphql(`
       {
-        allMarkdownRemark(sort: { order: ASC, fields: html }) {
+        allMarkdownRemark {
           edges {
             node {
               fields {
                 slug
+              }
+              frontmatter {
+                title
               }
             }
           }

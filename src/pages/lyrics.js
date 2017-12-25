@@ -14,7 +14,7 @@ const lyrics = ({ data }) => (
             return (
               <li className={styles.link} key={node.id}>
                 <Link to={"/" + node.fields.slug}>
-                  {node.headings[0].value}
+                  {node.frontmatter.title}
                 </Link>
               </li>
             );
@@ -37,10 +37,10 @@ export const lyricsQuery = graphql`
           fields {
             slug
           }
-          id
-          headings {
-            value
+          frontmatter {
+            title
           }
+          id
         }
       }
     }
