@@ -1,3 +1,11 @@
 .serif {
   font-family: serif;
 }
+
+.padding {
+  padding-top: 0.2rem;
+}
+
+.paddingDesktop {
+  padding-top: 2.2815rem;
+}
