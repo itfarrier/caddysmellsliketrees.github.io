@@ -1,7 +1,10 @@
+const pathPrefix = "/";
+const rootDir = "public";
+
 module.exports = {
   siteMetadata: {
     description: "Психоделический фри-фолк",
-    pathPrefix: "/",
+    pathPrefix: pathPrefix,
     siteUrl: "https://caddysmellsliketrees.ru",
     title: "Кэдди пахнет деревьями"
   },
@@ -224,7 +227,21 @@ module.exports = {
     },
     "gatsby-plugin-netlify",
     "gatsby-plugin-sitemap",
-    "gatsby-plugin-offline",
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        staticFileGlobs: [
+          `${rootDir}/**/*.{woff2}`,
+          `${rootDir}/app-*js`,
+          `${rootDir}/commons-*js`,
+          `${rootDir}/component-*js`,
+          `${rootDir}/**/index.html`,
+          `${rootDir}/manifest.json`,
+          `${rootDir}/offline-plugin-app-shell-fallback/index.html`,
+          `${rootDir}/path-*js`
+        ]
+      }
+    },
     {
       resolve: "gatsby-plugin-purify-css",
       options: {

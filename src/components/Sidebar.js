@@ -49,7 +49,7 @@ class Sidebar extends React.Component {
             href="https://youtube.com/channel/UCDUU-xPtMQ2VOpYaMv-OvLw"
             title="https://youtube.com/channel/UCDUU-xPtMQ2VOpYaMv-OvLw"
           >
-            <img src="/vectors/youtube.svg" />
+            <img src="/vectors/ytb.svg" />
           </a>
           <a
             href="https://instagram.com/caddysmellslike"
