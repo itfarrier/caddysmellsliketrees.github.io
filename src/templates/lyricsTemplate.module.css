@@ -4,7 +4,20 @@
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  padding-top: calc(1.75rem * 0.16);
+  padding-top: 0.28rem;
+  font-family: serif;
+  hanging-punctuation: first force-end last;
+  hyphens: manual;
+  word-break: normal;
+}
+
+.lyricsDesktop {
+  display: flex;
+  min-height: 100vh !important;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.4rem;
   font-family: serif;
   hanging-punctuation: first force-end last;
   hyphens: manual;

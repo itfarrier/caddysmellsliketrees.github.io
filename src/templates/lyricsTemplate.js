@@ -1,3 +1,4 @@
+import isMobile from "ismobilejs";
 import PropTypes from "prop-types";
 import React from "react";
 
@@ -8,10 +9,17 @@ const lyricsTemplate = ({ data }) => {
   return (
     <div className="container">
       <div className="row">
-        <article
-          className={"col-8 offset-2 " + styles.lyrics}
-          dangerouslySetInnerHTML={{ __html: lyrics.html }}
-        />
+        {isMobile.any ? (
+          <article
+            className={"col-8 offset-2 " + styles.lyrics}
+            dangerouslySetInnerHTML={{ __html: lyrics.html }}
+          />
+        ) : (
+          <article
+            className={"col-4 offset-4 " + styles.lyricsDesktop}
+            dangerouslySetInnerHTML={{ __html: lyrics.html }}
+          />
+        )}
       </div>
     </div>
   );
