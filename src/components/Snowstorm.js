@@ -5,15 +5,6 @@ export default class SnowStorm extends React.Component {
     this.snowStorm();
   }
 
-  componentWillUnmount() {
-    this.snowStorm.stop();
-    Array.from(document.getElementsByClassName("___snowStorm___")).forEach(
-      element => {
-        element.parentNode.removeChild(element);
-      }
-    );
-  }
-
   snowStorm() {
     const defaultOptions = {
       autoStart: true,
