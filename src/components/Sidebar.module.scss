@@ -1,6 +1,6 @@
 $size: 1.75rem;
 
-$desktop-size: $size / 2;
+$size2: $size * 1.5;
 
 $hagin: "Hagin Caps", serif;
 
@@ -16,12 +16,12 @@ $black: rgba(10, 10, 10, 1);
   height: $size !important;
 }
 
-.button2 {
+.buttonDesktop {
   position: fixed;
-  top: $desktop-size / 2;
-  left: $desktop-size / 1.5;
-  width: $desktop-size * 2 !important;
-  height: $desktop-size * 2 !important;
+  top: $size2 * 2;
+  left: $size2 * 2;
+  width: $size2 !important;
+  height: $size2 !important;
 }
 
 .burger {

@@ -19,7 +19,9 @@ class Sidebar extends React.Component {
     return (
       <Menu
         burgerBarClassName={styles.burger}
-        burgerButtonClassName={isMobile.any ? styles.button : styles.button2}
+        burgerButtonClassName={
+          isMobile.any ? styles.button : styles.buttonDesktop
+        }
         customBurgerIcon={<img src="/vectors/bars.svg" />}
         isOpen={this.state.isOpen}
         itemListClassName={styles.list}
