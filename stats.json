@@ -5,12 +5,12 @@
       "path---lyrics-teplo-bezdonnoe-841a508ce00b0dbc2b3d.js.map"
     ],
     "path---lyrics": [
-      "path---lyrics-2cdca2462c9f6a239297.js",
-      "path---lyrics-2cdca2462c9f6a239297.js.map"
+      "path---lyrics-0bfe78919b8d2237f427.js",
+      "path---lyrics-0bfe78919b8d2237f427.js.map"
     ],
     "component---src-templates-lyrics-template-js": [
-      "component---src-templates-lyrics-template-js-01356f3acdaaa75fe8f2.js",
-      "component---src-templates-lyrics-template-js-01356f3acdaaa75fe8f2.js.map"
+      "component---src-templates-lyrics-template-js-b8467a84e77e7801c9b8.js",
+      "component---src-templates-lyrics-template-js-b8467a84e77e7801c9b8.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-8f2d4c0f539bfdebb0bc.js",
@@ -57,8 +57,8 @@
       "path---lyrics-igrushki-241e4e0a12bbb96324ac.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-096802ca34f3b1a42695.js",
-      "component---src-layouts-index-js-096802ca34f3b1a42695.js.map"
+      "component---src-layouts-index-js-f2087054ca0c4fdc8512.js",
+      "component---src-layouts-index-js-f2087054ca0c4fdc8512.js.map"
     ],
     "path---lyrics-v-kluvikah": [
       "path---lyrics-v-kluvikah-9860dbd2088e1fec56c6.js",
@@ -111,9 +111,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-5bc00c94135a7ddc364b.js",
+      "app-06befa99f8d05e64fa0e.js",
       "build-js-styles.css",
-      "app-5bc00c94135a7ddc364b.js.map",
+      "app-06befa99f8d05e64fa0e.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -121,8 +121,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-55c9b537db8b45b850f9.js",
-      "component---src-pages-about-js-55c9b537db8b45b850f9.js.map"
+      "component---src-pages-about-js-82888cea28d54e2e31a3.js",
+      "component---src-pages-about-js-82888cea28d54e2e31a3.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
