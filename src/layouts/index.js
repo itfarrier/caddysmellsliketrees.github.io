@@ -1,4 +1,5 @@
 import Helmet from "react-helmet";
+import isMobile from "ismobilejs";
 import MediaQuery from "react-responsive";
 import PropTypes from "prop-types";
 import React from "react";
@@ -7,6 +8,7 @@ import SnowStorm from "../components/Snowstorm";
 import Sidebar from "../components/Sidebar";
 
 import "../styles/index.scss";
+import styles from "./index.module.scss";
 
 const indexLayout = ({ children, data }) => (
   <div>
@@ -75,7 +77,11 @@ const indexLayout = ({ children, data }) => (
     <MediaQuery query="(orientation: landscape)">
       <Sidebar width={"50vw"} />
     </MediaQuery>
-    <main>{children()}</main>
+    {isMobile.any ? (
+      <main>{children()}</main>
+    ) : (
+      <main className={styles.desktop}>{children()}</main>
+    )}
     <SnowStorm />
   </div>
 );
