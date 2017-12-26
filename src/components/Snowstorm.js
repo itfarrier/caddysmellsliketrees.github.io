@@ -10,7 +10,7 @@ export default class SnowStorm extends React.Component {
       autoStart: true,
       excludeMobile: true,
       flakesMax: 128,
-      flakesMaxActive: 64,
+      flakesMaxActive: 128,
       animationInterval: 33,
       useGPU: true,
       className: "___snowStorm___",
@@ -54,7 +54,7 @@ export default class SnowStorm extends React.Component {
       vRndY = null,
       windOffset = 1,
       windMultiplier = 2,
-      flakeTypes = 6,
+      flakeTypes = 3,
       fixedForEverything = false,
       targetElementIsRelative = false,
       opacitySupported = (() => {
