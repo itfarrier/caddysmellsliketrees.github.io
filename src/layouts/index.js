@@ -70,6 +70,10 @@ const indexLayout = ({ children, data }) => (
       />
       <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
       <meta name="theme-color" content="#f0f0f0" />
+      <meta
+        name="apple-mobile-web-app-status-bar-style"
+        content="black-translucent"
+      />
     </Helmet>
     <MediaQuery query="(orientation: portrait)">
       <Sidebar width={"75vw"} />
