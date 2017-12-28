@@ -76,7 +76,7 @@
   }
 
   @media all and (orientation: landscape) {
-    margin-bottom: 20vh;
+    margin-bottom: 21vh;
   }
 }
 
@@ -132,15 +132,13 @@
 
 .text-logo {
   display: flex;
-  width: 100%;
   height: 50%;
   flex: 0 1 auto;
   flex-flow: column nowrap;
   align-content: center;
   align-items: center;
   justify-content: center;
-  margin-top: -1vh;
-  margin-bottom: -2.5vh;
+  margin: -1vh 0;
   font-family: $hagin;
   font-size: 6vh;
 
