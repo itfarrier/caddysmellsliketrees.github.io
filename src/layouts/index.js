@@ -82,9 +82,11 @@ const indexLayout = ({ children, data }) => (
       <Sidebar width={"50vw"} />
     </MediaQuery>
     {isMobile.any ? (
-      <main>{children()}</main>
+      <main role="main">{children()}</main>
     ) : (
-      <main className={styles.desktop}>{children()}</main>
+      <main className={styles.desktop} role="main">
+        {children()}
+      </main>
     )}
     <SnowStorm />
   </div>
