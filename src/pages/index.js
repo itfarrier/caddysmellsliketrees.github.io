@@ -4,26 +4,24 @@ const Index = () => (
   <div className="logo-centering">
     <div className="full-logo">
       <div className="img-logo img-logo_margin-right">
-        <img alt="Дерево" className="img-logo__tree" src="/vectors/tree.svg" />
+        <img alt="tree" className="img-logo__tree" src="/vectors/tree.svg" />
         <div
-          title="Луч"
+          title="ЛУЧ"
           className="img-logo__line img-logo__line_dot-reverse"
         />
       </div>
       <div className="text-logo">
-        <img
-          alt="Кэдди пахнет деревьями"
-          className="img-logo__tree"
-          src="/vectors/textLogo.svg"
-        />
+        <div className="text-logo__caddy">КЭДДИ</div>
+        <div className="text-logo__smells">ПАХНЕТ</div>
+        <div className="text-logo__like_trees">ДЕРЕВЬЯМИ</div>
       </div>
       <div className="img-logo img-logo_margin-left">
         <img
-          alt="Дерево"
+          alt="tree"
           className="img-logo__tree img-logo__tree_hidden"
           src="/vectors/tree.svg"
         />
-        <div title="Луч" className="img-logo__line" />
+        <div title="ЛУЧ" className="img-logo__line" />
       </div>
     </div>
   </div>
