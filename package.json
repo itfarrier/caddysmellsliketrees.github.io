@@ -1,7 +1,7 @@
 {
   "author": "Dmitrij Podabed",
   "dependencies": {
-    "bootstrap": "^4.0.0-beta.2",
+    "bootstrap": "^4.0.0-beta.3",
     "font-awesome-svg-png": "^1.2.2",
     "gatsby": "^1.9.146",
     "gatsby-image": "^1.0.31",
