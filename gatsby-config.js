@@ -9,14 +9,6 @@ module.exports = {
     title: "Кэдди пахнет деревьями"
   },
   plugins: [
-    "gatsby-plugin-preact",
-    "gatsby-plugin-react-helmet",
-    {
-      resolve: "gatsby-plugin-sass",
-      options: {
-        precision: 10
-      }
-    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -220,13 +212,12 @@ module.exports = {
           }
         ],
         name: "Кэдди пахнет деревьями",
-        short_name: "КПД",
+        short_name: "Кэдди пахнет деревьями",
         start_url: "/?utm_source=homescreen",
         theme_color: "#f0f0f0"
       }
     },
     "gatsby-plugin-netlify",
-    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-offline",
       options: {
@@ -242,6 +233,7 @@ module.exports = {
         ]
       }
     },
+    "gatsby-plugin-preact",
     {
       resolve: "gatsby-plugin-purify-css",
       options: {
@@ -253,6 +245,14 @@ module.exports = {
         }
       }
     },
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        precision: 10
+      }
+    },
+    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-source-filesystem",
       options: {
