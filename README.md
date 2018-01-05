@@ -1,13 +1,8 @@
-<h1 align="center">
-  <br/>
-  <a href="https://caddysmellsliketrees.ru">
+<a href="https://caddysmellsliketrees.ru">
   <img src="https://user-images.githubusercontent.com/4352168/34612437-632f82b2-f25c-11e7-97c4-8ad8ac06a207.png" alt="Caddy smells like trees logo" width="100%">
-  </a>
-  <br/>
-  CADDY SMELLS LIKE TREES
-  <br/>
-</h1>
-<h4 align="center">Psychedelic free&#x2010;folk</h4>
+</a>
+<hr>
+<h3 align="center">Psychedelic free&#x2010;folk</h3>
 
 ## Table of contents
 
