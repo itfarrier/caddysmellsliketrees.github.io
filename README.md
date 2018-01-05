@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/4352168/34612437-632f82b2-f25c-11e7-97c4-8ad8ac06a207.png" alt="Caddy smells like trees logo" width="100%">
 </a>
 <hr>
-<h3 align="center">Psychedelic free&#x2010;folk</h3>
+<h3 align="center">Psychedelic free&hyphen;folk</h3>
 
 ## Table of contents
 
@@ -12,13 +12,13 @@
 ## Licenses
 
 <ul>
-  <li>Musics, texts, lyrics, photos, videos&nbsp;&mdash; 
+  <li>Musics, texts, lyrics, photos, videos&thinsp;&mdash;&thinsp;
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">
-      <b>CC BY&#x2010;NC&#x2010;SA 4.0</b>
+      <b>CC BY&hyphen;NC&hyphen;SA 4.0</b>
     <img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="CC BY-NC-SA 4.0 logo">
     </a>
   </li>
-  <li>Code&nbsp;&mdash; 
+  <li>Code&thinsp;&mdash;&thinsp;
     <a href="https://www.gnu.org/licenses/gpl.html">
       <b>GPLv3</b>
     <img src="https://www.gnu.org/graphics/gplv3-88x31.png" alt="GPLv3 logo">
