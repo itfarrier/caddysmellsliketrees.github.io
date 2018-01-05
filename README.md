@@ -1,7 +1,7 @@
 <h1 align="center">
   <br/>
   <a href="https://caddysmellsliketrees.ru">
-  <img src="https://user-images.githubusercontent.com/4352168/34073203-e80107a4-e2c6-11e7-8389-b19b85d4861b.jpg" alt="Caddy smells like trees logo" width="100%">
+  <img src="https://user-images.githubusercontent.com/4352168/34612437-632f82b2-f25c-11e7-97c4-8ad8ac06a207.png" alt="Caddy smells like trees logo" width="100%">
   </a>
   <br/>
   CADDY SMELLS LIKE TREES
