@@ -40,6 +40,12 @@ class Sidebar extends React.Component {
             <Link onClick={this.isOpen} to="/about">
               О ГРУППЕ
             </Link>
+            <a
+              href={"https://money.yandex.ru/to/410013952610454/500"}
+              onClick={this.isOpen}
+            >
+              ПОДДЕРЖАТЬ!
+            </a>
           </div>
         ) : (
           <div className={styles.linksDesktop}>
@@ -52,6 +58,12 @@ class Sidebar extends React.Component {
             <Link onClick={this.isOpen} to="/about">
               О ГРУППЕ
             </Link>
+            <a
+              href={"https://money.yandex.ru/to/410013952610454/500"}
+              onClick={this.isOpen}
+            >
+              ПОДДЕРЖАТЬ!
+            </a>
           </div>
         )}
         <address>
