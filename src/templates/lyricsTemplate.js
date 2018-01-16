@@ -9,8 +9,8 @@ const lyricsTemplate = ({ data }) => {
   const lyrics = data.markdownRemark;
   return (
     <div>
-      <div className="container">
-        <div className="row">
+      <div className={"container"}>
+        <div className={"row"}>
           {isMobile.any ? (
             <article
               className={"col-8 offset-2 " + styles.lyrics}
@@ -18,7 +18,7 @@ const lyricsTemplate = ({ data }) => {
             />
           ) : (
             <article
-              className={"col-4 offset-4 " + styles.lyricsDesktop}
+              className={"col-6 offset-3 " + styles.lyricsDesktop}
               dangerouslySetInnerHTML={{ __html: lyrics.html }}
             />
           )}
