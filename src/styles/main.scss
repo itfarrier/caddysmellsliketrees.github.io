@@ -2,6 +2,9 @@ html {
   background-color: $white;
   color: $black;
   font-family: serif;
+  font-feature-settings: "liga" 1;
+  font-variant-ligatures: common-ligatures discretionary-ligatures
+    historical-ligatures contextual;
   font-weight: 400;
   scroll-behavior: smooth;
 }
