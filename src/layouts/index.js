@@ -88,7 +88,7 @@ const indexLayout = ({ children, data }) => (
         {children()}
       </main>
     )}
-    <SnowStorm />
+    {/*<SnowStorm />*/}
   </div>
 );
 
