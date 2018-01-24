@@ -5,8 +5,8 @@
       "path---lyrics-teplo-bezdonnoe-841a508ce00b0dbc2b3d.js.map"
     ],
     "path---lyrics": [
-      "path---lyrics-8f95c5b696ea248c8986.js",
-      "path---lyrics-8f95c5b696ea248c8986.js.map"
+      "path---lyrics-f7e59e0b741885ae6c46.js",
+      "path---lyrics-f7e59e0b741885ae6c46.js.map"
     ],
     "component---src-templates-lyrics-template-js": [
       "component---src-templates-lyrics-template-js-0c20ffa19accd2ffcc1f.js",
@@ -19,6 +19,10 @@
     "path---lyrics-bez-imeni": [
       "path---lyrics-bez-imeni-349bc57176af5e18125d.js",
       "path---lyrics-bez-imeni-349bc57176af5e18125d.js.map"
+    ],
+    "path---lyrics-ozero": [
+      "path---lyrics-ozero-06c09965ebd9b2fefbef.js",
+      "path---lyrics-ozero-06c09965ebd9b2fefbef.js.map"
     ],
     "path---lyrics-to-li": [
       "path---lyrics-to-li-441ba9ac4bef6a3184f0.js",
@@ -57,8 +61,8 @@
       "path---lyrics-igrushki-241e4e0a12bbb96324ac.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-fcee04599e7a577d5918.js",
-      "component---src-layouts-index-js-fcee04599e7a577d5918.js.map"
+      "component---src-layouts-index-js-1d35e18690a80d69136e.js",
+      "component---src-layouts-index-js-1d35e18690a80d69136e.js.map"
     ],
     "path---lyrics-v-kluvikah": [
       "path---lyrics-v-kluvikah-9860dbd2088e1fec56c6.js",
@@ -85,9 +89,9 @@
       "component---src-pages-404-js-f9ea876824f15f70e43d.js.map"
     ],
     "commons": [
-      "commons-a890945d7c6bc9db3d93.js",
+      "commons-116e56e92eaaa6564d81.js",
       "build-js-styles.css",
-      "commons-a890945d7c6bc9db3d93.js.map",
+      "commons-116e56e92eaaa6564d81.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -111,9 +115,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-ac32bdb0864bbbdff20e.js",
+      "app-7eb162f2b33c45506d71.js",
       "build-js-styles.css",
-      "app-ac32bdb0864bbbdff20e.js.map",
+      "app-7eb162f2b33c45506d71.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -121,8 +125,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-9da4b5d6d8d0419acfb5.js",
-      "component---src-pages-about-js-9da4b5d6d8d0419acfb5.js.map"
+      "component---src-pages-about-js-cc6fe7ba0abc24f54d3e.js",
+      "component---src-pages-about-js-cc6fe7ba0abc24f54d3e.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
