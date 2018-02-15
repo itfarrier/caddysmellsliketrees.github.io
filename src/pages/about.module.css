@@ -1,4 +1,12 @@
-img {
+.padding {
+  padding-top: 0.2rem;
+}
+
+.paddingDesktop {
+  padding-top: 2.2815rem;
+}
+
+.pdf {
   width: 2.15rem;
   height: 2.15rem;
   margin-bottom: 0.15rem;
@@ -6,12 +14,4 @@ img {
 
 .serif {
   font-family: serif;
-}
-
-.padding {
-  padding-top: 0.2rem;
-}
-
-.paddingDesktop {
-  padding-top: 2.2815rem;
 }

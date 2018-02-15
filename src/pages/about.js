@@ -61,7 +61,11 @@ const About = () => (
               <h1>
                 <a href="/documents/technicalRider.pdf">
                   ТЕХНИЧЕСКИЙ РАЙДЕР{" "}
-                  <img alt="PDF logo" src="/vectors/file-pdf.svg" />
+                  <img
+                    alt="PDF logo"
+                    className={styles.pdf}
+                    src="/vectors/file-pdf.svg"
+                  />
                 </a>
               </h1>
             </section>
