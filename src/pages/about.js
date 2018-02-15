@@ -1,4 +1,5 @@
 import isMobile from "ismobilejs";
+import Link from "gatsby-link";
 import React from "react";
 
 import Footer from "../components/Footer";
@@ -55,6 +56,14 @@ const About = () => (
                   Сергей Цветков<br />(бас&#8208;гитара, декламация стихов)
                 </li>
               </ul>
+            </section>
+            <section>
+              <h1>
+                <a href="/documents/technicalRider.pdf">
+                  ТЕХНИЧЕСКИЙ РАЙДЕР{" "}
+                  <img alt="PDF logo" src="/vectors/file-pdf.svg" />
+                </a>
+              </h1>
             </section>
           </div>
         </div>

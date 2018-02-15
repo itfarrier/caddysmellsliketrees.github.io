@@ -1,3 +1,9 @@
+img {
+  width: 2.15rem;
+  height: 2.15rem;
+  margin-bottom: 0.15rem;
+}
+
 .serif {
   font-family: serif;
 }
