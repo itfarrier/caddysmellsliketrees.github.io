@@ -1,4 +1,6 @@
 html {
+  position: relative;
+  min-height: 100%;
   background-color: $white;
   color: $black;
   font-family: serif;
@@ -7,6 +9,10 @@ html {
     historical-ligatures contextual;
   font-weight: 400;
   scroll-behavior: smooth;
+}
+
+body {
+  margin-bottom: 5rem;
 }
 
 *::selection {
