@@ -53,8 +53,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-pages-lyrics-js": [
-      "component---src-pages-lyrics-js-6f04f79155cbd9b06965.js",
-      "component---src-pages-lyrics-js-6f04f79155cbd9b06965.js.map"
+      "component---src-pages-lyrics-js-280f9fd073f4236f66e9.js",
+      "component---src-pages-lyrics-js-280f9fd073f4236f66e9.js.map"
     ],
     "path---lyrics-igrushki": [
       "path---lyrics-igrushki-241e4e0a12bbb96324ac.js",
@@ -115,9 +115,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-37d5baae980ec6b8d707.js",
+      "app-9babb16727d051298200.js",
       "build-js-styles.css",
-      "app-37d5baae980ec6b8d707.js.map",
+      "app-9babb16727d051298200.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -125,8 +125,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-4b5d8102fcf73414b8e4.js",
-      "component---src-pages-about-js-4b5d8102fcf73414b8e4.js.map"
+      "component---src-pages-about-js-ec5b7fb1966bb5f41691.js",
+      "component---src-pages-about-js-ec5b7fb1966bb5f41691.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
