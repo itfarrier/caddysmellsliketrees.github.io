@@ -65,8 +65,8 @@
       "path---lyrics-igrushki-241e4e0a12bbb96324ac.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-3220d13ab79119a6c67d.js",
-      "component---src-layouts-index-js-3220d13ab79119a6c67d.js.map"
+      "component---src-layouts-index-js-66742a4d8be406264711.js",
+      "component---src-layouts-index-js-66742a4d8be406264711.js.map"
     ],
     "path---lyrics-v-kluvikah": [
       "path---lyrics-v-kluvikah-9860dbd2088e1fec56c6.js",
@@ -93,12 +93,10 @@
       "component---src-pages-404-js-f9ea876824f15f70e43d.js.map"
     ],
     "commons": [
-      "commons-07d594a35beb3d9676cb.js",
+      "commons-c4d39eff34912577c24b.js",
       "build-js-styles.css",
-      "styles.css",
-      "commons-07d594a35beb3d9676cb.js.map",
-      "build-js-styles.css.map",
-      "styles.css.map"
+      "commons-c4d39eff34912577c24b.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -121,12 +119,10 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-b746fe5308ba1a80e4af.js",
+      "app-8aeed13b3b2d08a1f47c.js",
       "build-js-styles.css",
-      "styles.css",
-      "app-b746fe5308ba1a80e4af.js.map",
-      "build-js-styles.css.map",
-      "styles.css.map"
+      "app-8aeed13b3b2d08a1f47c.js.map",
+      "build-js-styles.css.map"
     ],
     "path---lyrics-bez-imeni-2": [
       "path---lyrics-bez-imeni-2-6f22941ef04d51f0b268.js",
