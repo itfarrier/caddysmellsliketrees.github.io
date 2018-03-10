@@ -18,7 +18,7 @@ const lyricsTemplate = ({ data }) => {
             />
           ) : (
             <article
-              className={"col-6 offset-3 " + styles.lyricsDesktop}
+              className={"col-8 offset-2 " + styles.lyricsDesktop}
               dangerouslySetInnerHTML={{ __html: lyrics.html }}
             />
           )}
