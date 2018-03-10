@@ -21,6 +21,7 @@ class HTML extends React.Component {
           dangerouslySetInnerHTML={{ __html: stylesStr }}
         />
       ) : null;
+
     return (
       <html dir="ltr" lang="ru" {...this.props.htmlAttributes}>
         <head>
@@ -30,9 +31,9 @@ class HTML extends React.Component {
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
           <div
-            key={`body`}
-            id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
+            id="___gatsby"
+            key="body"
           />
           {this.props.postBodyComponents}
         </body>

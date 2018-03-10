@@ -3,9 +3,11 @@ const { createFilePath } = require("gatsby-source-filesystem");
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
+
   if (node.internal.type === "MarkdownRemark") {
     const slug = "lyrics" + createFilePath({ node, getNode }).slice(0, -1);
-    createNodeField({
+
+    return createNodeField({
       node,
       name: "slug",
       value: slug
@@ -15,6 +17,7 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
+
   return new Promise(resolve => {
     graphql(`
       {

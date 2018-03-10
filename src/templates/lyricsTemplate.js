@@ -7,10 +7,11 @@ import styles from "./lyricsTemplate.module.css";
 
 const lyricsTemplate = ({ data }) => {
   const lyrics = data.markdownRemark;
+
   return (
     <div>
-      <div className={"container"}>
-        <div className={"row"}>
+      <div className="container">
+        <div className="row">
           {isMobile.any ? (
             <article
               className={"col-8 offset-2 " + styles.lyrics}

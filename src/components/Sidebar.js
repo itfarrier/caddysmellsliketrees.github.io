@@ -1,20 +1,22 @@
-import { slide as Menu } from "react-burger-menu";
 import isMobile from "ismobilejs";
 import Link from "gatsby-link";
 import PropTypes from "prop-types";
 import React from "react";
+import { slide as Menu } from "react-burger-menu";
 
 import styles from "./Sidebar.module.scss";
 
 class Sidebar extends React.Component {
-  constructor(props, context) {
-    super(props, context);
+  constructor() {
+    super();
+
     this.state = { isOpen: false };
-    this.isOpen = this.isOpen.bind(this);
   }
+
   isOpen = () => {
     this.setState({ isOpen: false });
   };
+
   render() {
     return (
       <Menu
@@ -41,7 +43,7 @@ class Sidebar extends React.Component {
               О ГРУППЕ
             </Link>
             <a
-              href={"https://money.yandex.ru/to/410013952610454/500"}
+              href="https://money.yandex.ru/to/410013952610454/500"
               onClick={this.isOpen}
             >
               ПОДДЕРЖАТЬ!
@@ -59,7 +61,7 @@ class Sidebar extends React.Component {
               О ГРУППЕ
             </Link>
             <a
-              href={"https://money.yandex.ru/to/410013952610454/500"}
+              href="https://money.yandex.ru/to/410013952610454/500"
               onClick={this.isOpen}
             >
               ПОДДЕРЖАТЬ!

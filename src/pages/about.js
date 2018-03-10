@@ -1,5 +1,4 @@
 import isMobile from "ismobilejs";
-import Link from "gatsby-link";
 import React from "react";
 
 import Footer from "../components/Footer";

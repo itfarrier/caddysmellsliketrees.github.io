@@ -3,7 +3,7 @@ import isMobile from "ismobilejs";
 import MediaQuery from "react-responsive";
 import PropTypes from "prop-types";
 import React from "react";
-import SnowStorm from "../components/Snowstorm";
+// import SnowStorm from "../components/Snowstorm";
 
 import Sidebar from "../components/Sidebar";
 
@@ -24,62 +24,63 @@ const indexLayout = ({ children, data }) => (
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <link href={data.site.siteMetadata.siteUrl} rel="canonical" />
       <link
+        href="/favicons/apple-touch-icon.png"
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/favicons/apple-touch-icon.png"
+        type="image/png"
       />
       <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
         href="/favicons/favicon-32x32.png"
+        rel="icon"
+        sizes="32x32"
+        type="image/png"
       />
       <link
-        rel="icon"
-        type="image/png"
-        sizes="194x194"
         href="/favicons/favicon-194x194.png"
+        rel="icon"
+        sizes="194x194"
+        type="image/png"
       />
       <link
-        rel="icon"
-        type="image/png"
-        sizes="192x192"
         href="/favicons/android-chrome-192x192.png"
-      />
-      <link
         rel="icon"
+        sizes="192x192"
         type="image/png"
-        sizes="16x16"
-        href="/favicons/favicon-16x16.png"
       />
       <link
-        rel="mask-icon"
-        href="/favicons/safari-pinned-tab.svg"
+        href="/favicons/favicon-16x16.png"
+        rel="icon"
+        sizes="16x16"
+        type="image/png"
+      />
+      <link
         color="#0a0a0a"
+        href="/favicons/safari-pinned-tab.svg"
+        rel="mask-icon"
       />
-      <link rel="shortcut icon" href="/favicons/favicon.ico" />
+      <link href="/favicons/favicon.ico" rel="shortcut icon" />
       <meta
-        name="apple-mobile-web-app-title"
         content={data.site.siteMetadata.title}
+        name="apple-mobile-web-app-title"
       />
-      <meta name="application-name" content={data.site.siteMetadata.title} />
-      <meta name="msapplication-TileColor" content="#f0f0f0" />
+      <meta content={data.site.siteMetadata.title} name="application-name" />
+      <meta content="#f0f0f0" name="msapplication-TileColor" />
       <meta
-        name="msapplication-TileImage"
         content="/favicons/mstile-144x144.png"
+        name="msapplication-TileImage"
       />
-      <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
-      <meta name="theme-color" content="#f0f0f0" />
+      <meta content="/favicons/browserconfig.xml" name="msapplication-config" />
+      <meta content="#f0f0f0" name="theme-color" />
       <meta
-        name="apple-mobile-web-app-status-bar-style"
         content="black-translucent"
+        name="apple-mobile-web-app-status-bar-style"
       />
     </Helmet>
-    <MediaQuery query="(orientation: portrait)">
-      <Sidebar width={"75vw"} />
+    <MediaQuery orientation="portrait">
+      <Sidebar width="75vw" />
     </MediaQuery>
-    <MediaQuery query="(orientation: landscape)">
-      <Sidebar width={"50vw"} />
+    <MediaQuery orientation="landscape">
+      <Sidebar width="50vw" />
     </MediaQuery>
     {isMobile.any ? (
       <main role="main">{children()}</main>
