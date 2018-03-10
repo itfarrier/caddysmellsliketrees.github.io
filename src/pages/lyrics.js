@@ -12,15 +12,13 @@ const lyrics = ({ data }) => (
       <div className="row">
         <div className={isMobile.any ? "col" : "col " + styles.toc}>
           <ul className={isMobile.any ? styles.list : styles.listDesktop}>
-            {data.allMarkdownRemark.edges.map(({ node }) => {
-              return (
-                <li className={styles.link} key={node.id}>
-                  <Link to={"/" + node.fields.slug}>
-                    {node.frontmatter.title}
-                  </Link>
-                </li>
-              );
-            })}
+            {data.allMarkdownRemark.edges.map(({ node }) => (
+              <li className={styles.link} key={node.id}>
+                <Link to={"/" + node.fields.slug}>
+                  {node.frontmatter.title}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
@@ -35,7 +33,7 @@ lyrics.propTypes = {
 
 export const lyricsQuery = graphql`
   query lyricsQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___title], order: ASC }) {
       edges {
         node {
           fields {
