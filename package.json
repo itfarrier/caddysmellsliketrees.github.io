@@ -50,7 +50,7 @@
     "build": "npm run clean && gatsby build",
     "clean": "rm -rf ./.cache/* && rm -rf ./public/*",
     "deploy": "git push origin source && npm run build && cp CNAME public/ && gh-pages -d public --branch master",
-    "develop": "gatsby develop",
+    "develop": "npm run clean && gatsby develop",
     "serve": "npm run build && serve public -p 8000"
   },
   "version": "2.0.0"
