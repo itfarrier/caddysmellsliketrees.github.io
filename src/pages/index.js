@@ -1,27 +1,30 @@
 import React from "react";
 
+import styles from "./index.module.scss";
+
 const Index = () => (
-  <div className="logo-centering">
-    <div className="full-logo">
-      <div className="img-logo img-logo_margin-right">
-        <img alt="Дерево" className="img-logo__tree" src="/vectors/tree.svg" />
-        <div
-          title="Луч"
-          className="img-logo__line img-logo__line_dot-reverse"
-        />
-      </div>
-      <div className="text-logo">
-        <div className="text-logo__caddy">КЭДДИ</div>
-        <div className="text-logo__smells">ПАХНЕТ</div>
-        <div className="text-logo__like_trees">ДЕРЕВЬЯМИ</div>
-      </div>
-      <div className="img-logo img-logo_margin-left">
+  <div className={styles.logoCentering}>
+    <div className={styles.fullLogo}>
+      <div className={styles.imgLogoUpperOrLeft}>
         <img
-          alt="Скрытое дерево"
-          className="img-logo__tree img-logo__tree_hidden"
+          alt="Дерево"
+          className={styles.imgLogoTreeUpperOrLeft}
           src="/vectors/tree.svg"
         />
-        <div title="Луч" className="img-logo__line" />
+        <div title="Луч" className={styles.imgLogoLineUpperOrLeft} />
+      </div>
+      <div className={styles.textLogo}>
+        <div className={styles.textLogoCaddy}>КЭДДИ</div>
+        <div className={styles.textLogoSmells}>ПАХНЕТ</div>
+        <div className={styles.textLogoLikeTrees}>ДЕРЕВЬЯМИ</div>
+      </div>
+      <div className={styles.imgLogoLowerOrRight}>
+        <img
+          alt="Скрытое дерево"
+          className={styles.imgLogoTreeLowerOrRight}
+          src="/vectors/tree.svg"
+        />
+        <div title="Луч" className={styles.imgLogoLineLowerOrRight} />
       </div>
     </div>
   </div>
