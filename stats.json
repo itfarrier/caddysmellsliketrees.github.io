@@ -5,16 +5,16 @@
       "path---lyrics-teplo-bezdonnoe-841a508ce00b0dbc2b3d.js.map"
     ],
     "path---lyrics": [
-      "path---lyrics-f7e59e0b741885ae6c46.js",
-      "path---lyrics-f7e59e0b741885ae6c46.js.map"
+      "path---lyrics-5d04871c7f96586ef4ba.js",
+      "path---lyrics-5d04871c7f96586ef4ba.js.map"
     ],
     "component---src-templates-lyrics-template-js": [
-      "component---src-templates-lyrics-template-js-0c20ffa19accd2ffcc1f.js",
-      "component---src-templates-lyrics-template-js-0c20ffa19accd2ffcc1f.js.map"
+      "component---src-templates-lyrics-template-js-f8272981627cb457d416.js",
+      "component---src-templates-lyrics-template-js-f8272981627cb457d416.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-03b1d37ac624577b7897.js",
-      "component---src-pages-index-js-03b1d37ac624577b7897.js.map"
+      "component---src-pages-index-js-53071ebcec890bb3a73c.js",
+      "component---src-pages-index-js-53071ebcec890bb3a73c.js.map"
     ],
     "path---lyrics-bez-imeni": [
       "path---lyrics-bez-imeni-349bc57176af5e18125d.js",
@@ -44,6 +44,10 @@
       "path---lyrics-podrasti-a8087de31689a079655d.js",
       "path---lyrics-podrasti-a8087de31689a079655d.js.map"
     ],
+    "path---lyrics-perepel": [
+      "path---lyrics-perepel-223ce93949f4210e51ba.js",
+      "path---lyrics-perepel-223ce93949f4210e51ba.js.map"
+    ],
     "path---lyrics-vnutri-gerbariya": [
       "path---lyrics-vnutri-gerbariya-5624b043dd8b52897a39.js",
       "path---lyrics-vnutri-gerbariya-5624b043dd8b52897a39.js.map"
@@ -53,16 +57,16 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-pages-lyrics-js": [
-      "component---src-pages-lyrics-js-280f9fd073f4236f66e9.js",
-      "component---src-pages-lyrics-js-280f9fd073f4236f66e9.js.map"
+      "component---src-pages-lyrics-js-921ad1a14eaa79fc9632.js",
+      "component---src-pages-lyrics-js-921ad1a14eaa79fc9632.js.map"
     ],
     "path---lyrics-igrushki": [
       "path---lyrics-igrushki-241e4e0a12bbb96324ac.js",
       "path---lyrics-igrushki-241e4e0a12bbb96324ac.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b75cf698f358792153cd.js",
-      "component---src-layouts-index-js-b75cf698f358792153cd.js.map"
+      "component---src-layouts-index-js-3220d13ab79119a6c67d.js",
+      "component---src-layouts-index-js-3220d13ab79119a6c67d.js.map"
     ],
     "path---lyrics-v-kluvikah": [
       "path---lyrics-v-kluvikah-9860dbd2088e1fec56c6.js",
@@ -89,10 +93,12 @@
       "component---src-pages-404-js-f9ea876824f15f70e43d.js.map"
     ],
     "commons": [
-      "commons-c4d39eff34912577c24b.js",
+      "commons-07d594a35beb3d9676cb.js",
       "build-js-styles.css",
-      "commons-c4d39eff34912577c24b.js.map",
-      "build-js-styles.css.map"
+      "styles.css",
+      "commons-07d594a35beb3d9676cb.js.map",
+      "build-js-styles.css.map",
+      "styles.css.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -115,18 +121,24 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-9babb16727d051298200.js",
+      "app-b746fe5308ba1a80e4af.js",
       "build-js-styles.css",
-      "app-9babb16727d051298200.js.map",
-      "build-js-styles.css.map"
+      "styles.css",
+      "app-b746fe5308ba1a80e4af.js.map",
+      "build-js-styles.css.map",
+      "styles.css.map"
+    ],
+    "path---lyrics-bez-imeni-2": [
+      "path---lyrics-bez-imeni-2-6f22941ef04d51f0b268.js",
+      "path---lyrics-bez-imeni-2-6f22941ef04d51f0b268.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-ec5b7fb1966bb5f41691.js",
-      "component---src-pages-about-js-ec5b7fb1966bb5f41691.js.map"
+      "component---src-pages-about-js-639fabbacbf3e3eaeec7.js",
+      "component---src-pages-about-js-639fabbacbf3e3eaeec7.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
