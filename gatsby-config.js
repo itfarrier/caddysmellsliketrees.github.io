@@ -217,7 +217,6 @@ module.exports = {
         theme_color: "#f0f0f0"
       }
     },
-    "gatsby-plugin-netlify",
     {
       resolve: "gatsby-plugin-offline",
       options: {
