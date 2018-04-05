@@ -1,43 +1,26 @@
 {
   "author": "Dmitrij Podabed",
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "font-awesome-svg-png": "^1.2.2",
-    "gatsby": "^1.9.209",
-    "gatsby-image": "^1.0.39",
-    "gatsby-link": "^1.6.37",
-    "gatsby-plugin-manifest": "^1.0.14",
-    "gatsby-plugin-offline": "^1.0.14",
-    "gatsby-plugin-preact": "^1.0.16",
-    "gatsby-plugin-purify-css": "^2.2.1",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sass": "^1.0.17",
-    "gatsby-plugin-sitemap": "^1.2.13",
-    "gatsby-source-filesystem": "^1.5.22",
-    "gatsby-transformer-remark": "^1.7.36",
-    "ismobilejs": "^0.4.1",
-    "react-burger-menu": "^2.3.0",
-    "react-responsive": "^4.0.5"
+    "gatsby": "latest",
+    "gatsby-link": "latest",
+    "gatsby-plugin-i18n": "latest",
+    "gatsby-plugin-manifest": "latest",
+    "gatsby-plugin-offline": "latest",
+    "gatsby-plugin-react-helmet": "latest",
+    "gatsby-plugin-sitemap": "latest",
+    "gatsby-source-filesystem": "latest",
+    "gatsby-transformer-remark": "latest",
+    "intl": "latest",
+    "ptz-i18n": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-helmet": "latest",
+    "react-intl": "latest"
   },
   "description": "Psychedelic free-folk",
-  "devDependencies": {
-    "babel-eslint": "^8.2.2",
-    "eslint": "^4.18.2",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.7.0",
-    "gh-pages": "^1.1.0",
-    "prettier": "^1.11.1",
-    "serve": "^6.5.3",
-    "stylelint": "^9.1.1",
-    "stylelint-config-idiomatic-order": "^5.0.0",
-    "stylelint-config-recommended-scss": "^3.1.0",
-    "stylelint-images": "^2.0.0",
-    "stylelint-scss": "^2.5.0"
-  },
   "email": "dmitrij@podabed.org",
   "license": "GPL-3.0",
-  "main": "./src/html.js",
+  "main": "./src/html.jsx",
   "name": "caddy-smells-like-trees",
   "repository": {
     "url": "caddysmellsliketrees.github.io",
@@ -46,9 +29,20 @@
   "scripts": {
     "build": "npm run clean && gatsby build",
     "clean": "rm -rf ./.cache/* && rm -rf ./public/*",
-    "deploy": "git push origin source && npm run build && cp CNAME public/ && gh-pages -d public --branch master",
+    "deploy":
+      "git push origin source && npm run build && cp CNAME public/ && gh-pages -d public --branch master",
     "develop": "npm run clean && gatsby develop",
-    "serve": "npm run build && serve public -p 8000"
+    "serve": "npm run build && gatsby serve public -p 9000"
   },
-  "version": "2.0.0"
+  "version": "3.0.0",
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-react": "latest",
+    "gh-pages": "latest",
+    "prettier": "latest",
+    "prop-types": "latest"
+  }
 }

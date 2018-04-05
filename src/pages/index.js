@@ -1,33 +1,43 @@
+import { getUserLangKey } from "ptz-i18n";
 import React from "react";
+import { withPrefix } from "gatsby-link";
 
-import styles from "./index.module.scss";
+class RedirectIndex extends React.PureComponent {
+  constructor(props) {
+    super(props);
 
-const Index = () => (
-  <div className={styles.logoCentering}>
-    <div className={styles.fullLogo}>
-      <div className={styles.imgLogoUpperOrLeft}>
-        <img
-          alt="Дерево"
-          className={styles.imgLogoTreeUpperOrLeft}
-          src="/vectors/tree.svg"
-        />
-        <div title="Луч" className={styles.imgLogoLineUpperOrLeft} />
-      </div>
-      <div className={styles.textLogo}>
-        <div className={styles.textLogoCaddy}>КЭДДИ</div>
-        <div className={styles.textLogoSmells}>ПАХНЕТ</div>
-        <div className={styles.textLogoLikeTrees}>ДЕРЕВЬЯМИ</div>
-      </div>
-      <div className={styles.imgLogoLowerOrRight}>
-        <img
-          alt="Скрытое дерево"
-          className={styles.imgLogoTreeLowerOrRight}
-          src="/vectors/tree.svg"
-        />
-        <div title="Луч" className={styles.imgLogoLineLowerOrRight} />
-      </div>
-    </div>
-  </div>
-);
+    // Skip build, Browsers only
+    if (typeof window !== "undefined") {
+      const { langs, defaultLangKey } = props.data.site.siteMetadata.languages;
+      const langKey = getUserLangKey(langs, defaultLangKey);
+      const homeUrl = withPrefix(`/${langKey}/`);
 
-export default Index;
+      // I don`t think this is the best solution
+      // I would like to use Gatsby Redirects like:
+      // https://github.com/gatsbyjs/gatsby/tree/master/examples/using-redirects
+      // But Gatsby Redirects are static, they need to be specified at build time,
+      // This redirect is dynamic, It needs to know the user browser language.
+      // Any ideias? Join the issue: https://github.com/angeloocana/gatsby-starter-default-i18n/issues/4
+      window.___history.replace(homeUrl);
+    }
+  }
+
+  render() {
+    return <div />;
+  }
+}
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    site {
+      siteMetadata {
+        languages {
+          defaultLangKey
+          langs
+        }
+      }
+    }
+  }
+`;
+
+export default RedirectIndex;

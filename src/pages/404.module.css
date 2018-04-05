@@ -1,9 +1,0 @@
-.center {
-  display: flex;
-  min-height: 100vh;
-  flex-flow: column nowrap;
-  align-items: center;
-  justify-content: center;
-  font-family: serif;
-  font-size: 2rem;
-}
