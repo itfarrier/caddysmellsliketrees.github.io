@@ -7,16 +7,19 @@ import React, { Fragment } from "react";
 
 import Sidebar from "../components/Sidebar";
 
-function IndexLayout({
-  children,
-  data,
-  data: {
-    site: { siteMetadata: { languages: { defaultLangKey, langs: languages } } }
-  },
-  i18nMessages,
-  i18nMessages: { description, menu, title },
-  location: { pathname }
-}) {
+function IndexLayout(props) {
+  const {
+    children,
+    data: {
+      site: {
+        siteMetadata: { languages: { defaultLangKey, langs: languages } }
+      }
+    },
+    i18nMessages,
+    i18nMessages: { description, menu, title },
+    location: { pathname }
+  } = props;
+
   const langKey = getCurrentLangKey(languages, defaultLangKey, pathname);
   const homeLink = `/${langKey}/`;
   const langsMenu = getLangs(
@@ -25,12 +28,22 @@ function IndexLayout({
     getUrlForLang(homeLink, pathname)
   );
 
+  console.log(props);
+
   return (
     <IntlProvider locale={langKey} messages={i18nMessages}>
       <Fragment>
         <Helmet
           meta={[
             { content: description, name: "description" },
+            {
+              content: title,
+              name: "apple-mobile-web-app-title"
+            },
+            {
+              content: title,
+              name: "application-name"
+            },
             { content: title, name: "keywords" }
           ]}
           title={`${title} — ${description}`}
