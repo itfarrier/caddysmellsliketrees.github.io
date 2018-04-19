@@ -2,7 +2,8 @@ module.exports = {
   env: {
     browser: true,
     commonjs: true,
-    serviceworker: true
+    serviceworker: true,
+    worker: true
   },
   extends: ["plugin:react/recommended", "prettier", "prettier/react"],
   globals: {
@@ -10,14 +11,10 @@ module.exports = {
   },
   parser: "babel-eslint",
   parserOptions: {
-    allowImportExportEverywhere: false,
     ecmaVersion: 2018,
     ecmaFeatures: {
-      impliedStrict: true,
       jsx: true
-    },
-    codeFrame: false,
-    sourceType: "module"
+    }
   },
   plugins: ["prettier", "react"],
   rules: {
