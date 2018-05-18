@@ -12,7 +12,9 @@ function IndexLayout(props) {
     children,
     data: {
       site: {
-        siteMetadata: { languages: { defaultLangKey, langs: languages } }
+        siteMetadata: {
+          languages: { defaultLangKey, langs: languages }
+        }
       }
     },
     i18nMessages,
@@ -27,8 +29,6 @@ function IndexLayout(props) {
     langKey,
     getUrlForLang(homeLink, pathname)
   );
-
-  console.log(props);
 
   return (
     <IntlProvider locale={langKey} messages={i18nMessages}>

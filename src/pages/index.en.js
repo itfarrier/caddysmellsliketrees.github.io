@@ -1,13 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Link from "gatsby-link";
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+  <Fragment>
+    <h1>Something in English</h1>
     <Link to="/en/page-2/">Go to page 2</Link>
-  </div>
+  </Fragment>
 );
 
 export default IndexPage;
