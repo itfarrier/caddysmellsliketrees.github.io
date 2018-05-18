@@ -1,23 +1,33 @@
 {
   "author": "Dmitrij Podabed",
   "dependencies": {
-    "gatsby": "latest",
-    "gatsby-link": "latest",
-    "gatsby-plugin-i18n": "latest",
-    "gatsby-plugin-manifest": "latest",
-    "gatsby-plugin-offline": "latest",
-    "gatsby-plugin-react-helmet": "latest",
-    "gatsby-plugin-sitemap": "latest",
-    "gatsby-source-filesystem": "latest",
-    "gatsby-transformer-remark": "latest",
-    "intl": "latest",
-    "ptz-i18n": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-helmet": "latest",
-    "react-intl": "latest"
+    "gatsby": "^1.9.261",
+    "gatsby-link": "^1.6.44",
+    "gatsby-plugin-i18n": "^0.4.2",
+    "gatsby-plugin-manifest": "^1.0.22",
+    "gatsby-plugin-offline": "^1.0.16",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-plugin-sitemap": "^1.2.23",
+    "gatsby-source-filesystem": "^1.5.36",
+    "gatsby-transformer-remark": "^1.7.41",
+    "intl": "^1.2.5",
+    "ptz-i18n": "^0.4.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-helmet": "^5.2.0",
+    "react-intl": "^2.4.0"
   },
   "description": "Psychedelic free-folk",
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.8.2",
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.12.1",
+    "prop-types": "^15.6.1"
+  },
   "email": "dmitrij@podabed.org",
   "license": "GPL-3.0",
   "main": "./src/html.jsx",
@@ -27,21 +37,12 @@
     "type": "git"
   },
   "scripts": {
-    "build": "npm run clean && gatsby build",
+    "build": "yarn run clean && gatsby build",
     "clean": "rm -rf ./.cache/* && rm -rf ./public/*",
-    "deploy": "git push origin source && npm run build && cp CNAME public/ && gh-pages -d public --branch master",
-    "develop": "npm run clean && gatsby develop",
-    "serve": "npm run build && gatsby serve public -p 9000"
+    "deploy":
+      "git push origin source && npm run build && cp CNAME public/ && gh-pages -d public --branch master",
+    "develop": "yarn run clean && gatsby develop",
+    "serve": "yarn run build && gatsby serve public -p 9000"
   },
-  "version": "3.0.0",
-  "devDependencies": {
-    "babel-eslint": "latest",
-    "eslint": "latest",
-    "eslint-config-prettier": "latest",
-    "eslint-plugin-prettier": "latest",
-    "eslint-plugin-react": "latest",
-    "gh-pages": "latest",
-    "prettier": "latest",
-    "prop-types": "latest"
-  }
+  "version": "3.0.0"
 }
