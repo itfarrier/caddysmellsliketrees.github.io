@@ -1,6 +1,5 @@
-.cache/
-.idea/
-node_modules/
-public/
-package-lock.json
-yarn.lock
+/.cache/
+/.idea/
+/dist/
+/node_modules/
+/public/

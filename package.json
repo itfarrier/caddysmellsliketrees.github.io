@@ -1,48 +1,48 @@
 {
   "author": "Dmitrij Podabed",
   "dependencies": {
-    "gatsby": "^1.9.261",
+    "gatsby": "^1.9.270",
     "gatsby-link": "^1.6.44",
     "gatsby-plugin-i18n": "^0.4.2",
-    "gatsby-plugin-manifest": "^1.0.22",
-    "gatsby-plugin-offline": "^1.0.16",
     "gatsby-plugin-react-helmet": "^2.0.11",
-    "gatsby-plugin-sitemap": "^1.2.23",
-    "gatsby-source-filesystem": "^1.5.36",
-    "gatsby-transformer-remark": "^1.7.41",
+    "gatsby-plugin-typescript": "^1.4.20",
     "intl": "^1.2.5",
     "ptz-i18n": "^0.4.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
     "react-helmet": "^5.2.0",
     "react-intl": "^2.4.0"
   },
   "description": "Psychedelic free-folk",
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.8.2",
-    "gh-pages": "^1.1.0",
-    "prettier": "^1.12.1",
-    "prop-types": "^15.6.1"
+    "@types/graphql": "^0.13.1",
+    "@types/intl": "^1.2.0",
+    "@types/node": "^10.3.1",
+    "@types/react": "^16.3.16",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-helmet": "^5.0.6",
+    "@types/react-intl": "^2.3.8",
+    "prettier": "^1.13.4",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.1"
   },
   "email": "dmitrij@podabed.org",
+  "keywords": [
+    "gatsby, typescript"
+  ],
   "license": "GPL-3.0",
-  "main": "./src/html.jsx",
+  "main": "./src/layouts/index.tsx",
   "name": "caddy-smells-like-trees",
   "repository": {
     "url": "caddysmellsliketrees.github.io",
     "type": "git"
   },
   "scripts": {
-    "build": "yarn run clean && gatsby build",
+    "build": "gatsby build",
     "clean": "rm -rf ./.cache/* && rm -rf ./public/*",
-    "deploy":
-      "git push origin source && npm run build && cp CNAME public/ && gh-pages -d public --branch master",
-    "develop": "yarn run clean && gatsby develop",
-    "serve": "yarn run build && gatsby serve public -p 9000"
+    "deploy": "git push origin source && npm run build && cp CNAME public/ && gh-pages -d public --branch master",
+    "develop": "gatsby develop",
+    "serve": "yarn run build && gatsby serve"
   },
   "version": "3.0.0"
 }
