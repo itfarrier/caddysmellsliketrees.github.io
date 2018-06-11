@@ -24,24 +24,26 @@ interface IndexLayoutProps {
       donate: string;
       lyrics: string;
       news: string;
+      videos: string;
     };
     title: string;
   };
 }
 
-const IndexLayout: React.SFC<IndexLayoutProps> = ({
-  children,
-  data: {
-    site: {
-      siteMetadata: {
-        languages: { defaultLangKey, langs }
+const IndexLayout: React.SFC<IndexLayoutProps> = props => {
+  const {
+    children,
+    data: {
+      site: {
+        siteMetadata: {
+          languages: { defaultLangKey, langs }
+        }
       }
-    }
-  },
-  location: { pathname },
-  i18nMessages,
-  i18nMessages: { description, keywords, menu, title }
-}) => {
+    },
+    location: { pathname },
+    i18nMessages,
+    i18nMessages: { description, keywords, menu, title }
+  } = props;
   const langKey = getCurrentLangKey(langs, defaultLangKey, pathname);
   const homeLink = `/${langKey}/`;
   const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, pathname));
@@ -57,7 +59,7 @@ const IndexLayout: React.SFC<IndexLayoutProps> = ({
           title={`${title} — ${description}`}
         />
         <Sidebar homeLink={homeLink} langs={langsMenu} menu={menu} />
-        <main>{children()}</main>
+        <main>{children({ menu, ...props })}</main>
       </React.Fragment>
     </IntlProvider>
   );

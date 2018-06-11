@@ -12,13 +12,14 @@ interface SidebarProps {
     donate: string;
     lyrics: string;
     news: string;
+    videos: string;
   };
 }
 
 const Sidebar: React.SFC<SidebarProps> = ({
   homeLink,
   langs,
-  menu: { about, donate, lyrics, news }
+  menu: { about, donate, lyrics, news, videos }
 }) => (
   <aside>
     <nav>
@@ -31,6 +32,9 @@ const Sidebar: React.SFC<SidebarProps> = ({
         </li>
         <li>
           <Link to={`${homeLink}about`}>{about}</Link>
+        </li>
+        <li>
+          <Link to={`${homeLink}videos`}>{videos}</Link>
         </li>
         <li>
           <a href="https://money.yandex.ru/to/410013952610454/500">{donate}</a>

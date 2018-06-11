@@ -12,7 +12,8 @@ module.exports = {
     about: "About",
     donate: "Donate!",
     lyrics: "Lyrics",
-    news: "News"
+    news: "News",
+    videos: "Videos"
   },
   title: "Caddy smells like trees"
 };

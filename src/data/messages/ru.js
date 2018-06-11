@@ -12,7 +12,8 @@ module.exports = {
     about: "О группе",
     donate: "Поддержать!",
     lyrics: "Тексты",
-    news: "Новости"
+    news: "Новости",
+    videos: "Видео"
   },
   title: "Кэдди пахнет деревьями"
 };
