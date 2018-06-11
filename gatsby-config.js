@@ -7,11 +7,36 @@ module.exports = {
       options: {
         langKeyForNull: "en",
         langKeyDefault: languages.defaultLangKey,
-        useLangKeyLayout: true
+        useLangKeyLayout: true,
+        markdownRemark: {
+          postPage: "src/templates/lyricsTemplate.tsx",
+          query: `
+            {
+              allMarkdownRemark {
+                edges {
+                  node {
+                    fields {
+                      slug
+                      langKey
+                    }
+                  }
+                }
+              }
+            }
+          `
+        }
       }
     },
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-typescript"
+    "gatsby-plugin-typescript",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "lyrics",
+        path: `${__dirname}/src/pages/lyrics`
+      }
+    },
+    "gatsby-transformer-remark"
   ],
   siteMetadata: {
     languages

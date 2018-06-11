@@ -2,16 +2,62 @@ import * as React from "react";
 import Link from "gatsby-link";
 
 interface LyricsRuProps {
+  data: {
+    allMarkdownRemark: {
+      edges: Array<{
+        node: {
+          fields: {
+            langKey: string;
+            slug: string;
+          };
+          frontmatter: {
+            title: string;
+          };
+          id: string;
+        };
+      }>;
+    };
+  };
   menu: {
     lyrics: string;
   };
 }
 
-const LyricsRu: React.SFC<LyricsRuProps> = ({ menu: { lyrics } }) => (
+const LyricsRu: React.SFC<LyricsRuProps> = ({ data, menu: { lyrics } }) => (
   <React.Fragment>
     <h1>{lyrics}</h1>
-    <Link to="/en/">Back to the index page</Link>
+    <div>
+      <ul>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <li key={node.id}>
+            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+          </li>
+        ))}
+      </ul>
+    </div>
   </React.Fragment>
 );
+
+export const LyricsRuQuery = graphql`
+  query LyricsRuQuery {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___title], order: ASC }
+      filter: { fields: { langKey: { regex: "/ru/" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            langKey
+            slug
+          }
+          frontmatter {
+            title
+          }
+          id
+        }
+      }
+    }
+  }
+`;
 
 export default LyricsRu;
