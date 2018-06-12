@@ -1,6 +1,8 @@
 import * as React from "react";
 import Link from "gatsby-link";
 
+import Head from "../components/Head";
+
 interface NewsRuProps {
   data: {
     allMarkdownRemark: {
@@ -18,13 +20,27 @@ interface NewsRuProps {
       }>;
     };
   };
-  pageNames: {
-    news: string;
+  i18nMessages: {
+    description: string;
+    keywords: string[];
+    pageNames: {
+      news: string;
+    };
+    title: string;
   };
 }
 
-const NewsRu: React.SFC<NewsRuProps> = ({ data, pageNames: { news } }) => (
+const NewsRu: React.SFC<NewsRuProps> = ({
+  data,
+  i18nMessages,
+  i18nMessages: {
+    description,
+    keywords,
+    pageNames: { news }
+  }
+}) => (
   <React.Fragment>
+    <Head i18nMessages={i18nMessages} page={news} />
     <h1>{news}</h1>
     <div>
       <ul>

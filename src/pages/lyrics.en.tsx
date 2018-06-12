@@ -1,6 +1,8 @@
 import * as React from "react";
 import Link from "gatsby-link";
 
+import Head from "../components/Head";
+
 interface LyricsEnProps {
   data: {
     allMarkdownRemark: {
@@ -18,16 +20,27 @@ interface LyricsEnProps {
       }>;
     };
   };
-  pageNames: {
-    lyrics: string;
+  i18nMessages: {
+    description: string;
+    keywords: string[];
+    pageNames: {
+      lyrics: string;
+    };
+    title: string;
   };
 }
 
 const LyricsEn: React.SFC<LyricsEnProps> = ({
   data,
-  pageNames: { lyrics }
+  i18nMessages,
+  i18nMessages: {
+    description,
+    keywords,
+    pageNames: { lyrics }
+  }
 }) => (
   <React.Fragment>
+    <Head i18nMessages={i18nMessages} page={lyrics} />
     <h1>{lyrics}</h1>
     <div>
       <ul>

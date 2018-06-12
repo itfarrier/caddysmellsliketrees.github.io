@@ -1,9 +1,9 @@
 import "intl";
 import * as React from "react";
 import { getCurrentLangKey, getLangs, getUrlForLang } from "ptz-i18n";
-import Helmet from "react-helmet";
 import { IntlProvider } from "react-intl";
 
+import Head from "../components/Head";
 import Sidebar from "../components/Sidebar";
 
 interface IndexLayoutProps {
@@ -42,7 +42,7 @@ const IndexLayout: React.SFC<IndexLayoutProps> = props => {
     },
     location: { pathname },
     i18nMessages,
-    i18nMessages: { description, keywords, pageNames, title }
+    i18nMessages: { pageNames }
   } = props;
   const langKey = getCurrentLangKey(langs, defaultLangKey, pathname);
   const homeLink = `/${langKey}/`;
@@ -51,15 +51,9 @@ const IndexLayout: React.SFC<IndexLayoutProps> = props => {
   return (
     <IntlProvider locale={langKey} messages={i18nMessages}>
       <React.Fragment>
-        <Helmet
-          meta={[
-            { name: "description", content: description },
-            { name: "keywords", content: keywords }
-          ]}
-          title={`${title} — ${description}`}
-        />
+        <Head i18nMessages={i18nMessages} />
         <Sidebar homeLink={homeLink} langs={langsMenu} pageNames={pageNames} />
-        <main>{children({ pageNames, ...props })}</main>
+        <main>{children({ i18nMessages, ...props })}</main>
       </React.Fragment>
     </IntlProvider>
   );
