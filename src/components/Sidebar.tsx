@@ -7,7 +7,7 @@ interface SidebarProps {
   children?: any;
   homeLink: string;
   langs: Array<{ index: number; langKey: string; link: string }>;
-  menu: {
+  pageNames: {
     about: string;
     donate: string;
     lyrics: string;
@@ -19,7 +19,7 @@ interface SidebarProps {
 const Sidebar: React.SFC<SidebarProps> = ({
   homeLink,
   langs,
-  menu: { about, donate, lyrics, news, videos }
+  pageNames: { about, donate, lyrics, news, videos }
 }) => (
   <aside>
     <nav>

@@ -18,12 +18,15 @@ interface LyricsEnProps {
       }>;
     };
   };
-  menu: {
+  pageNames: {
     lyrics: string;
   };
 }
 
-const LyricsEn: React.SFC<LyricsEnProps> = ({ data, menu: { lyrics } }) => (
+const LyricsEn: React.SFC<LyricsEnProps> = ({
+  data,
+  pageNames: { lyrics }
+}) => (
   <React.Fragment>
     <h1>{lyrics}</h1>
     <div>

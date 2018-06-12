@@ -8,7 +8,7 @@ module.exports = {
     "фолк",
     "фри-фолк"
   ],
-  menu: {
+  pageNames: {
     about: "О группе",
     donate: "Поддержать!",
     lyrics: "Тексты",

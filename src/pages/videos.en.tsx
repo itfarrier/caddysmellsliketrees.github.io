@@ -2,12 +2,12 @@ import * as React from "react";
 import Link from "gatsby-link";
 
 interface VideosEnProps {
-  menu: {
+  pageNames: {
     videos: string;
   };
 }
 
-const VideosEn: React.SFC<VideosEnProps> = ({ menu: { videos } }) => (
+const VideosEn: React.SFC<VideosEnProps> = ({ pageNames: { videos } }) => (
   <React.Fragment>
     <h1>{videos}</h1>
     <Link to="/en/">Back to the index page</Link>

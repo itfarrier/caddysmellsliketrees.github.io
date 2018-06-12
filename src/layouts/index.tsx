@@ -19,7 +19,7 @@ interface IndexLayoutProps {
   i18nMessages: {
     description: string;
     keywords: string[];
-    menu: {
+    pageNames: {
       about: string;
       donate: string;
       lyrics: string;
@@ -42,7 +42,7 @@ const IndexLayout: React.SFC<IndexLayoutProps> = props => {
     },
     location: { pathname },
     i18nMessages,
-    i18nMessages: { description, keywords, menu, title }
+    i18nMessages: { description, keywords, pageNames, title }
   } = props;
   const langKey = getCurrentLangKey(langs, defaultLangKey, pathname);
   const homeLink = `/${langKey}/`;
@@ -58,8 +58,8 @@ const IndexLayout: React.SFC<IndexLayoutProps> = props => {
           ]}
           title={`${title} — ${description}`}
         />
-        <Sidebar homeLink={homeLink} langs={langsMenu} menu={menu} />
-        <main>{children({ menu, ...props })}</main>
+        <Sidebar homeLink={homeLink} langs={langsMenu} pageNames={pageNames} />
+        <main>{children({ pageNames, ...props })}</main>
       </React.Fragment>
     </IntlProvider>
   );
