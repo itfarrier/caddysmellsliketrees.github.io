@@ -9,7 +9,7 @@ module.exports = {
         langKeyDefault: languages.defaultLangKey,
         useLangKeyLayout: true,
         markdownRemark: {
-          postPage: "src/templates/lyricsTemplate.tsx",
+          postPage: "src/templates/LyricsTemplate.tsx",
           query: `
             {
               allMarkdownRemark {
