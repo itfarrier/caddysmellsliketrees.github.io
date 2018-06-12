@@ -1,5 +1,6 @@
 ---
 title: "***"
+type: lyrics
 ---
 
 <h1>***</h1>

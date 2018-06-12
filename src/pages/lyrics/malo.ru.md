@@ -1,5 +1,6 @@
 ---
 title: МАЛО
+type: lyrics
 ---
 
 <h1>МАЛО</h1>

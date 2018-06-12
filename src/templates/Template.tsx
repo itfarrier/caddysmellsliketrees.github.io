@@ -1,6 +1,6 @@
 import * as React from "react";
 
-interface LyricsTemplateProps {
+interface TemplateProps {
   data: {
     markdownRemark: {
       html: string;
@@ -8,18 +8,18 @@ interface LyricsTemplateProps {
   };
 }
 
-const LyricsTemplate: React.SFC<LyricsTemplateProps> = ({
+const Template: React.SFC<TemplateProps> = ({
   data: {
     markdownRemark: { html }
   }
 }) => <article dangerouslySetInnerHTML={{ __html: html }} />;
 
-export const LyricsTemplateQuery = graphql`
-  query lyricsTemplateQuery($path: String!) {
+export const TemplateQuery = graphql`
+  query TemplateQuery($path: String!) {
     markdownRemark(fields: { slug: { eq: $path } }) {
       html
     }
   }
 `;
 
-export default LyricsTemplate;
+export default Template;

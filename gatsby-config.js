@@ -9,7 +9,7 @@ module.exports = {
         langKeyDefault: languages.defaultLangKey,
         useLangKeyLayout: true,
         markdownRemark: {
-          postPage: "src/templates/LyricsTemplate.tsx",
+          postPage: "src/templates/Template.tsx",
           query: `
             {
               allMarkdownRemark {
@@ -18,6 +18,11 @@ module.exports = {
                     fields {
                       slug
                       langKey
+                    }
+                    frontmatter{
+                      date
+                      title
+                      type
                     }
                   }
                 }
@@ -32,8 +37,8 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "lyrics",
-        path: `${__dirname}/src/pages/lyrics`
+        name: "pages",
+        path: `${__dirname}/src/pages`
       }
     },
     "gatsby-transformer-remark"

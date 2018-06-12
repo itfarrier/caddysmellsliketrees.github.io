@@ -1,5 +1,6 @@
 ---
 title: ТО ЛИ
+type: lyrics
 ---
 
 <h1>ТО&nbsp;ЛИ</h1>

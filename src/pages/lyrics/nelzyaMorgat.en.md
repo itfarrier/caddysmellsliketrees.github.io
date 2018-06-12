@@ -1,5 +1,6 @@
 ---
 title: NEL'ZYA MORGAT'
+type: lyrics
 ---
 
 <h1>NEL'ZYA MORGAT'</h1>

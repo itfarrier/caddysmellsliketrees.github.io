@@ -1,5 +1,6 @@
 ---
 title: ТЕРЕМ
+type: lyrics
 ---
 
 <h1>ТЕРЕМ</h1>

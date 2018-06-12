@@ -44,8 +44,11 @@ const LyricsRu: React.SFC<LyricsRuProps> = ({
 export const LyricsRuQuery = graphql`
   query LyricsRuQuery {
     allMarkdownRemark(
+      filter: {
+        fields: { langKey: { regex: "/ru/" } }
+        frontmatter: { type: { eq: "lyrics" } }
+      }
       sort: { fields: [frontmatter___title], order: ASC }
-      filter: { fields: { langKey: { regex: "/ru/" } } }
     ) {
       edges {
         node {
@@ -54,6 +57,7 @@ export const LyricsRuQuery = graphql`
             slug
           }
           frontmatter {
+            date
             title
           }
           id

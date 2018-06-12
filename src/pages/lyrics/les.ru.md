@@ -1,5 +1,6 @@
 ---
 title: ЛЕС
+type: lyrics
 ---
 
 <h1>ЛЕС</h1>
