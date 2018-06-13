@@ -1,6 +1,6 @@
+import * as React from "react";
 import { addLocaleData } from "react-intl";
 import * as ru from "react-intl/locale-data/ru";
-import * as React from "react";
 
 import * as messages from "../data/messages/ru";
 

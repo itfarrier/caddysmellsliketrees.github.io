@@ -2,7 +2,7 @@ import * as React from "react";
 
 import Head from "../components/Head";
 
-interface TemplateProps {
+interface ITemplate {
   data: {
     markdownRemark: {
       frontmatter: {
@@ -26,7 +26,7 @@ interface TemplateProps {
   };
 }
 
-const Template: React.SFC<TemplateProps> = ({
+const Template: React.SFC<ITemplate> = ({
   data,
   data: {
     markdownRemark: {

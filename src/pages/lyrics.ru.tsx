@@ -1,9 +1,9 @@
-import * as React from "react";
 import Link from "gatsby-link";
+import * as React from "react";
 
 import Head from "../components/Head";
 
-interface LyricsRuProps {
+interface ILyricsRu {
   data: {
     allMarkdownRemark: {
       edges: Array<{
@@ -30,7 +30,7 @@ interface LyricsRuProps {
   };
 }
 
-const LyricsRu: React.SFC<LyricsRuProps> = ({
+const LyricsRu: React.SFC<ILyricsRu> = ({
   data,
   i18nMessages,
   i18nMessages: {

@@ -1,7 +1,7 @@
-import Helmet from "react-helmet";
 import * as React from "react";
+import Helmet from "react-helmet";
 
-interface HeadProps {
+interface IHead {
   i18nMessages: {
     description: string;
     keywords: string[];
@@ -18,7 +18,7 @@ interface HeadProps {
   subPage?: string;
 }
 
-const Head: React.SFC<HeadProps> = ({
+const Head: React.SFC<IHead> = ({
   i18nMessages: {
     description,
     keywords,

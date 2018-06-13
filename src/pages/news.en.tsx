@@ -1,9 +1,9 @@
-import * as React from "react";
 import Link from "gatsby-link";
+import * as React from "react";
 
 import Head from "../components/Head";
 
-interface NewsEnProps {
+interface INewsEn {
   data: {
     allMarkdownRemark: {
       edges: Array<{
@@ -30,7 +30,7 @@ interface NewsEnProps {
   };
 }
 
-const NewsEn: React.SFC<NewsEnProps> = ({
+const NewsEn: React.SFC<INewsEn> = ({
   data,
   i18nMessages,
   i18nMessages: {

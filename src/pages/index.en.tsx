@@ -1,5 +1,5 @@
-import * as React from "react";
 import Link from "gatsby-link";
+import * as React from "react";
 
 const IndexEn: React.SFC = () => (
   <React.Fragment>

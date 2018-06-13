@@ -1,8 +1,8 @@
-import * as React from "react";
-import { getUserLangKey } from "ptz-i18n";
 import { withPrefix } from "gatsby-link";
+import { getUserLangKey } from "ptz-i18n";
+import * as React from "react";
 
-interface IndexProps {
+interface IIndex {
   data: {
     site: {
       siteMetadata: { languages: { defaultLangKey: string; langs: string[] } };
@@ -10,8 +10,8 @@ interface IndexProps {
   };
 }
 
-class Index extends React.PureComponent<IndexProps, {}> {
-  constructor(props: IndexProps, context: any) {
+class Index extends React.PureComponent<IIndex, {}> {
+  constructor(props: IIndex, context: any) {
     super(props, context);
 
     if (typeof window !== "undefined") {

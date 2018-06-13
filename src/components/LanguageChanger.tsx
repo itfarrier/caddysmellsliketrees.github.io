@@ -1,12 +1,12 @@
-import * as React from "react";
 import Link from "gatsby-link";
+import * as React from "react";
 
-interface SelectLanguageProps {
+interface ILanguageChanger {
   children?: any;
   langs: Array<{ index: number; langKey: string; link: string }>;
 }
 
-const LanguageChanger: React.SFC<SelectLanguageProps> = ({ langs }) => {
+const LanguageChanger: React.SFC<ILanguageChanger> = ({ langs }) => {
   const links: object = langs.map(lang => (
     <Link to={lang.link} key={lang.langKey}>
       <li>{lang.langKey}</li>

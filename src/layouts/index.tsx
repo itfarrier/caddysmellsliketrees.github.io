@@ -1,12 +1,12 @@
 import "intl";
-import * as React from "react";
 import { getCurrentLangKey, getLangs, getUrlForLang } from "ptz-i18n";
+import * as React from "react";
 import { IntlProvider } from "react-intl";
 
 import Head from "../components/Head";
 import Sidebar from "../components/Sidebar";
 
-interface IndexLayoutProps {
+interface IIndexLayout {
   children?: any;
   data: {
     site: {
@@ -30,7 +30,7 @@ interface IndexLayoutProps {
   };
 }
 
-const IndexLayout: React.SFC<IndexLayoutProps> = props => {
+const IndexLayout: React.SFC<IIndexLayout> = props => {
   const {
     children,
     data: {

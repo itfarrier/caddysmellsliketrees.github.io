@@ -1,9 +1,9 @@
-import * as React from "react";
 import Link from "gatsby-link";
+import * as React from "react";
 
 import Head from "../components/Head";
 
-interface VideosRuProps {
+interface IVideosRu {
   i18nMessages: {
     description: string;
     keywords: string[];
@@ -14,7 +14,7 @@ interface VideosRuProps {
   };
 }
 
-const VideosRu: React.SFC<VideosRuProps> = ({
+const VideosRu: React.SFC<IVideosRu> = ({
   i18nMessages,
   i18nMessages: {
     description,

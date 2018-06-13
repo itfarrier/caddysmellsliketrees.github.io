@@ -2,7 +2,7 @@ import * as React from "react";
 
 import Head from "../components/Head";
 
-interface AboutEnProps {
+interface IAboutEn {
   i18nMessages: {
     description: string;
     keywords: string[];
@@ -13,7 +13,7 @@ interface AboutEnProps {
   };
 }
 
-const AboutEn: React.SFC<AboutEnProps> = ({
+const AboutEn: React.SFC<IAboutEn> = ({
   i18nMessages,
   i18nMessages: {
     pageNames: { about }

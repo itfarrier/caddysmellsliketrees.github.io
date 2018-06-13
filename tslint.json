@@ -1,4 +1,4 @@
 {
   "defaultSeverity": "error",
-  "extends": ["tslint:all", "tslint-react", "tslint-config-prettier"]
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"]
 }

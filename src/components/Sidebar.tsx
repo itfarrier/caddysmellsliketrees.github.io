@@ -1,9 +1,9 @@
-import * as React from "react";
 import Link from "gatsby-link";
+import * as React from "react";
 
 import LanguageChanger from "./LanguageChanger";
 
-interface SidebarProps {
+interface ISidebar {
   children?: any;
   homeLink: string;
   langs: Array<{ index: number; langKey: string; link: string }>;
@@ -16,7 +16,7 @@ interface SidebarProps {
   };
 }
 
-const Sidebar: React.SFC<SidebarProps> = ({
+const Sidebar: React.SFC<ISidebar> = ({
   homeLink,
   langs,
   pageNames: { about, donate, lyrics, news, videos }
