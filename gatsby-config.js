@@ -3,11 +3,9 @@ const languages = require("./src/data/languages");
 module.exports = {
   plugins: [
     {
-      resolve: "gatsby-plugin-i18n",
       options: {
-        langKeyForNull: "en",
         langKeyDefault: languages.defaultLangKey,
-        useLangKeyLayout: true,
+        langKeyForNull: "en",
         markdownRemark: {
           postPage: "src/templates/Template.tsx",
           query: `
@@ -29,17 +27,19 @@ module.exports = {
               }
             }
           `
-        }
-      }
+        },
+        useLangKeyLayout: true
+      },
+      resolve: "gatsby-plugin-i18n"
     },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-typescript",
     {
-      resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
         path: `${__dirname}/src/pages`
-      }
+      },
+      resolve: "gatsby-source-filesystem"
     },
     "gatsby-transformer-remark"
   ],
