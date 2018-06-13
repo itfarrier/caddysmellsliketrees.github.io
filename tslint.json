@@ -1,14 +1,4 @@
 {
   "defaultSeverity": "error",
-  "extends": ["tslint:recommended"],
-  "jsRules": {},
-  "rules": {
-    "interface-name": ["never-prefix"],
-    "member-access": [false],
-    "no-console": [false],
-    "no-var-requires": false,
-    "ordered-imports": [false],
-    "trailing-comma": [false]
-  },
-  "rulesDirectory": []
+  "extends": ["tslint:all", "tslint-react", "tslint-config-prettier"]
 }
