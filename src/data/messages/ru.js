@@ -11,8 +11,10 @@ module.exports = {
   pageNames: {
     about: "О группе",
     donate: "Поддержать!",
+    home: "Главная",
     lyrics: "Тексты",
     news: "Новости",
+    store: "Магазин",
     videos: "Видео"
   },
   title: "Кэдди пахнет деревьями"

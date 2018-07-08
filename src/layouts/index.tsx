@@ -3,14 +3,22 @@ import { getCurrentLangKey, getLangs, getUrlForLang } from "ptz-i18n";
 import * as React from "react";
 import { IntlProvider } from "react-intl";
 
+import Footer from "../components/Footer";
 import Head from "../components/Head";
-import Sidebar from "../components/Sidebar";
+import Header from "../components/Header";
+
+import * as styles from "./index.module.scss";
 
 interface IIndexLayout {
   children?: any;
   data: {
     site: {
-      siteMetadata: { languages: { defaultLangKey: string; langs: string[] } };
+      siteMetadata: {
+        languages: {
+          defaultLangKey: string;
+          langs: Array<{ index: number; langKey: string; link: string }>;
+        };
+      };
     };
   };
   location: {
@@ -22,8 +30,10 @@ interface IIndexLayout {
     pageNames: {
       about: string;
       donate: string;
+      home: string;
       lyrics: string;
       news: string;
+      store: string;
       videos: string;
     };
     title: string;
@@ -52,8 +62,11 @@ const IndexLayout: React.SFC<IIndexLayout> = props => {
     <IntlProvider locale={langKey} messages={i18nMessages}>
       <React.Fragment>
         <Head i18nMessages={i18nMessages} />
-        <Sidebar homeLink={homeLink} langs={langsMenu} pageNames={pageNames} />
-        <main>{children({ i18nMessages, ...props })}</main>
+        <Header homeLink={homeLink} pageNames={pageNames} />
+        <main className={styles.main}>
+          {children({ i18nMessages, ...props })}
+        </main>
+        <Footer langs={langsMenu} />
       </React.Fragment>
     </IntlProvider>
   );

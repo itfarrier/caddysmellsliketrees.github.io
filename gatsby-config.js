@@ -33,6 +33,13 @@ module.exports = {
       resolve: "gatsby-plugin-i18n"
     },
     "gatsby-plugin-react-helmet",
+    {
+      options: {
+        precision: 10
+      },
+      resolve: "gatsby-plugin-sass"
+    },
+    "gatsby-plugin-svgr",
     "gatsby-plugin-typescript",
     {
       options: {

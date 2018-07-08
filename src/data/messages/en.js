@@ -11,8 +11,10 @@ module.exports = {
   pageNames: {
     about: "About",
     donate: "Donate!",
+    home: "Home",
     lyrics: "Lyrics",
     news: "News",
+    store: "Store",
     videos: "Videos"
   },
   title: "Caddy smells like trees"
