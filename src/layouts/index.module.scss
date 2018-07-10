@@ -33,6 +33,13 @@ body {
 }
 
 .main {
+  display: flex;
   flex: 1;
+  align-items: stretch;
+  justify-content: center;
   background: #f0f0f0;
+}
+
+.space {
+  height: 4.625em;
 }

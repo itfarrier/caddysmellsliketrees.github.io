@@ -3,6 +3,8 @@ import * as React from "react";
 
 import Head from "../components/Head";
 
+import * as styles from "./lyrics.module.scss";
+
 interface ILyricsRu {
   data: {
     allMarkdownRemark: {
@@ -41,16 +43,15 @@ const LyricsRu: React.SFC<ILyricsRu> = ({
 }) => (
   <React.Fragment>
     <Head i18nMessages={i18nMessages} page={lyrics} />
-    <h1>{lyrics}</h1>
-    <div>
-      <ul>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <li key={node.id}>
-            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul className={styles.ul}>
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <li className={styles.li} key={node.id}>
+          <Link className={styles.a} to={node.fields.slug}>
+            {node.frontmatter.title}
+          </Link>
+        </li>
+      ))}
+    </ul>
   </React.Fragment>
 );
 

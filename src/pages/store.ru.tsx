@@ -1,7 +1,8 @@
-import Link from "gatsby-link";
 import * as React from "react";
 
 import Head from "../components/Head";
+
+import * as styles from "./store.module.scss";
 
 interface IStoreRu {
   i18nMessages: {
@@ -24,8 +25,20 @@ const StoreRu: React.SFC<IStoreRu> = ({
 }) => (
   <React.Fragment>
     <Head i18nMessages={i18nMessages} page={store} />
-    <h1>{store}</h1>
-    <Link to="/en/">Back to the index page</Link>
+    <div className={styles.div}>
+      <div className={styles.item}>
+        <div className={styles.title} />
+      </div>
+      <div className={styles.item}>
+        <div className={styles.title} />
+      </div>
+      <div className={styles.item}>
+        <div className={styles.title} />
+      </div>
+      <div className={styles.item}>
+        <div className={styles.title} />
+      </div>
+    </div>
   </React.Fragment>
 );
 

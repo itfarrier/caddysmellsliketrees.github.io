@@ -4,6 +4,7 @@
     "alwaysStrict": true,
     "checkJs": true,
     "diagnostics": true,
+    "experimentalDecorators": true,
     "jsx": "React",
     "lib": ["DOM", "ES2015", "ES2016", "ES2017", "ES2018", "ESNext"],
     "listEmittedFiles": true,

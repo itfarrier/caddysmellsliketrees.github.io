@@ -35,9 +35,7 @@ module.exports = class HTML extends React.Component {
           {this.props.headComponents}
           {css}
         </head>
-        <body
-          {...this.props.bodyAttributes}
-        >
+        <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
           <div
             dangerouslySetInnerHTML={{ __html: this.props.body }}

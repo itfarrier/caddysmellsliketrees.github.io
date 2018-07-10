@@ -20,42 +20,57 @@ interface IHeader {
     store: string;
     videos: string;
   };
+  pathname: string;
 }
 
 const Header: React.SFC<IHeader> = ({
   homeLink,
-  pageNames: { about, home, lyrics, store }
-}) => (
-  <header className={styles.header}>
-    <nav className={styles.nav}>
-      <ul className={styles.ul}>
-        <li className={styles.item}>
-          <Link to={homeLink}>
-            <IconTree />
-            <span>{home}</span>
-          </Link>
-        </li>
-        <li className={styles.item}>
-          <Link to={`${homeLink}lyrics`}>
-            <IconLyrics />
-            <span>{lyrics}</span>
-          </Link>
-        </li>
-        <li className={styles.item}>
-          <Link to={`${homeLink}store`}>
-            <IconStore />
-            <span>{store}</span>
-          </Link>
-        </li>
-        <li className={styles.item}>
-          <Link to={`${homeLink}about`}>
-            <IconAbout />
-            <span>{about}</span>
-          </Link>
-        </li>
-      </ul>
-    </nav>
-  </header>
-);
+  pageNames: { about, home, lyrics, store },
+  pathname
+}) => {
+  const svgFill =
+    pathname === "/en/" || pathname === "/ru/"
+      ? {
+          color: "#f0f0f0",
+          fill: "#f0f0f0"
+        }
+      : {
+          color: "#0a0a0a",
+          fill: "#0a0a0a"
+        };
+
+  return (
+    <header className={styles.header}>
+      <nav className={styles.nav}>
+        <ul className={styles.ul}>
+          <li className={styles.li}>
+            <Link className={styles.a} to={homeLink}>
+              <IconTree style={svgFill} />
+              <span style={svgFill}>{home}</span>
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link className={styles.a} to={`${homeLink}lyrics`}>
+              <IconLyrics style={svgFill} />
+              <span style={svgFill}>{lyrics}</span>
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link className={styles.a} to={`${homeLink}store`}>
+              <IconStore style={svgFill} />
+              <span style={svgFill}>{store}</span>
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link className={styles.a} to={`${homeLink}about`}>
+              <IconAbout style={svgFill} />
+              <span style={svgFill}>{about}</span>
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
 
 export default Header;

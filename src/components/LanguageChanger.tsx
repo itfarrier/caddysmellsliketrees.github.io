@@ -1,6 +1,8 @@
 import Link from "gatsby-link";
 import * as React from "react";
 
+import * as styles from "./LanguageChanger.module.scss";
+
 interface ILanguageChanger {
   children?: any;
   langs: Array<{ index: number; langKey: string; link: string }>;
@@ -8,12 +10,12 @@ interface ILanguageChanger {
 
 const LanguageChanger: React.SFC<ILanguageChanger> = ({ langs }) => {
   const links: object = langs.map(lang => (
-    <Link to={lang.link} key={lang.langKey}>
-      <li>{lang.langKey}</li>
+    <Link className={styles.a} to={lang.link} key={lang.langKey}>
+      {lang.langKey}
     </Link>
   ));
 
-  return <ul>{links}</ul>;
+  return <React.Fragment>{links}</React.Fragment>;
 };
 
 export default LanguageChanger;
