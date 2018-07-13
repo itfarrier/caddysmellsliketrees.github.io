@@ -1,5 +1,11 @@
+@import "../variables.module";
+
 .article {
   padding: 2em;
+
+  @media #{$large} {
+    width: 37.5em;
+  }
 }
 
 .section {
@@ -12,6 +18,10 @@
   font-family: "Hagin Caps", sans-serif;
   font-size: 1.5em;
   text-align: center;
+
+  @media #{$large} {
+    font-size: 2.1875em;
+  }
 }
 
 .ul {

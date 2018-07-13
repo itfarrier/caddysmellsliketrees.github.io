@@ -1,3 +1,5 @@
+@import "../variables.module";
+
 @import "~systematize";
 
 @font-face {
@@ -40,6 +42,19 @@ body {
   background: #f0f0f0;
 }
 
+.mainRoot {
+  @extend .main;
+
+  @media #{$large} {
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
 .space {
   height: 4.625em;
+
+  @media #{$large} {
+    height: 7.25em;
+  }
 }

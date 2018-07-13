@@ -1,14 +1,23 @@
+@import "../variables.module";
+
 .div {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+
+  @media #{$large} {
+    flex-flow: wrap;
+    align-content: flex-start;
+    justify-content: center;
+  }
 }
 
 .item {
   display: flex;
   width: 20.5em;
   height: 12.5em;
-  margin: 1em 0;
+  flex-shrink: 0;
+  margin: 1em;
   background: #d8d8d8;
 }
 

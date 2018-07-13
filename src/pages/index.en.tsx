@@ -1,11 +1,16 @@
-import Link from "gatsby-link";
 import * as React from "react";
 
+import * as styles from "./index.module.scss";
+
 const IndexEn: React.SFC = () => (
-  <React.Fragment>
-    <h1>Index page</h1>
-    <Link to="/en/page-2/">Go to page 2</Link>
-  </React.Fragment>
+  <article className={styles.article}>
+    <p>We play soul-helpful every day songs.</p>
+    <p>
+      They grow in our forests so that they are difficult to separate from each
+      other.
+    </p>
+    <p>And between them glint bold deer poems.</p>
+  </article>
 );
 
 export default IndexEn;
