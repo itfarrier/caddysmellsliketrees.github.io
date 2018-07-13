@@ -25,46 +25,60 @@ interface IHeader {
 
 const Header: React.SFC<IHeader> = ({
   homeLink,
+  pageNames,
   pageNames: { about, home, lyrics, store },
   pathname
 }) => {
-  const svgFill =
-    pathname === "/en/" || pathname === "/ru/"
-      ? {
-          color: "#f0f0f0",
-          fill: "#f0f0f0"
-        }
-      : {
-          color: "#0a0a0a",
-          fill: "#0a0a0a"
-        };
+  const pageRoot = pathname === "/en/" || pathname === "/ru/";
+  const spanClassName = pageRoot ? styles.spanRoot : styles.span;
+  const svgClassName = pageRoot ? styles.svgRoot : styles.svg;
 
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
         <ul className={styles.ul}>
           <li className={styles.li}>
-            <Link className={styles.a} to={homeLink}>
-              <IconTree style={svgFill} />
-              <span style={svgFill}>{home}</span>
+            <Link
+              activeClassName={styles.aActive}
+              className={styles.a}
+              isActive={() => pathname === homeLink}
+              to={homeLink}
+            >
+              <IconTree className={svgClassName} />
+              <span className={spanClassName}>{home}</span>
             </Link>
           </li>
           <li className={styles.li}>
-            <Link className={styles.a} to={`${homeLink}lyrics`}>
-              <IconLyrics style={svgFill} />
-              <span style={svgFill}>{lyrics}</span>
+            <Link
+              activeClassName={styles.aActive}
+              className={styles.a}
+              isActive={() => ~pathname.indexOf(`${homeLink}lyrics`)}
+              to={`${homeLink}lyrics`}
+            >
+              <IconLyrics className={svgClassName} />
+              <span className={spanClassName}>{lyrics}</span>
             </Link>
           </li>
           <li className={styles.li}>
-            <Link className={styles.a} to={`${homeLink}store`}>
-              <IconStore style={svgFill} />
-              <span style={svgFill}>{store}</span>
+            <Link
+              activeClassName={styles.aActive}
+              className={styles.a}
+              isActive={() => ~pathname.indexOf(`${homeLink}store`)}
+              to={`${homeLink}store`}
+            >
+              <IconStore className={svgClassName} />
+              <span className={spanClassName}>{store}</span>
             </Link>
           </li>
           <li className={styles.li}>
-            <Link className={styles.a} to={`${homeLink}about`}>
-              <IconAbout style={svgFill} />
-              <span style={svgFill}>{about}</span>
+            <Link
+              activeClassName={styles.aActive}
+              className={styles.a}
+              isActive={() => ~pathname.indexOf(`${homeLink}about`)}
+              to={`${homeLink}about`}
+            >
+              <IconAbout className={svgClassName} />
+              <span className={spanClassName}>{about}</span>
             </Link>
           </li>
         </ul>

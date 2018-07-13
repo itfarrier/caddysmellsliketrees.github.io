@@ -1,4 +1,3 @@
-import scrollRestorer from "@mapbox/scroll-restorer";
 import { withPrefix } from "gatsby-link";
 import { getUserLangKey } from "ptz-i18n";
 import * as React from "react";
@@ -22,14 +21,6 @@ class Index extends React.PureComponent<IIndex, {}> {
 
       window.___history.replace(homeUrl);
     }
-  }
-
-  public componentDidMount() {
-    scrollRestorer.start();
-  }
-
-  public componentWillUnmount() {
-    scrollRestorer.stop();
   }
 
   public render() {

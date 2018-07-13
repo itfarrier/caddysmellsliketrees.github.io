@@ -82,17 +82,37 @@
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-evenly;
+  opacity: 0.7;
   text-decoration: none;
+}
 
-  svg {
-    width: 2em;
-    height: 2em;
-  }
+.aActive {
+  @extend .a;
 
-  span {
-    color: #f0f0f0;
-    font-size: 0.625em;
-    text-decoration: none;
-    text-transform: capitalize;
-  }
+  opacity: 1;
+}
+
+.svg {
+  width: 2em;
+  height: 2em;
+  fill: #0a0a0a;
+}
+
+.svgRoot {
+  @extend .svg;
+
+  fill: #f0f0f0;
+}
+
+.span {
+  color: #0a0a0a;
+  font-size: 0.625em;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.spanRoot {
+  @extend .span;
+
+  color: #f0f0f0;
 }
