@@ -32,6 +32,8 @@ module.exports = {
       },
       resolve: "gatsby-plugin-i18n"
     },
+    "gatsby-plugin-manifest",
+    "gatsby-plugin-offline",
     "gatsby-plugin-react-helmet",
     {
       options: {
@@ -39,6 +41,7 @@ module.exports = {
       },
       resolve: "gatsby-plugin-sass"
     },
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-svgr",
     "gatsby-plugin-typescript",
     {
@@ -51,6 +54,7 @@ module.exports = {
     "gatsby-transformer-remark"
   ],
   siteMetadata: {
-    languages
+    languages,
+    siteUrl: "https://caddysmellsliketrees.ru"
   }
 };
