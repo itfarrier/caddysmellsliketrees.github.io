@@ -4,6 +4,8 @@
   position: fixed;
   width: 100%;
   background: #f0f0f0;
+  //overflow: hidden;
+  //background: url("/images/caddy.png") no-repeat center -10em;
 }
 
 .nav {
@@ -41,7 +43,12 @@
     }
 
     .li:first-child {
+      flex-grow: 2;
+      align-items: flex-start;
+
       .a {
+        margin-left: 10.3125em;
+
         .svg {
           display: block;
         }
@@ -50,6 +57,10 @@
           display: none;
         }
       }
+    }
+
+    .li:last-child {
+      margin-right: 10.9375em;
     }
   }
 }
@@ -67,6 +78,7 @@
 
   @media #{$large} {
     width: auto;
+    margin-right: 3.125em;
   }
 }
 

@@ -4,8 +4,6 @@
     "gatsby": "^1.9.273",
     "gatsby-link": "^1.6.45",
     "gatsby-plugin-i18n": "^0.4.2",
-    "gatsby-plugin-manifest": "^1.0.27",
-    "gatsby-plugin-offline": "^1.0.18",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-sass": "^1.0.26",
     "gatsby-plugin-sitemap": "^1.2.25",
@@ -63,7 +61,7 @@
     "build": "gatsby build",
     "clean": "rm -rf ./.cache/* && rm -rf ./public/*",
     "deploy": "git push origin source && yarn run build && cp CNAME public/ && gh-pages -b master -d public",
-    "deployTest": "git push test source && yarn run build && cp CNAME-TEST public/CNAME && gh-pages -b master -d public -o test",
+    "deployTest": "git push test && yarn run build && cp CNAME-TEST public/CNAME && gh-pages -b master -d public -o test",
     "start": "gatsby develop",
     "startProd": "yarn run build && gatsby serve"
   },
