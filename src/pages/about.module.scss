@@ -1,7 +1,7 @@
 @import "../variables.module";
 
 .article {
-  padding: 2em;
+  padding: 1em 2em;
 
   @media #{$large} {
     width: 37.5em;
@@ -20,7 +20,7 @@
   text-align: center;
 
   @media #{$large} {
-    font-size: 2.1875em;
+    font-size: 2em;
   }
 }
 
