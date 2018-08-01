@@ -29,41 +29,42 @@ const AboutEn: React.SFC<IAboutEn> = ({
           This band&thinsp;&mdash;&thinsp;our wooden frame
         </h1>
         <p className={styles.p}>
-          В&nbsp;феврале 2015&#8208;го упали наши зёрна в&nbsp;неведомую землю,
-          а&nbsp;к&nbsp;октябрю появились первые ростки. Плодами
-          мы&nbsp;зацветаем медленно, но&nbsp;наши ветви крепнут
-          и&nbsp;наливаются соком всё гуще и&nbsp;пряней!
+          In&nbsp;February 2015, our grains fell into unknown land, and
+          by&nbsp;October the first sprouts appeared. Fruits we&nbsp;bloom
+          slowly, but our branches grow stronger and are filled with juice ever
+          thicker and spicier!
         </p>
         <p className={styles.p}>
-          Мы&nbsp;играем душеполезные песни на&nbsp;каждый день. Они у&nbsp;нас
-          срастаются в&nbsp;леса так, что их&nbsp;тяжело отделить друг
-          от&nbsp;друга, а&nbsp;между ними бликуют смелыми оленями стихи.
+          We&nbsp;play soul&#8208;helpful songs for every day. They are merging
+          in&nbsp;our forests in&nbsp;such a&nbsp;way that
+          it&nbsp;is&nbsp;difficult to&nbsp;separate them from each other, and
+          between them bellow bold deer poems.
         </p>
       </section>
       <section className={styles.section}>
         <h1 className={styles.h1}>Members:</h1>
         <ul className={styles.ul}>
           <li>
-            Andrej Shvetsov<br />(ударные, вейв&#8208;драм, перкуссия)
+            Andrej Shvetsov<br />(drums, wavedrum, percussion)
           </li>
           <li>
-            Vadim Kolevatov<br />(ударные)
+            Vadim Kolevatov<br />(drums)
           </li>
           <li>
-            Vladislav Lutsyk<br />(аккордеон, духовые, вокал, бэк&#8208;вокал)
+            Vladislav Lutsyk<br />(accordion, wind, vocal, background vocal)
           </li>
           <li>
-            Dmitrij Vavilov<br />(укулеле, перкуссия, декламация стихов)
+            Dmitrij Vavilov<br />(ukulele, percussion, declamation of lyrics)
           </li>
           <li>
-            Svetlana Podabed<br />(духовые, гитара, вокал, бэк&#8208;вокал,
-            декламация стихов, перкуссия)
+            Svetlana Podabed<br />(wind, guitar, vocal, background vocal,
+            declamation of lyrics, percussion)
           </li>
           <li>
-            Sergej Nefed'ev<br />(гитара, вокал, бэк&#8208;вокал, перкуссия)
+            Sergej Nefed'ev<br />(guitar, vocal, background vocal, percussion)
           </li>
           <li>
-            Sergej Cvetkov<br />(бас&#8208;гитара, декламация стихов)
+            Sergej Cvetkov<br />(bass, declamation of lyrics)
           </li>
         </ul>
       </section>
