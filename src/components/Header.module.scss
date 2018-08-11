@@ -94,6 +94,10 @@
   @media #{$large} {
     height: 2.875em;
     justify-content: flex-end;
+
+    &:first-child {
+      width: 4em;
+    }
   }
 }
 
@@ -104,6 +108,7 @@
 
   @media #{$large} {
     border-top: solid 0.125em #979797;
+    margin-top: -0.125em;
     opacity: 0.7;
   }
 }
@@ -129,6 +134,7 @@
   font-size: 0.625em;
   text-decoration: none;
   text-transform: capitalize;
+  white-space: nowrap;
 
   @media #{$large} {
     font-size: 1.25em;
