@@ -12,7 +12,11 @@
   justify-content: space-evenly;
   color: #4a4a4a;
   font-family: "Hagin Caps", sans-serif;
-  font-size: 10em;
+  font-size: 5em;
+
+  @media #{$large} {
+    font-size: 10em;
+  }
 }
 
 .block {

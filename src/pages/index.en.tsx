@@ -25,7 +25,6 @@ const IndexEn: React.SFC = () => (
           </div>
         </div>
       )}
-      zeroPadLength={0}
     />
   </article>
 );

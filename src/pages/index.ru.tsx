@@ -41,7 +41,6 @@ const IndexRu: React.SFC = () => (
           </div>
         );
       }}
-      zeroPadLength={0}
     />
   </article>
 );
