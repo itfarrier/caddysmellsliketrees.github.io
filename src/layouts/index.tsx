@@ -57,8 +57,6 @@ const IndexLayout: React.SFC<IIndexLayout> = props => {
   const langKey = getCurrentLangKey(langs, defaultLangKey, pathname);
   const homeLink = `/${langKey}/`;
   const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, pathname));
-  const mainClassName =
-    pathname === "/en/" || pathname === "/ru/" ? styles.mainRoot : styles.main;
 
   return (
     <IntlProvider locale={langKey} messages={i18nMessages}>
@@ -66,7 +64,7 @@ const IndexLayout: React.SFC<IIndexLayout> = props => {
         <Head i18nMessages={i18nMessages} />
         <Header homeLink={homeLink} pageNames={pageNames} pathname={pathname} />
         <div className={styles.space} />
-        <main className={mainClassName}>
+        <main className={styles.main}>
           {children({ i18nMessages, ...props })}
         </main>
         <Footer langs={langsMenu} />
