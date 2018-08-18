@@ -3,7 +3,18 @@
 .article {
   overflow: hidden;
   width: 100%;
-  height: 100%;
+}
+
+.untilShow {
+  padding-bottom: 2em;
+  color: #4a4a4a;
+  font-family: "Hagin Caps", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+
+  @media #{$large} {
+    font-size: 2em;
+  }
 }
 
 .countdown {

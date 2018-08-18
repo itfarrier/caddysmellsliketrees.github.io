@@ -5,6 +5,7 @@ import * as styles from "./index.module.scss";
 
 const IndexRu: React.SFC = () => (
   <article className={styles.article}>
+    <div className={styles.untilShow}>До следующего концерта Кэдди:</div>
     <Countdown
       date="01 Sep 2018 20:00"
       renderer={({ days, hours, minutes }) => {
