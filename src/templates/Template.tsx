@@ -2,6 +2,8 @@ import * as React from "react";
 
 import Head from "../components/Head";
 
+import * as styles from "./Template.module.scss";
+
 interface ITemplate {
   data: {
     markdownRemark: {
@@ -49,7 +51,10 @@ const Template: React.SFC<ITemplate> = ({
   return (
     <React.Fragment>
       {head}
-      <article dangerouslySetInnerHTML={{ __html: html }} />
+      <article
+        className={styles.article}
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
     </React.Fragment>
   );
 };
