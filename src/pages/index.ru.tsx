@@ -7,7 +7,7 @@ const IndexRu: React.SFC = () => (
   <article className={styles.article}>
     <div className={styles.untilShow}>До следующего концерта Кэдди:</div>
     <Countdown
-      date="01 Sep 2018 20:00"
+      date="01 Sep 2019 20:00"
       renderer={({ days, hours, minutes }) => {
         function declOfNum(time: number, titles: string[]) {
           const cases = [2, 0, 1, 1, 1, 2];
