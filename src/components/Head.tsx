@@ -28,7 +28,7 @@ const Head: React.SFC<IHead> = ({
   page,
   subPage
 }) => {
-  const fullTitle: string = subPage
+  const variantOfPageTitle: string = subPage
     ? `${title} — ${description} — ${page} — ${subPage}`
     : page
       ? `${title} — ${description} — ${page}`
@@ -40,7 +40,7 @@ const Head: React.SFC<IHead> = ({
         { name: "description", content: description },
         { name: "keywords", content: keywords }
       ]}
-      title={fullTitle}
+      title={variantOfPageTitle}
     />
   );
 };

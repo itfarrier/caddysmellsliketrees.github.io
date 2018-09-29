@@ -9,13 +9,13 @@ interface ILanguageChanger {
 }
 
 const LanguageChanger: React.SFC<ILanguageChanger> = ({ langs }) => {
-  const links: object = langs.map(lang => (
-    <Link className={styles.a} to={lang.link} key={lang.langKey}>
-      {lang.langKey}
+  const generateListWithLanguagesLinks: object = langs.map(language => (
+    <Link className={styles.a} to={language.link} key={language.langKey}>
+      {language.langKey}
     </Link>
   ));
 
-  return <React.Fragment>{links}</React.Fragment>;
+  return <React.Fragment>{generateListWithLanguagesLinks}</React.Fragment>;
 };
 
 export default LanguageChanger;

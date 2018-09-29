@@ -28,57 +28,71 @@ const Header: React.SFC<IHeader> = ({
   pageNames,
   pageNames: { about, home, lyrics, store },
   pathname
-}) => (
-  <header className={styles.header}>
-    <nav className={styles.nav}>
-      <ul className={styles.ul}>
-        <li className={styles.li}>
-          <Link
-            activeClassName={styles.aActive}
-            className={styles.a}
-            isActive={() => pathname === homeLink}
-            to={homeLink}
-          >
-            <IconTree className={styles.svg} />
-            <span className={styles.span}>{home}</span>
-          </Link>
-        </li>
-        <li className={styles.li}>
-          <Link
-            activeClassName={styles.aActive}
-            className={styles.a}
-            isActive={() => ~pathname.indexOf(`${homeLink}lyrics`)}
-            to={`${homeLink}lyrics`}
-          >
-            <IconLyrics className={styles.svg} />
-            <span className={styles.span}>{lyrics}</span>
-          </Link>
-        </li>
-        <li className={styles.li}>
-          <Link
-            activeClassName={styles.aActive}
-            className={styles.a}
-            isActive={() => ~pathname.indexOf(`${homeLink}store`)}
-            to={`${homeLink}store`}
-          >
-            <IconStore className={styles.svg} />
-            <span className={styles.span}>{store}</span>
-          </Link>
-        </li>
-        <li className={styles.li}>
-          <Link
-            activeClassName={styles.aActive}
-            className={styles.a}
-            isActive={() => ~pathname.indexOf(`${homeLink}about`)}
-            to={`${homeLink}about`}
-          >
-            <IconAbout className={styles.svg} />
-            <span className={styles.span}>{about}</span>
-          </Link>
-        </li>
-      </ul>
-    </nav>
-  </header>
-);
+}) => {
+  const activeStyleConditionForAboutLink = () =>
+    checkThatThePathnameContains("about");
+  const activeStyleConditionForHomeLink = () => pathname === homeLink;
+  const activeStyleConditionForLyricsLink = () =>
+    checkThatThePathnameContains("lyrics");
+  const activeStyleConditionForStoreLink = () =>
+    checkThatThePathnameContains("store");
+
+  function checkThatThePathnameContains(word: string) {
+    return pathname.indexOf(`${homeLink}${word}`) > -1;
+  }
+
+  return (
+    <header className={styles.header}>
+      <nav className={styles.nav}>
+        <ul className={styles.ul}>
+          <li className={styles.li}>
+            <Link
+              activeClassName={styles.aActive}
+              className={styles.a}
+              isActive={activeStyleConditionForHomeLink}
+              to={homeLink}
+            >
+              <IconTree className={styles.svg} />
+              <span className={styles.span}>{home}</span>
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link
+              activeClassName={styles.aActive}
+              className={styles.a}
+              isActive={activeStyleConditionForLyricsLink}
+              to={`${homeLink}lyrics`}
+            >
+              <IconLyrics className={styles.svg} />
+              <span className={styles.span}>{lyrics}</span>
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link
+              activeClassName={styles.aActive}
+              className={styles.a}
+              isActive={activeStyleConditionForStoreLink}
+              to={`${homeLink}store`}
+            >
+              <IconStore className={styles.svg} />
+              <span className={styles.span}>{store}</span>
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link
+              activeClassName={styles.aActive}
+              className={styles.a}
+              isActive={activeStyleConditionForAboutLink}
+              to={`${homeLink}about`}
+            >
+              <IconAbout className={styles.svg} />
+              <span className={styles.span}>{about}</span>
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
 
 export default Header;
