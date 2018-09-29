@@ -1,5 +1,5 @@
 ---
-title: В КЛЮВИКАХ
+title: V KL'UVIKAH
 type: lyrics
 ---
 

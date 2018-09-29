@@ -1,5 +1,5 @@
 ---
-title: САГА О РОНИНЕ
+title: SAGA O RONINE
 type: lyrics
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ВНУТРИ ГЕРБАРИЯ
+title: VNUTRI GERBARIYA
 type: lyrics
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: МАЛЬЧИК-БАТИСКАФ
+title: MAL'CHIK-BATISKAF
 type: lyrics
 ---
 

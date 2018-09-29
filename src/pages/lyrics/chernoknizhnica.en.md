@@ -1,5 +1,5 @@
 ---
-title: ЧЕРНОКНИЖНИЦА
+title: CHERNOKNIZHNICA
 type: lyrics
 ---
 

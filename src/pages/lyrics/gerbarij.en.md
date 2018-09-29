@@ -1,5 +1,5 @@
 ---
-title: ГЕРБАРИЙ
+title: GERBARIJ
 type: lyrics
 ---
 

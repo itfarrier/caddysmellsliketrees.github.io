@@ -1,5 +1,5 @@
 ---
-title: ПОДРАСТИ
+title: PODRASTI
 type: lyrics
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: КЛЮВИКИ НОТ
+title: KL'UVIKI NOT
 type: lyrics
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: МАЛО
+title: MALO
 type: lyrics
 ---
 

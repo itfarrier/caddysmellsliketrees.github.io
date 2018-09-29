@@ -1,5 +1,5 @@
 ---
-title: КРАСНАЯ ПЕСНЯ
+title: KRASNAYA PESN'YA
 type: lyrics
 ---
 

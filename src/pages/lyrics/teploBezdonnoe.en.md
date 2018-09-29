@@ -1,5 +1,5 @@
 ---
-title: ТЕПЛО БЕЗДОННОЕ
+title: TEPLO BEZDONNOE
 type: lyrics
 ---
 

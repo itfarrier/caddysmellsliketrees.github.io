@@ -1,5 +1,5 @@
 ---
-title: "ОЗЕРО"
+title: OZERO
 type: lyrics
 ---
 

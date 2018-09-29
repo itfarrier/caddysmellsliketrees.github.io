@@ -1,5 +1,5 @@
 ---
-title: ЛЕС
+title: LES
 type: lyrics
 ---
 

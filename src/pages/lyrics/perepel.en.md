@@ -1,5 +1,5 @@
 ---
-title: ПЕРЕПЕЛ
+title: PEREPEL
 type: lyrics
 ---
 

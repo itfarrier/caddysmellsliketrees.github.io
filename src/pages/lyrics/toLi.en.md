@@ -1,5 +1,5 @@
 ---
-title: ТО ЛИ
+title: TO LI
 type: lyrics
 ---
 

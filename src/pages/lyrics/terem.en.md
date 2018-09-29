@@ -1,5 +1,5 @@
 ---
-title: ТЕРЕМ
+title: TEREM
 type: lyrics
 ---
 
