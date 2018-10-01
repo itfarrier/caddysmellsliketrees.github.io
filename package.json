@@ -1,9 +1,10 @@
 {
   "author": "Dmitrij Podabed",
   "dependencies": {
-    "gatsby": "1.9.274",
-    "gatsby-link": "1.6.46",
+    "gatsby": "^1.9.278",
+    "gatsby-link": "^1.6.46",
     "gatsby-plugin-i18n": "^0.4.2",
+    "gatsby-plugin-manifest": "^1.0.27",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-sass": "^1.0.26",
     "gatsby-plugin-sitemap": "^1.2.25",
