@@ -14,7 +14,7 @@ module.exports = {
     home: "Home",
     lyrics: "Lyrics",
     news: "News",
-    store: "Store",
+    photos: "Photos",
     videos: "Videos"
   },
   title: "Caddy smells like trees"

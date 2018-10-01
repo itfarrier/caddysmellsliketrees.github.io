@@ -74,7 +74,7 @@ const AboutRu: React.SFC<IAboutRu> = ({
             <img
               alt="PDF logo"
               className={styles.pdfImg}
-              src="/vectors/file-pdf.svg"
+              src="/vectors/filePdf.svg"
             />
           </a>
         </h1>

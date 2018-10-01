@@ -9,12 +9,12 @@ module.exports = {
     "фри-фолк"
   ],
   pageNames: {
-    about: "О группе",
+    about: "О нас",
     donate: "Поддержать!",
     home: "Главная",
     lyrics: "Тексты",
     news: "Новости",
-    store: "Магазин",
+    photos: "Фото",
     videos: "Видео"
   },
   title: "Кэдди пахнет деревьями"

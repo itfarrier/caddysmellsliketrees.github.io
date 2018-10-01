@@ -5,8 +5,8 @@ import * as styles from "./Header.module.scss";
 
 import { ReactComponent as IconAbout } from "../../static/vectors/about.svg";
 import { ReactComponent as IconLyrics } from "../../static/vectors/lyrics.svg";
-import { ReactComponent as IconStore } from "../../static/vectors/store.svg";
-import { ReactComponent as IconTree } from "../../static/vectors/tree.svg";
+import { ReactComponent as IconPhotos } from "../../static/vectors/photos.svg";
+import { ReactComponent as IconTree } from "../../static/vectors/logo.svg";
 
 interface IHeader {
   children?: any;
@@ -17,7 +17,7 @@ interface IHeader {
     home: string;
     lyrics: string;
     news: string;
-    store: string;
+    photos: string;
     videos: string;
   };
   pathname: string;
@@ -26,7 +26,7 @@ interface IHeader {
 const Header: React.SFC<IHeader> = ({
   homeLink,
   pageNames,
-  pageNames: { about, home, lyrics, store },
+  pageNames: { about, home, lyrics, photos },
   pathname
 }) => {
   const activeStyleConditionForAboutLink = () =>
@@ -35,7 +35,7 @@ const Header: React.SFC<IHeader> = ({
   const activeStyleConditionForLyricsLink = () =>
     checkThatThePathnameContains("lyrics");
   const activeStyleConditionForStoreLink = () =>
-    checkThatThePathnameContains("store");
+    checkThatThePathnameContains("photos");
 
   function checkThatThePathnameContains(word: string) {
     return pathname.indexOf(`${homeLink}${word}`) > -1;
@@ -72,10 +72,10 @@ const Header: React.SFC<IHeader> = ({
               activeClassName={styles.aActive}
               className={styles.a}
               isActive={activeStyleConditionForStoreLink}
-              to={`${homeLink}store`}
+              to={`${homeLink}photos`}
             >
-              <IconStore className={styles.svg} />
-              <span className={styles.span}>{store}</span>
+              <IconPhotos className={styles.svg} />
+              <span className={styles.span}>{photos}</span>
             </Link>
           </li>
           <li className={styles.li}>
