@@ -33,7 +33,7 @@ interface IIndexLayout {
       home: string;
       lyrics: string;
       news: string;
-      store: string;
+      photos: string;
       videos: string;
     };
     title: string;
