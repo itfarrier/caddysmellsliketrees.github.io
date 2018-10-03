@@ -1,5 +1,15 @@
 {
-  "author": "Dmitrij Podabed",
+  "contributors": [
+    {
+      "email": "designer.nikitin@gmail.com",
+      "name": "Alexander Nikitin"
+    },
+    {
+      "email": "dmitrij@podabed.org",
+      "name": "Dmitrij Podabed",
+      "url": "https://podabed.org"
+    }
+  ],
   "dependencies": {
     "gatsby": "^1.9.278",
     "gatsby-link": "^1.6.46",
@@ -45,7 +55,6 @@
     "tslint-react": "^3.6.0",
     "typescript": "^3.1.1"
   },
-  "email": "dmitrij@podabed.org",
   "keywords": [
     "caddy",
     "smells",

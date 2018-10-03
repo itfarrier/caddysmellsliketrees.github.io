@@ -258,7 +258,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem"
     },
     "gatsby-transformer-remark",
-    "gatsby-plugin-offline" //order is important
+    // "gatsby-plugin-offline" //order is important
   ],
   siteMetadata: {
     languages,
