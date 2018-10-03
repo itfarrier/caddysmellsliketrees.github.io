@@ -1,20 +1,14 @@
 @import "../variables.module";
 
 .article {
-  padding: 1em 2em;
+  padding: 2em;
 
   @media #{$large} {
     width: 37.5em;
   }
 }
 
-.section {
-  margin-top: 2em;
-}
-
 .h1 {
-  width: 10em;
-  margin: 0 auto;
   font-family: "Hagin Caps", sans-serif;
   font-size: 1.5em;
   text-align: center;
