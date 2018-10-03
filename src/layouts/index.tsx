@@ -12,6 +12,13 @@ import * as styles from "./index.module.scss";
 interface IIndexLayout {
   children?: any;
   data: {
+    markdownRemark: {
+      frontmatter: {
+        title: string;
+        type: string;
+      };
+      html: string;
+    };
     site: {
       siteMetadata: {
         languages: {
@@ -20,9 +27,6 @@ interface IIndexLayout {
         };
       };
     };
-  };
-  location: {
-    pathname: string;
   };
   i18nMessages: {
     description: string;
@@ -37,6 +41,9 @@ interface IIndexLayout {
       videos: string;
     };
     title: string;
+  };
+  location: {
+    pathname: string;
   };
 }
 
