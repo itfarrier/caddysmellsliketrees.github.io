@@ -34,6 +34,7 @@ const Head: React.SFC<IHead> = ({
     return sizesInPx.map(size => (
       <link
         href={`/favicons/android-chrome-${size}x${size}.png`}
+        key={size}
         rel="icon"
         sizes={`${size}x${size}`}
         type="image/png"
@@ -62,6 +63,7 @@ const Head: React.SFC<IHead> = ({
     return sizesInPx.map(size => (
       <link
         href={`/favicons/favicon-${size}x${size}.png`}
+        key={size}
         rel="icon"
         sizes={`${size}x${size}`}
         type="image/png"
