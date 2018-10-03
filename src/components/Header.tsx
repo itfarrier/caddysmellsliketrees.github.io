@@ -36,10 +36,9 @@ const Header: React.SFC<IHeader> = ({
     checkThatThePathnameContains("lyrics");
   const activeStyleConditionForStoreLink = () =>
     checkThatThePathnameContains("photos");
-
-  function checkThatThePathnameContains(word: string) {
-    return pathname.indexOf(`${homeLink}${word}`) > -1;
-  }
+  const checkThatThePathnameContains = (theWord: string) => {
+    return pathname.indexOf(`${homeLink}${theWord}`) > -1;
+  };
 
   return (
     <header className={styles.header}>
