@@ -2,6 +2,7 @@ import * as React from "react";
 import Helmet from "react-helmet";
 
 interface IHead {
+  currentLanguage: string;
   i18nMessages: {
     description: string;
     keywords: string[];
@@ -19,6 +20,7 @@ interface IHead {
 }
 
 const Head: React.SFC<IHead> = ({
+  currentLanguage,
   i18nMessages: {
     description,
     keywords,
@@ -74,6 +76,7 @@ const Head: React.SFC<IHead> = ({
 
   return (
     <Helmet title={variantOfPageTitle}>
+      <html lang={currentLanguage} />
       {generateAndroidChrome([36, 48, 72, 96, 144, 192, 256, 384, 512])}
       <link
         href="/favicons/apple-touch-icon.png"

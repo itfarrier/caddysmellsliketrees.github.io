@@ -61,7 +61,7 @@ const IndexLayout: React.SFC<IIndexLayout> = props => {
   return (
     <IntlProvider locale={langKey} messages={i18nMessages}>
       <React.Fragment>
-        <Head i18nMessages={i18nMessages} />
+        <Head currentLanguage={langKey} i18nMessages={i18nMessages} />
         <Header homeLink={homeLink} pageNames={pageNames} pathname={pathname} />
         <div className={styles.space} />
         <main className={styles.main}>
