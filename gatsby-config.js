@@ -32,7 +32,6 @@ module.exports = {
       },
       resolve: "gatsby-plugin-i18n"
     },
-    "gatsby-plugin-offline", //order is important
     {
       options: {
         background_color: "#f0f0f0",
@@ -258,7 +257,8 @@ module.exports = {
       },
       resolve: "gatsby-source-filesystem"
     },
-    "gatsby-transformer-remark"
+    "gatsby-transformer-remark",
+    "gatsby-plugin-offline" //order is important
   ],
   siteMetadata: {
     languages,
