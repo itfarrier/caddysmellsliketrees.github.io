@@ -17,11 +17,19 @@ module.exports = {
                       slug
                       langKey
                     }
-                    frontmatter{
+                    frontmatter {
                       date
                       title
                       type
                     }
+                  }
+                }
+              }
+              site {
+                siteMetadata {
+                  languages {
+                    defaultLangKey
+                    langs
                   }
                 }
               }

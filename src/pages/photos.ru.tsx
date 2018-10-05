@@ -4,27 +4,19 @@ import Head from "../components/Head";
 
 import * as styles from "./photos.module.scss";
 
-interface IStoreRu {
-  i18nMessages: {
-    description: string;
-    keywords: string[];
-    pageNames: {
-      photos: string;
-    };
-    title: string;
-  };
-}
+import { IPhotos } from "../interfaces";
 
-const PhotosRu: React.SFC<IStoreRu> = ({
+const PhotosRu: React.SFC<IPhotos> = ({
   i18nMessages,
   i18nMessages: {
     description,
     keywords,
     pageNames: { photos }
-  }
+  },
+  langKey
 }) => (
   <React.Fragment>
-    <Head i18nMessages={i18nMessages} page={photos} />
+    <Head currentLanguage={langKey} i18nMessages={i18nMessages} page={photos} />
     <div className={styles.div}>
       <div className={styles.item}>
         <div className={styles.title} />

@@ -4,25 +4,17 @@ import Head from "../components/Head";
 
 import * as styles from "./about.module.scss";
 
-interface IAboutEn {
-  i18nMessages: {
-    description: string;
-    keywords: string[];
-    pageNames: {
-      about: string;
-    };
-    title: string;
-  };
-}
+import { IAbout } from "../interfaces";
 
-const AboutEn: React.SFC<IAboutEn> = ({
+const AboutEn: React.SFC<IAbout> = ({
   i18nMessages,
   i18nMessages: {
     pageNames: { about }
-  }
+  },
+  langKey
 }) => (
   <React.Fragment>
-    <Head i18nMessages={i18nMessages} page={about} />
+    <Head currentLanguage={langKey} i18nMessages={i18nMessages} page={about} />
     <article className={styles.article}>
       <section className={styles.section}>
         <h1 className={styles.h1}>
@@ -45,26 +37,40 @@ const AboutEn: React.SFC<IAboutEn> = ({
         <h1 className={styles.h1}>Members:</h1>
         <ul className={styles.ul}>
           <li>
-            Andrej Shvetsov<br />(drums, wavedrum, percussion)
+            Andrej Shvetsov
+            <br />
+            (drums, wavedrum, percussion)
           </li>
           <li>
-            Vadim Kolevatov<br />(drums)
+            Vadim Kolevatov
+            <br />
+            (drums)
           </li>
           <li>
-            Vladislav Lutsyk<br />(accordion, wind, vocal, background vocal)
+            Vladislav Lutsyk
+            <br />
+            (accordion, wind, vocal, background vocal)
           </li>
           <li>
-            Dmitrij Vavilov<br />(ukulele, percussion, declamation of lyrics)
+            Dmitrij Vavilov
+            <br />
+            (ukulele, percussion, declamation of lyrics)
           </li>
           <li>
-            Svetlana Podabed<br />(wind, guitar, vocal, background vocal,
-            declamation of lyrics, percussion)
+            Svetlana Podabed
+            <br />
+            (wind, guitar, vocal, background vocal, declamation of lyrics,
+            percussion)
           </li>
           <li>
-            Sergej Nefed'ev<br />(guitar, vocal, background vocal, percussion)
+            Sergej Nefed'ev
+            <br />
+            (guitar, vocal, background vocal, percussion)
           </li>
           <li>
-            Sergej Cvetkov<br />(bass, declamation of lyrics)
+            Sergej Cvetkov
+            <br />
+            (bass, declamation of lyrics)
           </li>
         </ul>
       </section>

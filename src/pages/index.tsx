@@ -2,13 +2,7 @@ import { withPrefix } from "gatsby-link";
 import { getUserLangKey } from "ptz-i18n";
 import * as React from "react";
 
-interface IIndex {
-  data: {
-    site: {
-      siteMetadata: { languages: { defaultLangKey: string; langs: string[] } };
-    };
-  };
-}
+import { IIndex } from "../interfaces";
 
 class Index extends React.PureComponent<IIndex, {}> {
   constructor(props: IIndex, context: any) {

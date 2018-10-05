@@ -5,44 +5,20 @@ import Head from "../components/Head";
 
 import * as styles from "./lyrics.module.scss";
 
-interface ILyricsRu {
-  data: {
-    allMarkdownRemark: {
-      edges: Array<{
-        node: {
-          fields: {
-            langKey: string;
-            slug: string;
-          };
-          frontmatter: {
-            title: string;
-          };
-          id: string;
-        };
-      }>;
-    };
-  };
-  i18nMessages: {
-    description: string;
-    keywords: string[];
-    pageNames: {
-      lyrics: string;
-    };
-    title: string;
-  };
-}
+import { ILyrics } from "../interfaces";
 
-const LyricsRu: React.SFC<ILyricsRu> = ({
+const LyricsRu: React.SFC<ILyrics> = ({
   data,
   i18nMessages,
   i18nMessages: {
     description,
     keywords,
     pageNames: { lyrics }
-  }
+  },
+  langKey
 }) => (
   <React.Fragment>
-    <Head i18nMessages={i18nMessages} page={lyrics} />
+    <Head currentLanguage={langKey} i18nMessages={i18nMessages} page={lyrics} />
     <ul className={styles.ul}>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <li className={styles.li} key={node.id}>

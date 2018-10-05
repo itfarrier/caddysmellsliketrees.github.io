@@ -15,36 +15,7 @@ import Header from "../components/Header";
 
 import * as styles from "./index.module.scss";
 
-interface IIndexLayout {
-  children?: any;
-  data: {
-    site: {
-      siteMetadata: {
-        languages: {
-          defaultLangKey: string;
-          langs: Array<{ index: number; langKey: string; link: string }>;
-        };
-      };
-    };
-  };
-  location: {
-    pathname: string;
-  };
-  i18nMessages: {
-    description: string;
-    keywords: string[];
-    pageNames: {
-      about: string;
-      donate: string;
-      home: string;
-      lyrics: string;
-      news: string;
-      photos: string;
-      videos: string;
-    };
-    title: string;
-  };
-}
+import { IIndexLayout } from "../interfaces";
 
 const IndexLayout: React.SFC<IIndexLayout> = props => {
   const {
@@ -74,7 +45,7 @@ const IndexLayout: React.SFC<IIndexLayout> = props => {
         />
         <div className={styles.space} />
         <main className={styles.main}>
-          {children({ i18nMessages, ...props })}
+          {children({ i18nMessages, langKey, ...props })}
         </main>
         <Footer langs={langsMenu} />
       </React.Fragment>

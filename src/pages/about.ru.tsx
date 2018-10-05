@@ -4,25 +4,17 @@ import Head from "../components/Head";
 
 import * as styles from "./about.module.scss";
 
-interface IAboutRu {
-  i18nMessages: {
-    description: string;
-    keywords: string[];
-    pageNames: {
-      about: string;
-    };
-    title: string;
-  };
-}
+import { IAbout } from "../interfaces";
 
-const AboutRu: React.SFC<IAboutRu> = ({
+const AboutRu: React.SFC<IAbout> = ({
   i18nMessages,
   i18nMessages: {
     pageNames: { about }
-  }
+  },
+  langKey
 }) => (
   <React.Fragment>
-    <Head i18nMessages={i18nMessages} page={about} />
+    <Head currentLanguage={langKey} i18nMessages={i18nMessages} page={about} />
     <article className={styles.article}>
       <section className={styles.section}>
         <h1 className={styles.h1}>
@@ -44,26 +36,40 @@ const AboutRu: React.SFC<IAboutRu> = ({
         <h1 className={styles.h1}>Состав:</h1>
         <ul className={styles.ul}>
           <li>
-            Андрей Швецов<br />(ударные, вейв&#8208;драм, перкуссия)
+            Андрей Швецов
+            <br />
+            (ударные, вейв&#8208;драм, перкуссия)
           </li>
           <li>
-            Вадим Колеватов<br />(ударные)
+            Вадим Колеватов
+            <br />
+            (ударные)
           </li>
           <li>
-            Владислав Луцык<br />(аккордеон, духовые, вокал, бэк&#8208;вокал)
+            Владислав Луцык
+            <br />
+            (аккордеон, духовые, вокал, бэк&#8208;вокал)
           </li>
           <li>
-            Дмитрий Вавилов<br />(укулеле, перкуссия, декламация стихов)
+            Дмитрий Вавилов
+            <br />
+            (укулеле, перкуссия, декламация стихов)
           </li>
           <li>
-            Светлана Подабед<br />(духовые, гитара, вокал, бэк&#8208;вокал,
-            декламация стихов, перкуссия)
+            Светлана Подабед
+            <br />
+            (духовые, гитара, вокал, бэк&#8208;вокал, декламация стихов,
+            перкуссия)
           </li>
           <li>
-            Сергей Нефедьев<br />(гитара, вокал, бэк&#8208;вокал, перкуссия)
+            Сергей Нефедьев
+            <br />
+            (гитара, вокал, бэк&#8208;вокал, перкуссия)
           </li>
           <li>
-            Сергей Цветков<br />(бас&#8208;гитара, декламация стихов)
+            Сергей Цветков
+            <br />
+            (бас&#8208;гитара, декламация стихов)
           </li>
         </ul>
       </section>
