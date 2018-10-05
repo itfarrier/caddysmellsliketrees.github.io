@@ -1,21 +1,21 @@
 {
-  "compilerOptions": {
-    "allowJs": true,
-    "alwaysStrict": true,
-    "checkJs": true,
-    "diagnostics": true,
-    "experimentalDecorators": true,
-    "jsx": "React",
-    "lib": ["DOM", "ES2015", "ES2016", "ES2017", "ES2018", "ESNext"],
-    "listEmittedFiles": true,
-    "listFiles": true,
-    "module": "CommonJS",
-    "moduleResolution": "Node",
-    "outDir": "./dist/",
-    "removeComments": true,
-    "sourceMap": true,
-    "strict": true,
-    "target": "ESNext"
-  },
-  "include": ["./src/**/*"]
+    "compilerOptions": {
+        "allowJs": true,
+        "alwaysStrict": true,
+        "checkJs": true,
+        "diagnostics": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "lib": ["dom", "es2015", "es2016", "es2017", "es2018", "esnext"],
+        "listEmittedFiles": true,
+        "listFiles": true,
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "outDir": "./dist/",
+        "removeComments": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "ESNext"
+    },
+    "include": ["./src/**/*"]
 }

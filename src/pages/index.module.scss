@@ -1,72 +1,72 @@
-@import "../variables.module";
+@import '../variables.module';
 
 .article {
-  overflow: hidden;
-  width: 100%;
+    overflow: hidden;
+    width: 100%;
 }
 
 .untilShow {
-  padding-bottom: 2em;
-  color: #4a4a4a;
-  font-family: "Hagin Caps", sans-serif;
-  font-size: 1.5em;
-  text-align: center;
+    padding-bottom: 2em;
+    color: #4a4a4a;
+    font-family: 'Hagin Caps', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
 
-  @media #{$large} {
-    font-size: 2em;
-  }
+    @media #{$large} {
+        font-size: 2em;
+    }
 }
 
 .countdown {
-  display: flex;
-  width: 100%;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  color: #4a4a4a;
-  font-family: "Hagin Caps", sans-serif;
-  font-size: 5em;
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    color: #4a4a4a;
+    font-family: 'Hagin Caps', sans-serif;
+    font-size: 5em;
 
-  @media #{$large} {
-    font-size: 10em;
-  }
+    @media #{$large} {
+        font-size: 10em;
+    }
 }
 
 .block {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 .title {
-  font-size: 0.2em;
+    font-size: 0.2em;
 }
 
 .svg {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  height: 20vh;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 20vh;
 }
 
 .wave1 {
-  animation: movewave 5s ease-in-out infinite alternate;
+    animation: movewave 5s ease-in-out infinite alternate;
 }
 
 .wave2 {
-  animation: movewave 10s ease-in-out infinite alternate-reverse;
+    animation: movewave 10s ease-in-out infinite alternate-reverse;
 }
 
 .wave3 {
-  animation: movewave 15s ease-in-out infinite alternate;
+    animation: movewave 15s ease-in-out infinite alternate;
 }
 
 @keyframes movewave {
-  from {
-    transform: translate(100%, 0);
-  }
+    from {
+        transform: translate(100%, 0);
+    }
 
-  to {
-    transform: translate(-100%, 0);
-  }
+    to {
+        transform: translate(-100%, 0);
+    }
 }

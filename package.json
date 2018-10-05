@@ -1,83 +1,83 @@
 {
-  "contributors": [
-    {
-      "email": "designer.nikitin@gmail.com",
-      "name": "Alexander Nikitin"
+    "contributors": [
+        {
+            "email": "designer.nikitin@gmail.com",
+            "name": "Alexander Nikitin"
+        },
+        {
+            "email": "dmitrij@podabed.org",
+            "name": "Dmitrij Podabed",
+            "url": "https://podabed.org"
+        }
+    ],
+    "dependencies": {
+        "gatsby": "^1.9.279",
+        "gatsby-link": "^1.6.46",
+        "gatsby-plugin-i18n": "^0.4.2",
+        "gatsby-plugin-manifest": "^1.0.27",
+        "gatsby-plugin-offline": "^1.0.18",
+        "gatsby-plugin-react-helmet": "^2.0.11",
+        "gatsby-plugin-sass": "^1.0.26",
+        "gatsby-plugin-sitemap": "^1.2.25",
+        "gatsby-plugin-svgr": "^1.0.1",
+        "gatsby-plugin-typescript": "^1.4.20",
+        "gatsby-source-filesystem": "^1.5.39",
+        "gatsby-transformer-remark": "^1.7.44",
+        "intl": "^1.2.5",
+        "ptz-i18n": "^0.4.0",
+        "react": "^16.5.2",
+        "react-countdown-now": "^1.3.0",
+        "react-dom": "^16.5.2",
+        "react-helmet": "^5.2.0",
+        "react-intl": "^2.4.0",
+        "react-lottie": "^1.2.3",
+        "systematize": "^3.1.0"
     },
-    {
-      "email": "dmitrij@podabed.org",
-      "name": "Dmitrij Podabed",
-      "url": "https://podabed.org"
-    }
-  ],
-  "dependencies": {
-    "gatsby": "^1.9.279",
-    "gatsby-link": "^1.6.46",
-    "gatsby-plugin-i18n": "^0.4.2",
-    "gatsby-plugin-manifest": "^1.0.27",
-    "gatsby-plugin-offline": "^1.0.18",
-    "gatsby-plugin-react-helmet": "^2.0.11",
-    "gatsby-plugin-sass": "^1.0.26",
-    "gatsby-plugin-sitemap": "^1.2.25",
-    "gatsby-plugin-svgr": "^1.0.1",
-    "gatsby-plugin-typescript": "^1.4.20",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
-    "intl": "^1.2.5",
-    "ptz-i18n": "^0.4.0",
-    "react": "^16.5.2",
-    "react-countdown-now": "^1.3.0",
-    "react-dom": "^16.5.2",
-    "react-helmet": "^5.2.0",
-    "react-intl": "^2.4.0",
-    "react-lottie": "^1.2.3",
-    "systematize": "^3.1.0"
-  },
-  "description": "Psychedelic free-folk",
-  "devDependencies": {
-    "@types/graphql": "^14.0.1",
-    "@types/intl": "^1.2.0",
-    "@types/node": "^10.11.4",
-    "@types/react": "^16.4.14",
-    "@types/react-dom": "^16.0.8",
-    "@types/react-helmet": "^5.0.7",
-    "@types/react-intl": "^2.3.11",
-    "gh-pages": "^2.0.1",
-    "pages": "^0.0.16",
-    "prettier": "^1.14.3",
-    "stylelint": "^9.6.0",
-    "stylelint-config-idiomatic-order": "^5.0.0",
-    "stylelint-config-recommended-scss": "^3.2.0",
-    "stylelint-images": "^2.0.0",
-    "stylelint-scss": "^3.3.1",
-    "tslint": "^5.11.0",
-    "tslint-config-prettier": "^1.15.0",
-    "tslint-react": "^3.6.0",
-    "typescript": "^3.1.1"
-  },
-  "keywords": [
-    "caddy",
-    "smells",
-    "like",
-    "trees",
-    "free-folk",
-    "band",
-    "music"
-  ],
-  "license": "GPL-3.0",
-  "main": "./src/layouts/index.tsx",
-  "name": "caddy-smells-like-trees",
-  "repository": {
-    "url": "caddysmellsliketrees.github.io",
-    "type": "git"
-  },
-  "scripts": {
-    "build": "gatsby build",
-    "clean": "rm -rf ./.cache/* && rm -rf ./public/*",
-    "deploy": "git push origin source && yarn run build && cp CNAME public/ && gh-pages -b master -d public",
-    "deployTest": "git push test && yarn run build && cp CNAME-TEST public/CNAME && gh-pages -b master -d public -o test",
-    "start": "gatsby develop",
-    "startProd": "yarn run build && gatsby serve"
-  },
-  "version": "3.0.0"
+    "description": "Psychedelic free-folk",
+    "devDependencies": {
+        "@types/graphql": "^14.0.1",
+        "@types/intl": "^1.2.0",
+        "@types/node": "^10.11.4",
+        "@types/react": "^16.4.14",
+        "@types/react-dom": "^16.0.8",
+        "@types/react-helmet": "^5.0.7",
+        "@types/react-intl": "^2.3.11",
+        "gh-pages": "^2.0.1",
+        "pages": "^0.0.16",
+        "prettier": "^1.14.3",
+        "stylelint": "^9.6.0",
+        "stylelint-config-idiomatic-order": "^5.0.0",
+        "stylelint-config-recommended-scss": "^3.2.0",
+        "stylelint-images": "^2.0.0",
+        "stylelint-scss": "^3.3.1",
+        "tslint": "^5.11.0",
+        "tslint-config-prettier": "^1.15.0",
+        "tslint-react": "^3.6.0",
+        "typescript": "^3.1.1"
+    },
+    "keywords": [
+        "caddy",
+        "smells",
+        "like",
+        "trees",
+        "free-folk",
+        "band",
+        "music"
+    ],
+    "license": "GPL-3.0",
+    "main": "./src/layouts/index.tsx",
+    "name": "caddy-smells-like-trees",
+    "repository": {
+        "url": "caddysmellsliketrees.github.io",
+        "type": "git"
+    },
+    "scripts": {
+        "build": "gatsby build",
+        "clean": "rm -rf ./.cache/* && rm -rf ./public/*",
+        "deploy": "git push origin source && yarn run build && cp CNAME public/ && gh-pages -b master -d public",
+        "deployTest": "git push test && yarn run build && cp CNAME-TEST public/CNAME && gh-pages -b master -d public -o test",
+        "start": "gatsby develop",
+        "startProd": "yarn run build && gatsby serve"
+    },
+    "version": "3.0.0"
 }

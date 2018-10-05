@@ -1,51 +1,49 @@
-@import "../variables.module";
+@import '../variables.module';
 
-@import "~systematize";
+@import '~systematize';
 
 @font-face {
-  font-family: "Hagin Caps";
-  font-style: normal;
-  font-weight: 100;
-  src: url("../../static/fonts/hinted-HaginCapsThin.eot");
-  src: local("Hagin Caps Thin"), local("HaginCapsThin"),
-    url("../../static/fonts/hinted-HaginCapsThin.eot?#iefix")
-      format("embedded-opentype"),
-    url("../../static/fonts/hinted-HaginCapsThin.woff2") format("woff2"),
-    url("../../static/fonts/hinted-HaginCapsThin.woff") format("woff"),
-    url("../../static/fonts/hinted-HaginCapsThin.ttf") format("truetype");
+    font-family: 'Hagin Caps';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../../static/fonts/hinted-HaginCapsThin.eot');
+    src: local('Hagin Caps Thin'), local('HaginCapsThin'),
+        url('../../static/fonts/hinted-HaginCapsThin.eot?#iefix') format('embedded-opentype'),
+        url('../../static/fonts/hinted-HaginCapsThin.woff2') format('woff2'),
+        url('../../static/fonts/hinted-HaginCapsThin.woff') format('woff'),
+        url('../../static/fonts/hinted-HaginCapsThin.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Hagin Caps";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../../static/fonts/hinted-HaginCapsMedium.eot");
-  src: local("Hagin Caps Medium"), local("HaginCapsMedium"),
-    url("../../static/fonts/hinted-HaginCapsMedium.eot?#iefix")
-      format("embedded-opentype"),
-    url("../../static/fonts/hinted-HaginCapsMedium.woff2") format("woff2"),
-    url("../../static/fonts/hinted-HaginCapsMedium.woff") format("woff"),
-    url("../../static/fonts/hinted-HaginCapsMedium.ttf") format("truetype");
+    font-family: 'Hagin Caps';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../../static/fonts/hinted-HaginCapsMedium.eot');
+    src: local('Hagin Caps Medium'), local('HaginCapsMedium'),
+        url('../../static/fonts/hinted-HaginCapsMedium.eot?#iefix') format('embedded-opentype'),
+        url('../../static/fonts/hinted-HaginCapsMedium.woff2') format('woff2'),
+        url('../../static/fonts/hinted-HaginCapsMedium.woff') format('woff'),
+        url('../../static/fonts/hinted-HaginCapsMedium.ttf') format('truetype');
 }
 
 html,
 body {
-  background: #f0f0f0;
-  color: #0a0a0a;
+    background: #f0f0f0;
+    color: #0a0a0a;
 }
 
 .main {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  background: #f0f0f0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
 }
 
 .space {
-  height: 4.625em;
+    height: 4.625em;
 
-  @media #{$large} {
-    height: 7.25em;
-  }
+    @media #{$large} {
+        height: 7.25em;
+    }
 }

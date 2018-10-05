@@ -1,26 +1,26 @@
-@import "../variables.module";
+@import '../variables.module';
 
 .ul {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  padding: 0;
-  margin: 3em 0 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 0;
+    margin: 3em 0 0;
 }
 
 .li {
-  list-style: none;
-  text-align: center;
+    list-style: none;
+    text-align: center;
 }
 
 .a {
-  color: #0a0a0a;
-  font-family: "Hagin Caps", sans-serif;
-  font-size: 1.25em;
-  line-height: 1.6;
-  text-decoration: none;
+    color: #0a0a0a;
+    font-family: 'Hagin Caps', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.6;
+    text-decoration: none;
 
-  @media #{$large} {
-    font-size: 2em;
-  }
+    @media #{$large} {
+        font-size: 2em;
+    }
 }

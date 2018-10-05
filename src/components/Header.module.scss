@@ -1,154 +1,154 @@
-@import "../variables.module";
+@import '../variables.module';
 
 .header {
-  position: fixed;
-  width: 100%;
-  background: #f0f0f0;
-  //overflow: hidden;
-  //background: url("/images/caddy.png") no-repeat center -10em;
+    position: fixed;
+    width: 100%;
+    background: #f0f0f0;
+    //overflow: hidden;
+    //background: url("/images/caddy.png") no-repeat center -10em;
 }
 
 .nav {
-  width: 100%;
-  height: 4.625em;
-  border-bottom: 0.0625em solid rgba(10, 10, 10, 0.1);
+    width: 100%;
+    height: 4.625em;
+    border-bottom: 0.0625em solid rgba(10, 10, 10, 0.1);
 
-  @media #{$large} {
-    height: 7.25em;
-    border-bottom: none;
-  }
+    @media #{$large} {
+        height: 7.25em;
+        border-bottom: none;
+    }
 }
 
 .ul {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  padding: 0;
-  margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
 
-  @media #{$large} {
-    * {
-      .a {
-        .svg {
-          display: none;
+    @media #{$large} {
+        * {
+            .a {
+                .svg {
+                    display: none;
+                }
+
+                .span {
+                    display: block;
+                    color: #0a0a0a;
+                }
+            }
         }
 
-        .span {
-          display: block;
-          color: #0a0a0a;
+        .li:first-child {
+            flex-grow: 2;
+            align-items: flex-start;
+
+            .a {
+                margin-left: 10.3125em;
+
+                .svg {
+                    display: block;
+                }
+
+                .span {
+                    display: none;
+                }
+            }
         }
-      }
+
+        .li:last-child {
+            margin-right: 10.9375em;
+        }
     }
-
-    .li:first-child {
-      flex-grow: 2;
-      align-items: flex-start;
-
-      .a {
-        margin-left: 10.3125em;
-
-        .svg {
-          display: block;
-        }
-
-        .span {
-          display: none;
-        }
-      }
-    }
-
-    .li:last-child {
-      margin-right: 10.9375em;
-    }
-  }
 }
 
 .li {
-  display: flex;
-  width: 3em;
-  height: 100%;
-  flex-flow: column nowrap;
-  align-items: center;
-  justify-content: space-evenly;
-  font-family: "Hagin Caps", sans-serif;
-  list-style: none;
-  text-decoration: none;
+    display: flex;
+    width: 3em;
+    height: 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Hagin Caps', sans-serif;
+    list-style: none;
+    text-decoration: none;
 
-  @media #{$large} {
-    width: auto;
-    margin-right: 3.125em;
-  }
+    @media #{$large} {
+        width: auto;
+        margin-right: 3.125em;
+    }
 }
 
 .a {
-  display: flex;
-  height: 100%;
-  flex-flow: column nowrap;
-  align-items: center;
-  justify-content: space-evenly;
-  opacity: 0.7;
-  text-decoration: none;
+    display: flex;
+    height: 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0.7;
+    text-decoration: none;
 
-  @media #{$large} {
-    height: 2.875em;
-    justify-content: flex-end;
+    @media #{$large} {
+        height: 2.875em;
+        justify-content: flex-end;
 
-    &:first-child {
-      width: 4em;
+        &:first-child {
+            width: 4em;
+        }
     }
-  }
 }
 
 .aActive {
-  @extend .a;
+    @extend .a;
 
-  opacity: 1;
+    opacity: 1;
 
-  @media #{$large} {
-    border-top: solid 0.125em #979797;
-    margin-top: -0.125em;
-    opacity: 0.7;
-  }
+    @media #{$large} {
+        border-top: solid 0.125em #979797;
+        margin-top: -0.125em;
+        opacity: 0.7;
+    }
 }
 
 .svg {
-  width: 2em;
-  height: 2em;
-  fill: #0a0a0a;
+    width: 2em;
+    height: 2em;
+    fill: #0a0a0a;
 
-  @media #{$large} {
-    display: none;
-  }
+    @media #{$large} {
+        display: none;
+    }
 }
 
 .svgRoot {
-  @extend .svg;
+    @extend .svg;
 
-  fill: #f0f0f0;
+    fill: #f0f0f0;
 }
 
 .span {
-  color: #0a0a0a;
-  font-size: 0.625em;
-  text-decoration: none;
-  text-transform: capitalize;
-  white-space: nowrap;
+    color: #0a0a0a;
+    font-size: 0.625em;
+    text-decoration: none;
+    text-transform: capitalize;
+    white-space: nowrap;
 
-  @media #{$large} {
-    font-size: 1.25em;
-    text-transform: uppercase;
-  }
+    @media #{$large} {
+        font-size: 1.25em;
+        text-transform: uppercase;
+    }
 }
 
 .spanRoot {
-  @extend .span;
+    @extend .span;
 
-  color: #f0f0f0;
+    color: #f0f0f0;
 
-  @media #{$large} {
-    font-size: 1.25em;
-    text-transform: uppercase;
-  }
+    @media #{$large} {
+        font-size: 1.25em;
+        text-transform: uppercase;
+    }
 }

@@ -1,77 +1,74 @@
-import { getCurrentLangKey } from "ptz-i18n";
-import * as React from "react";
+import { getCurrentLangKey } from 'ptz-i18n';
+import * as React from 'react';
 
-import Head from "../components/Head";
+import Head from '../components/Head';
 
-import * as styles from "./Template.module.scss";
+import * as styles from './Template.module.scss';
 
-import { ITemplate } from "../interfaces";
+import { ITemplate } from '../interfaces';
 
 const Template: React.SFC<ITemplate> = ({
-  data: {
-    markdownRemark: {
-      frontmatter: { title, type },
-      html
+    data: {
+        markdownRemark: {
+            frontmatter: { title, type },
+            html,
+        },
+        site: {
+            siteMetadata: {
+                languages: { defaultLangKey, langs },
+            },
+        },
     },
-    site: {
-      siteMetadata: {
-        languages: { defaultLangKey, langs }
-      }
-    }
-  },
-  i18nMessages,
-  i18nMessages: {
-    pageNames: { lyrics, news }
-  },
-  location: { pathname }
+    i18nMessages,
+    i18nMessages: {
+        pageNames: { lyrics, news },
+    },
+    location: { pathname },
 }) => {
-  const langKey = getCurrentLangKey(langs, defaultLangKey, pathname);
-  const head =
-    type === "lyrics" ? (
-      <Head
-        currentLanguage={langKey}
-        i18nMessages={i18nMessages}
-        page={lyrics}
-        subPage={title}
-      />
-    ) : (
-      <Head
-        currentLanguage={langKey}
-        i18nMessages={i18nMessages}
-        page={news}
-        subPage={title}
-      />
-    );
+    const langKey = getCurrentLangKey(langs, defaultLangKey, pathname);
+    const head =
+        type === 'lyrics' ? (
+            <Head
+                currentLanguage={langKey}
+                i18nMessages={i18nMessages}
+                page={lyrics}
+                subPage={title}
+            />
+        ) : (
+            <Head
+                currentLanguage={langKey}
+                i18nMessages={i18nMessages}
+                page={news}
+                subPage={title}
+            />
+        );
 
-  return (
-    <React.Fragment>
-      {head}
-      <article
-        className={styles.article}
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-    </React.Fragment>
-  );
+    return (
+        <React.Fragment>
+            {head}
+            <article className={styles.article} dangerouslySetInnerHTML={{ __html: html }} />
+        </React.Fragment>
+    );
 };
 
 export const TemplateQuery = graphql`
-  query TemplateQuery($path: String!) {
-    markdownRemark(fields: { slug: { eq: $path } }) {
-      frontmatter {
-        title
-        type
-      }
-      html
-    }
-    site {
-      siteMetadata {
-        languages {
-          defaultLangKey
-          langs
+    query TemplateQuery($path: String!) {
+        markdownRemark(fields: { slug: { eq: $path } }) {
+            frontmatter {
+                title
+                type
+            }
+            html
         }
-      }
+        site {
+            siteMetadata {
+                languages {
+                    defaultLangKey
+                    langs
+                }
+            }
+        }
     }
-  }
 `;
 
 export default Template;
