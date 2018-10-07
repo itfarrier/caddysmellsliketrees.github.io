@@ -5,6 +5,16 @@ declare module '*/package.json' {
     export const author: string;
 }
 
-declare module '*.scss' {
-    export const content: { [className: string]: string };
+interface ICSSModule {
+    [className: string]: string;
+}
+
+declare module '*.module.css' {
+    const cssModule: ICSSModule;
+    export = cssModule;
+}
+
+declare module '*.module.scss' {
+    const cssModule: ICSSModule;
+    export = cssModule;
 }
