@@ -260,6 +260,13 @@ module.exports = {
         'gatsby-plugin-typescript',
         {
             options: {
+                name: `assets`,
+                path: `${__dirname}/src/assets`,
+            },
+            resolve: `gatsby-source-filesystem`,
+        },
+        {
+            options: {
                 name: 'pages',
                 path: `${__dirname}/src/pages`,
             },
@@ -267,6 +274,8 @@ module.exports = {
         },
         'gatsby-transformer-remark',
         'gatsby-plugin-offline', //order is important
+        'gatsby-transformer-sharp',
+        'gatsby-plugin-sharp',
     ],
     siteMetadata: {
         languages,

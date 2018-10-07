@@ -1,11 +1,39 @@
 export interface IAbout {
+    data: IData;
     i18nMessages: II18nMessages;
     langKey: string;
 }
 
 export interface IData {
+    allFile: {
+        edges: {
+            node: {
+                publicURL: string;
+                childImageSharp: {
+                    original: {
+                        height: number;
+                        src: string;
+                        width: number;
+                    };
+                    resolutions: {
+                        aspectRatio: number;
+                        base64: string;
+                        height: number;
+                        originalName: string;
+                        src: string;
+                        srcSet: string;
+                        srcSetWebp: string;
+                        srcWebp: string;
+                        tracedSVG: string;
+                        width: number;
+                    };
+                };
+                relativeDirectory: string;
+            };
+        }[];
+    };
     allMarkdownRemark: {
-        edges: Array<{
+        edges: {
             node: {
                 fields: {
                     langKey: string;
@@ -16,7 +44,7 @@ export interface IData {
                 };
                 id: string;
             };
-        }>;
+        }[];
     };
     markdownRemark: {
         frontmatter: {
@@ -29,7 +57,7 @@ export interface IData {
         siteMetadata: {
             languages: {
                 defaultLangKey: string;
-                langs: Array<{ index: number; langKey: string; link: string }>;
+                langs: { index: number; langKey: string; link: string }[];
             };
         };
     };
@@ -70,6 +98,7 @@ export interface ILyrics {
 }
 
 export interface IPhotos {
+    data: IData;
     i18nMessages: II18nMessages;
     langKey: string;
 }
