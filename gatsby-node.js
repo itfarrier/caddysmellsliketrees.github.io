@@ -7,8 +7,16 @@
 // };
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
-exports.onCreateNode = ({ node, getNode }) => {
+exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
+    const { createNodeField } = boundActionCreators;
+
     if (node.internal.type === 'File' && node.id.search(/images/) > -1) {
-        console.log(createFilePath({ node, getNode, basePath: 'photos' }));
+        const slug = `${node.relativeDirectory.replace('images', '')}/`;
+
+        createNodeField({
+            node,
+            name: 'slug',
+            value: slug,
+        });
     }
 };

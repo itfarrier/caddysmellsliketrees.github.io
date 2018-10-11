@@ -260,10 +260,10 @@ module.exports = {
         'gatsby-plugin-typescript',
         {
             options: {
-                name: `assets`,
+                name: 'assets',
                 path: `${__dirname}/src/assets`,
             },
-            resolve: `gatsby-source-filesystem`,
+            resolve: 'gatsby-source-filesystem',
         },
         {
             options: {
