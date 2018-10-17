@@ -21,7 +21,6 @@ const Photos: React.SFC<ITemplate> = (props) => {
     } = props;
 
     const folder = `images${pathname.replace(/\/\w*\/\w*/, '')}`.slice(0, -1);
-    console.log(folder);
     const show = edges.filter((edge) => edge.node.relativeDirectory === folder);
     const svgs = show.map((edge) => (
         <a

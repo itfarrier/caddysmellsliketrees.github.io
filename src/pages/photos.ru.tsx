@@ -37,7 +37,6 @@ const PhotosRu: React.SFC<IPhotos> = ({
                 className={styles.wrapper}
                 imgStyle={styles.img}
                 outerWrapperClassName={styles.item}
-                resolutions={photoAlbum[0].node.childImageSharp.resolutions}
                 sizes={photoAlbum[0].node.childImageSharp.sizes}
             />
             <div className={styles.title}>
@@ -77,18 +76,6 @@ export const PhotosRuQuery = graphql`
                         original {
                             height
                             src
-                            width
-                        }
-                        resolutions {
-                            aspectRatio
-                            base64
-                            height
-                            originalName
-                            src
-                            srcSet
-                            srcSetWebp
-                            srcWebp
-                            tracedSVG
                             width
                         }
                         sizes {
