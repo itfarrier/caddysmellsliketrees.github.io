@@ -6,36 +6,6 @@ module.exports = {
             options: {
                 langKeyDefault: languages.defaultLangKey,
                 langKeyForNull: 'en',
-                markdownRemark: {
-                    postPage: 'src/templates/Template.tsx',
-                    query: `
-                        {
-                            allMarkdownRemark {
-                                edges {
-                                    node {
-                                        fields {
-                                            langKey
-                                            slug
-                                        }
-                                        frontmatter {
-                                            date
-                                            title
-                                            type
-                                        }
-                                    }
-                                }
-                            }
-                            site {
-                                siteMetadata {
-                                    languages {
-                                        defaultLangKey
-                                        langs
-                                    }
-                                }
-                            }
-                        }
-                    `,
-                },
                 useLangKeyLayout: false,
             },
             resolve: 'gatsby-plugin-i18n',
@@ -279,6 +249,6 @@ module.exports = {
     ],
     siteMetadata: {
         languages,
-        siteUrl: 'https://caddysmellsliketrees.ru',
+        siteUrl: 'https://test.caddysmellsliketrees.ru',
     },
 };

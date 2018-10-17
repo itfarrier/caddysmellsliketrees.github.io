@@ -1,4 +1,5 @@
 import Img from 'gatsby-image';
+import Link from 'gatsby-link';
 import * as React from 'react';
 
 import Head from '../components/Head';
@@ -9,9 +10,7 @@ import { IPhotos } from '../interfaces';
 
 const PhotosEn: React.SFC<IPhotos> = (props) => {
     const {
-        data: {
-            allFile: { edges },
-        },
+        data: { allDirectory, allFile },
         i18nMessages,
         i18nMessages: {
             pageNames: { photos },
@@ -19,13 +18,21 @@ const PhotosEn: React.SFC<IPhotos> = (props) => {
         langKey,
     } = props;
 
-    const svgs = edges.map((edge) => (
-        <a
-            href={edge.node.childImageSharp.original.src}
-            key={edge.node.childImageSharp.original.src}
+    const folder: string[] = allDirectory.edges.map(
+        (edge) => `images/${edge.node.fields.slug.slice(0, -1)}`,
+    );
+    let show2 = [];
+    const show = folder.forEach((item) => {
+        return show2.push(allFile.edges.filter((edge) => edge.node.relativeDirectory === item));
+    });
+    console.log(show2);
+    const svgs = show2.map((edge) => (
+        <Link
+            to={`photos${edge[0].node.relativeDirectory.replace(/images/, '')}/`}
+            key={edge[0].node.childImageSharp.original.src}
         >
-            <Img resolutions={edge.node.childImageSharp.resolutions} />
-        </a>
+            <Img resolutions={edge[0].node.childImageSharp.resolutions} />
+        </Link>
     ));
 
     console.log(props);
@@ -54,6 +61,15 @@ const PhotosEn: React.SFC<IPhotos> = (props) => {
 
 export const PhotosEnQuery = graphql`
     query PhotosEnQuery {
+        allDirectory(filter: { relativePath: { regex: "/images//" } }) {
+            edges {
+                node {
+                    fields {
+                        slug
+                    }
+                }
+            }
+        }
         allFile(filter: { relativePath: { regex: "/images/" } }) {
             edges {
                 node {

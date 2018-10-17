@@ -5,6 +5,15 @@ export interface IAbout {
 }
 
 export interface IData {
+    allDirectory: {
+        edges: Array<{
+            node: {
+                fields: {
+                    slug: string;
+                };
+            };
+        }>;
+    };
     allFile: {
         edges: {
             node: {

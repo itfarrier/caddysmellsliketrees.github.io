@@ -1,22 +1,80 @@
-// exports.onCreateNode = ({ node, getNode }) => {
-//     if (node.internal.type === 'File') {
-//         const fileNode = getNode(node.id);
-//
-//         console.log(`\n`, fileNode.relativeDirectory);
-//     }
-// };
 const { createFilePath } = require(`gatsby-source-filesystem`);
+const path = require('path');
 
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
+const languages = require('./src/data/languages');
+
+exports.onCreateNode = ({ boundActionCreators, getNode, node }) => {
     const { createNodeField } = boundActionCreators;
 
-    if (node.internal.type === 'File' && node.id.search(/images/) > -1) {
-        const slug = `${node.relativeDirectory.replace('images', '')}/`;
+    if (node.internal.type === 'Directory' && node.id.search(/images\//) > -1) {
+        const slug = `${node.name}/`;
 
-        createNodeField({
-            node,
-            name: 'slug',
-            value: slug,
-        });
+        return createNodeField({ name: 'slug', node, value: slug });
     }
+};
+
+exports.createPages = ({ boundActionCreators, graphql }) => {
+    const { createPage } = boundActionCreators;
+    const { langs } = languages;
+
+    return new Promise((resolve) => {
+        graphql(`
+            {
+                allDirectory(filter: { relativePath: { regex: "/images//" } }) {
+                    edges {
+                        node {
+                            fields {
+                                slug
+                            }
+                        }
+                    }
+                }
+                allMarkdownRemark {
+                    edges {
+                        node {
+                            fields {
+                                langKey
+                                slug
+                            }
+                            frontmatter {
+                                date
+                                title
+                                type
+                            }
+                        }
+                    }
+                }
+                site {
+                    siteMetadata {
+                        languages {
+                            defaultLangKey
+                            langs
+                        }
+                    }
+                }
+            }
+        `).then((result) => {
+            result.data.allDirectory.edges.forEach(({ node }) => {
+                langs.forEach((lang) => {
+                    createPage({
+                        path: `${lang}/photos/${node.fields.slug}`,
+                        component: path.resolve('./src/templates/Photos.tsx'),
+                        context: {
+                            slug: `${lang}/photos/${node.fields.slug}`,
+                        },
+                    });
+                });
+            });
+            result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+                createPage({
+                    path: node.fields.slug,
+                    component: path.resolve('./src/templates/Template.tsx'),
+                    context: {
+                        slug: node.fields.slug,
+                    },
+                });
+            });
+            resolve();
+        });
+    });
 };
