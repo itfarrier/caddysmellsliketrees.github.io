@@ -28,7 +28,7 @@ const Photos: React.SFC<ITemplate> = (props) => {
             href={edge.node.childImageSharp.original.src}
             key={edge.node.childImageSharp.original.src}
         >
-            <Img resolutions={edge.node.childImageSharp.resolutions} />
+            <Img sizes={edge.node.childImageSharp.sizes} />
         </a>
     ));
 
@@ -66,6 +66,18 @@ export const PhotosQuery = graphql`
                             srcWebp
                             tracedSVG
                             width
+                        }
+                        sizes {
+                            aspectRatio
+                            base64
+                            originalImg
+                            originalName
+                            sizes
+                            src
+                            srcSet
+                            srcSetWebp
+                            srcWebp
+                            tracedSVG
                         }
                     }
                     relativeDirectory

@@ -15,9 +15,8 @@ export interface IData {
         }>;
     };
     allFile: {
-        edges: {
+        edges: Array<{
             node: {
-                publicURL: string;
                 childImageSharp: {
                     original: {
                         height: number;
@@ -36,13 +35,26 @@ export interface IData {
                         tracedSVG: string;
                         width: number;
                     };
+                    sizes: {
+                        aspectRatio: number;
+                        base64: string;
+                        height: number;
+                        originalName: string;
+                        src: string;
+                        srcSet: string;
+                        srcSetWebp: string;
+                        srcWebp: string;
+                        tracedSVG: string;
+                        width: number;
+                    };
                 };
+                publicURL: string;
                 relativeDirectory: string;
             };
-        }[];
+        }>;
     };
     allMarkdownRemark: {
-        edges: {
+        edges: Array<{
             node: {
                 fields: {
                     langKey: string;
@@ -53,7 +65,7 @@ export interface IData {
                 };
                 id: string;
             };
-        }[];
+        }>;
     };
     markdownRemark: {
         frontmatter: {

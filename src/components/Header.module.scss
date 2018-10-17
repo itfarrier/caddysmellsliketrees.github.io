@@ -2,10 +2,9 @@
 
 .header {
     position: fixed;
+    z-index: 1;
     width: 100%;
     background: #f0f0f0;
-    //overflow: hidden;
-    //background: url("/images/caddy.png") no-repeat center -10em;
 }
 
 .nav {

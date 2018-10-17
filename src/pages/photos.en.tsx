@@ -8,53 +8,51 @@ import * as styles from './photos.module.scss';
 
 import { IPhotos } from '../interfaces';
 
-const PhotosEn: React.SFC<IPhotos> = (props) => {
-    const {
-        data: { allDirectory, allFile },
-        i18nMessages,
-        i18nMessages: {
-            pageNames: { photos },
-        },
-        langKey,
-    } = props;
-
-    const folder: string[] = allDirectory.edges.map(
+const PhotosEn: React.SFC<IPhotos> = ({
+    data: { allDirectory, allFile },
+    i18nMessages,
+    i18nMessages: {
+        pageNames: { photos },
+    },
+    langKey,
+}) => {
+    const photoAlbumNames: string[] = allDirectory.edges.map(
         (edge) => `images/${edge.node.fields.slug.slice(0, -1)}`,
     );
-    let show2 = [];
-    const show = folder.forEach((item) => {
-        return show2.push(allFile.edges.filter((edge) => edge.node.relativeDirectory === item));
+    const photoAlbums: Array<[]> = [];
+
+    photoAlbumNames.forEach((item) => {
+        return photoAlbums.push(
+            allFile.edges.filter((edge) => edge.node.relativeDirectory === item),
+        );
     });
-    console.log(show2);
-    const svgs = show2.map((edge) => (
+    const photoAlbumCoversList = photoAlbums.map((photoAlbum) => (
         <Link
-            to={`photos${edge[0].node.relativeDirectory.replace(/images/, '')}/`}
-            key={edge[0].node.childImageSharp.original.src}
+            className={styles.photoAlbumCoverWithTitle}
+            key={photoAlbum[0].node.childImageSharp.original.src}
+            to={`photos${photoAlbum[0].node.relativeDirectory.replace(/images/, '')}/`}
         >
-            <Img resolutions={edge[0].node.childImageSharp.resolutions} />
+            <Img
+                alt={`${photoAlbum[0].node.relativeDirectory.replace(/images\//, '')} cover`}
+                className={styles.wrapper}
+                imgStyle={styles.img}
+                outerWrapperClassName={styles.item}
+                resolutions={photoAlbum[0].node.childImageSharp.resolutions}
+                sizes={photoAlbum[0].node.childImageSharp.sizes}
+            />
+            <div className={styles.title}>
+                {photoAlbum[0].node.relativeDirectory
+                    .replace(/images\/\d\d\d\d-\d\d-\d\d-/, '')
+                    .replace(/-/g, ' ')}
+                {photoAlbum.length}
+            </div>
         </Link>
     ));
-
-    console.log(props);
 
     return (
         <React.Fragment>
             <Head currentLanguage={langKey} i18nMessages={i18nMessages} page={photos} />
-            <div className={styles.div}>
-                {svgs}
-                <div className={styles.item}>
-                    <div className={styles.title} />
-                </div>
-                <div className={styles.item}>
-                    <div className={styles.title} />
-                </div>
-                <div className={styles.item}>
-                    <div className={styles.title} />
-                </div>
-                <div className={styles.item}>
-                    <div className={styles.title} />
-                </div>
-            </div>
+            <div className={styles.div}>{photoAlbumCoversList}</div>
         </React.Fragment>
     );
 };
@@ -90,6 +88,18 @@ export const PhotosEnQuery = graphql`
                             srcWebp
                             tracedSVG
                             width
+                        }
+                        sizes {
+                            aspectRatio
+                            base64
+                            originalImg
+                            originalName
+                            sizes
+                            src
+                            srcSet
+                            srcSetWebp
+                            srcWebp
+                            tracedSVG
                         }
                     }
                     relativeDirectory
