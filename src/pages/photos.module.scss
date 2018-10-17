@@ -14,6 +14,7 @@
 
 .photoAlbumCoverWithTitle {
     position: relative;
+    margin: 1em;
 }
 
 .item {
@@ -21,7 +22,6 @@
     width: 90vw;
     height: 55vw;
     flex-shrink: 0;
-    margin: 1em;
 
     @media #{$large} {
         width: 20.5em;
@@ -31,10 +31,16 @@
 
 .title {
     position: absolute;
-    bottom: 1.25em;
-    left: 2em;
+    bottom: 0.5em;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
     color: #f0f0f0;
     font-family: 'Hagin Caps', sans-serif;
+
+    span {
+        padding: 0 1em;
+    }
 }
 
 .img {

@@ -41,10 +41,12 @@ const PhotosEn: React.SFC<IPhotos> = ({
                 sizes={photoAlbum[0].node.childImageSharp.sizes}
             />
             <div className={styles.title}>
-                {photoAlbum[0].node.relativeDirectory
-                    .replace(/images\/\d\d\d\d-\d\d-\d\d-/, '')
-                    .replace(/-/g, ' ')}
-                {photoAlbum.length}
+                <span>
+                    {photoAlbum[0].node.relativeDirectory
+                        .replace(/images\/\d\d\d\d-\d\d-\d\d-/, '')
+                        .replace(/-/g, ' ')}
+                </span>
+                <span>{photoAlbum.length}</span>
             </div>
         </Link>
     ));
