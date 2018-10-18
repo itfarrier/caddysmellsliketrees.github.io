@@ -58,7 +58,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                 langs.forEach((lang) => {
                     createPage({
                         path: `${lang}/photos/${node.fields.slug}`,
-                        component: path.resolve('./src/templates/Photos.tsx'),
+                        component: path.resolve('./src/templates/PhotoAlbumTemplate.tsx'),
                         context: {
                             slug: `${lang}/photos/${node.fields.slug}`,
                         },
@@ -68,7 +68,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             result.data.allMarkdownRemark.edges.forEach(({ node }) => {
                 createPage({
                     path: node.fields.slug,
-                    component: path.resolve('./src/templates/Template.tsx'),
+                    component: path.resolve('./src/templates/LyricsAndNewsTemplate.tsx'),
                     context: {
                         slug: node.fields.slug,
                     },

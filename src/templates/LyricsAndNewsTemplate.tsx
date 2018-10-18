@@ -3,11 +3,11 @@ import * as React from 'react';
 
 import Head from '../components/Head';
 
-import * as styles from './Template.module.scss';
+import * as styles from './LyricsAndNewsTemplate.module.scss';
 
 import { ITemplate } from '../interfaces';
 
-const Template: React.SFC<ITemplate> = ({
+const LyricsAndNewsTemplate: React.SFC<ITemplate> = ({
     data: {
         markdownRemark: {
             frontmatter: { title, type },
@@ -51,8 +51,8 @@ const Template: React.SFC<ITemplate> = ({
     );
 };
 
-export const TemplateQuery = graphql`
-    query TemplateQuery($path: String!) {
+export const LyricsAndNewsTemplateQuery = graphql`
+    query LyricsAndNewsTemplateQuery($path: String!) {
         markdownRemark(fields: { slug: { eq: $path } }) {
             frontmatter {
                 title
@@ -71,4 +71,4 @@ export const TemplateQuery = graphql`
     }
 `;
 
-export default Template;
+export default LyricsAndNewsTemplate;
