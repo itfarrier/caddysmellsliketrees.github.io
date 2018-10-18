@@ -44,7 +44,6 @@ const Photos: React.SFC<ITemplate> = (props) => {
             <Img
                 alt={`${edge.node.relativeDirectory.replace(/images\//, '')}`}
                 className={styles.wrapper}
-                imgStyle={styles.img}
                 outerWrapperClassName={styles.item}
                 sizes={edge.node.childImageSharp.sizes}
             />

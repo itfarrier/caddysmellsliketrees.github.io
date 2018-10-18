@@ -1,6 +1,6 @@
 @import '../variables.module';
 
-.div {
+.article {
     display: flex;
     flex-flow: wrap;
     align-content: flex-start;
@@ -14,7 +14,11 @@
 
 .photoAlbumCoverWithTitle {
     position: relative;
-    margin: 1em;
+    margin: 1em 0 0;
+
+    @media #{$large} {
+        margin: 1em 1em 0 0;
+    }
 }
 
 .item {
@@ -24,8 +28,8 @@
     flex-shrink: 0;
 
     @media #{$large} {
-        width: 20.5em;
-        height: 12.5em;
+        width: 30em;
+        height: 20em;
     }
 }
 
@@ -43,10 +47,7 @@
     }
 }
 
-.img {
-    width: 100%;
-}
-
 .wrapper {
     width: 100%;
+    border-radius: 0.1875em;
 }

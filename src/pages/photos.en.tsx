@@ -35,7 +35,6 @@ const PhotosEn: React.SFC<IPhotos> = ({
             <Img
                 alt={`${photoAlbum[0].node.relativeDirectory.replace(/images\//, '')} cover`}
                 className={styles.wrapper}
-                imgStyle={styles.img}
                 outerWrapperClassName={styles.item}
                 sizes={photoAlbum[0].node.childImageSharp.sizes}
             />
@@ -51,10 +50,10 @@ const PhotosEn: React.SFC<IPhotos> = ({
     ));
 
     return (
-        <React.Fragment>
+        <article className={styles.article}>
             <Head currentLanguage={langKey} i18nMessages={i18nMessages} page={photos} />
-            <div className={styles.div}>{photoAlbumCoversList}</div>
-        </React.Fragment>
+            {photoAlbumCoversList}
+        </article>
     );
 };
 
