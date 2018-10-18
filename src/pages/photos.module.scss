@@ -6,10 +6,7 @@
     align-content: flex-start;
     align-items: center;
     justify-content: center;
-
-    @media #{$large} {
-        margin: 3em 0 0;
-    }
+    margin: 3em 0 0;
 }
 
 .photoAlbumCoverWithTitle {
