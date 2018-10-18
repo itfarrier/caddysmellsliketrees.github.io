@@ -78,24 +78,34 @@ export interface IData {
         siteMetadata: {
             languages: {
                 defaultLangKey: string;
-                langs: { index: number; langKey: string; link: string }[];
+                langs: ILangs[];
             };
         };
     };
 }
 
+export interface IFooter {
+    langs: ILangs[];
+}
+
+export interface IHead {
+    currentLanguage: string;
+    i18nMessages: II18nMessages;
+    page?: string;
+    subPage?: string;
+}
+
+export interface IHeader {
+    children?: any;
+    homeLink: string;
+    pageNames: IPageNames;
+    pathname: string;
+}
+
 export interface II18nMessages {
     description: string;
     keywords: string[];
-    pageNames: {
-        about: string;
-        donate: string;
-        home: string;
-        lyrics: string;
-        news: string;
-        photos: string;
-        videos: string;
-    };
+    pageNames: IPageNames;
     title: string;
 }
 
@@ -112,12 +122,32 @@ export interface IIndexLayout {
     };
 }
 
+export interface ILangs {
+    index: number;
+    langKey: string;
+    link: string;
+}
+
+export interface ILanguageChanger {
+    children?: any;
+    langs: ILangs[];
+}
+
 export interface ILyrics {
     data: IData;
     i18nMessages: II18nMessages;
     langKey: string;
 }
 
+export interface IPageNames {
+    about: string;
+    donate: string;
+    home: string;
+    lyrics: string;
+    news: string;
+    photos: string;
+    videos: string;
+}
 export interface IPhotos {
     data: IData;
     i18nMessages: II18nMessages;

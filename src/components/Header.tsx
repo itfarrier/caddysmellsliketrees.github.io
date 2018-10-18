@@ -4,24 +4,11 @@ import * as React from 'react';
 import * as styles from './Header.module.scss';
 
 import { ReactComponent as IconAbout } from '../../static/vectors/about.svg';
+import { ReactComponent as IconTree } from '../../static/vectors/logo.svg';
 import { ReactComponent as IconLyrics } from '../../static/vectors/lyrics.svg';
 import { ReactComponent as IconPhotos } from '../../static/vectors/photos.svg';
-import { ReactComponent as IconTree } from '../../static/vectors/logo.svg';
 
-interface IHeader {
-    children?: any;
-    homeLink: string;
-    pageNames: {
-        about: string;
-        donate: string;
-        home: string;
-        lyrics: string;
-        news: string;
-        photos: string;
-        videos: string;
-    };
-    pathname: string;
-}
+import { IHeader } from '../interfaces';
 
 const Header: React.SFC<IHeader> = ({
     homeLink,
@@ -33,9 +20,8 @@ const Header: React.SFC<IHeader> = ({
     const activeStyleConditionForHomeLink = () => pathname === homeLink;
     const activeStyleConditionForLyricsLink = () => checkThatThePathnameContains('lyrics');
     const activeStyleConditionForStoreLink = () => checkThatThePathnameContains('photos');
-    const checkThatThePathnameContains = (theWord: string) => {
-        return pathname.indexOf(`${homeLink}${theWord}`) > -1;
-    };
+    const checkThatThePathnameContains = (theWord: string) =>
+        pathname.indexOf(`${homeLink}${theWord}`) > -1;
 
     return (
         <header className={styles.header}>

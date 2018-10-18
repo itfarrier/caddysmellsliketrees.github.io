@@ -4,9 +4,7 @@ import LanguageChanger from './LanguageChanger';
 
 import * as styles from './Footer.module.scss';
 
-interface IFooter {
-    langs: Array<{ index: number; langKey: string; link: string }>;
-}
+import { IFooter } from '../interfaces';
 
 const Footer: React.SFC<IFooter> = ({ langs }) => (
     <footer className={styles.footer}>

@@ -3,10 +3,7 @@ import * as React from 'react';
 
 import * as styles from './LanguageChanger.module.scss';
 
-interface ILanguageChanger {
-    children?: any;
-    langs: Array<{ index: number; langKey: string; link: string }>;
-}
+import { ILanguageChanger } from '../interfaces';
 
 const LanguageChanger: React.SFC<ILanguageChanger> = ({ langs }) => {
     const generateListWithLanguagesLinks: object = langs.map((language) => (

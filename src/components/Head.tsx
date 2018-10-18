@@ -1,32 +1,11 @@
 import * as React from 'react';
 import Helmet from 'react-helmet';
 
-interface IHead {
-    currentLanguage: string;
-    i18nMessages: {
-        description: string;
-        keywords: string[];
-        pageNames: {
-            about?: string;
-            donate?: string;
-            lyrics?: string;
-            news?: string;
-            videos?: string;
-        };
-        title: string;
-    };
-    page?: string;
-    subPage?: string;
-}
+import { IHead } from '../interfaces';
 
 const Head: React.SFC<IHead> = ({
     currentLanguage,
-    i18nMessages: {
-        description,
-        keywords,
-        pageNames: { videos },
-        title,
-    },
+    i18nMessages: { description, keywords, title },
     page,
     subPage,
 }) => {
@@ -75,6 +54,7 @@ const Head: React.SFC<IHead> = ({
         : page
             ? `${title} — ${description} — ${page}`
             : `${title} — ${description}`;
+    const keywordsString: string = keywords.toString();
 
     return (
         <Helmet title={variantOfPageTitle}>
@@ -97,7 +77,7 @@ const Head: React.SFC<IHead> = ({
             <link color="#0a0a0a" href="/favicons/safari-pinned-tab.svg" rel="mask-icon" />
             <link href="/favicons/favicon.ico" rel="shortcut icon" />
             <meta content={description} name="description" />
-            <meta content={keywords.toString()} name="keywords" />
+            <meta content={keywordsString} name="keywords" />
             <meta content={title} name="apple-mobile-web-app-title" />
             <meta content={title} name="application-name" />
             <meta content="#f0f0f0" name="msapplication-TileColor" />
