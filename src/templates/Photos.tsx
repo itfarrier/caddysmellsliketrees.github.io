@@ -4,7 +4,7 @@ import * as React from 'react';
 
 import Head from '../components/Head';
 
-import * as styles from './Template.module.scss';
+import * as styles from './Photos.module.scss';
 
 import { ITemplate } from '../interfaces';
 
@@ -12,14 +12,28 @@ const Photos: React.SFC<ITemplate> = (props) => {
     const {
         data: {
             allFile: { edges },
+            site: {
+                siteMetadata: {
+                    languages: { defaultLangKey, langs },
+                },
+            },
         },
         i18nMessages,
         i18nMessages: {
-            pageNames: { lyrics, news },
+            pageNames: { lyrics, news, photos },
         },
         location: { pathname },
     } = props;
 
+    const langKey = getCurrentLangKey(langs, defaultLangKey, pathname);
+    const head = (
+        <Head
+            currentLanguage={langKey}
+            i18nMessages={i18nMessages}
+            page={photos}
+            subPage={pathname.replace(/\/\w*\/\w*\//, '').slice(0, -1)}
+        />
+    );
     const folder = `images${pathname.replace(/\/\w*\/\w*/, '')}`.slice(0, -1);
     const show = edges.filter((edge) => edge.node.relativeDirectory === folder);
     const svgs = show.map((edge) => (
@@ -27,11 +41,22 @@ const Photos: React.SFC<ITemplate> = (props) => {
             href={edge.node.childImageSharp.original.src}
             key={edge.node.childImageSharp.original.src}
         >
-            <Img sizes={edge.node.childImageSharp.sizes} />
+            <Img
+                alt={`${edge.node.relativeDirectory.replace(/images\//, '')}`}
+                className={styles.wrapper}
+                imgStyle={styles.img}
+                outerWrapperClassName={styles.item}
+                sizes={edge.node.childImageSharp.sizes}
+            />
         </a>
     ));
 
-    return <React.Fragment>{svgs}</React.Fragment>;
+    return (
+        <article className={styles.article}>
+            {head}
+            {svgs}
+        </article>
+    );
 };
 
 export const PhotosQuery = graphql`
