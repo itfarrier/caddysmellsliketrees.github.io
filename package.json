@@ -37,10 +37,10 @@
     },
     "description": "Psychedelic free-folk",
     "devDependencies": {
-        "@types/graphql": "^14.0.2",
+        "@types/graphql": "^14.0.3",
         "@types/intl": "^1.2.0",
-        "@types/node": "^10.11.7",
-        "@types/react": "^16.4.16",
+        "@types/node": "^10.12.0",
+        "@types/react": "^16.4.18",
         "@types/react-dom": "^16.0.9",
         "@types/react-helmet": "^5.0.7",
         "@types/react-intl": "^2.3.11",
