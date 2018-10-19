@@ -106,6 +106,7 @@ export interface II18nMessages {
     description: string;
     keywords: string[];
     pageNames: IPageNames;
+    photoAlbums: IPhotoAlbums[];
     title: string;
 }
 
@@ -148,6 +149,17 @@ export interface IPageNames {
     photos: string;
     videos: string;
 }
+
+export interface IPhotoAlbums {
+    date: {
+        day: number;
+        month: number;
+        year: number;
+    };
+    slug: string;
+    title: string;
+}
+
 export interface IPhotos {
     data: IData;
     i18nMessages: II18nMessages;

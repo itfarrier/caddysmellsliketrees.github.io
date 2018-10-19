@@ -6,32 +6,33 @@ import Head from '../components/Head';
 
 import * as styles from './photos.module.scss';
 
-import { IPhotos } from '../interfaces';
+import { IPhotoAlbums, IPhotos } from '../interfaces';
 
 const PhotosRu: React.SFC<IPhotos> = ({
     data: { allDirectory, allFile },
     i18nMessages,
     i18nMessages: {
         pageNames: { photos },
+        photoAlbums,
     },
     langKey,
 }) => {
-    const photoAlbumNames: string[] = allDirectory.edges.map(
-        ({
-            node: {
-                fields: { slug },
-            },
-        }) => `images/${slug.slice(0, -1)}`,
-    );
-    const photoAlbums: Array<[]> = [];
-
-    photoAlbumNames.forEach((item: string) => {
-        return photoAlbums.push(
-            allFile.edges.filter(({ node: { relativeDirectory } }) => relativeDirectory === item),
+    const photoAlbumNames: object[] = allDirectory.edges.map(({ node: { fields: { slug } } }) => {
+        const photoAlbumData = photoAlbums.find(
+            (photoAlbum: IPhotoAlbums) => photoAlbum.slug === slug,
         );
-    });
 
-    const photoAlbumCoversList = photoAlbums.map((photoAlbum: object[]) => {
+        return { photoAlbumData, path: `images/${slug.slice(0, -1)}` };
+    });
+    const photoAlbumsToShow: Array<[]> = [];
+
+    photoAlbumNames.forEach(({ path }) =>
+        photoAlbumsToShow.push(
+            allFile.edges.filter(({ node: { relativeDirectory } }) => relativeDirectory === path),
+        ),
+    );
+
+    const photoAlbumCoversList = photoAlbumsToShow.map((photoAlbum: object[]) => {
         const {
             node: {
                 childImageSharp: {
@@ -41,6 +42,12 @@ const PhotosRu: React.SFC<IPhotos> = ({
                 relativeDirectory,
             },
         } = photoAlbum[0];
+        const {
+            photoAlbumData: {
+                date: { day, month, year },
+                title,
+            },
+        } = photoAlbumNames.find((photoAlbumName) => photoAlbumName.path === relativeDirectory);
 
         return (
             <Link
@@ -57,11 +64,7 @@ const PhotosRu: React.SFC<IPhotos> = ({
                     title={`${relativeDirectory.replace(/images\//, '')} cover`}
                 />
                 <div className={styles.title}>
-                    <span>
-                        {relativeDirectory
-                            .replace(/images\/\d\d\d\d-\d\d-\d\d-/, '')
-                            .replace(/-/g, ' ')}
-                    </span>
+                    <span>{`${title} ${day}.${month}.${year}`}</span>
                     <span>{photoAlbum.length}</span>
                 </div>
             </Link>
