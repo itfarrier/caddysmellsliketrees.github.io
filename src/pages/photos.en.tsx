@@ -17,15 +17,20 @@ const PhotosEn: React.SFC<IPhotos> = ({
     langKey,
 }) => {
     const photoAlbumNames: string[] = allDirectory.edges.map(
-        (edge) => `images/${edge.node.fields.slug.slice(0, -1)}`,
+        ({
+            node: {
+                fields: { slug },
+            },
+        }) => `images/${slug.slice(0, -1)}`,
     );
     const photoAlbums: Array<[]> = [];
 
     photoAlbumNames.forEach((item: string) => {
         return photoAlbums.push(
-            allFile.edges.filter((edge) => edge.node.relativeDirectory === item),
+            allFile.edges.filter(({ node: { relativeDirectory } }) => relativeDirectory === item),
         );
     });
+
     const photoAlbumCoversList = photoAlbums.map((photoAlbum: object[]) => {
         const {
             node: {

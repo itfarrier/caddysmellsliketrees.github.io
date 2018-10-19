@@ -25,7 +25,9 @@ const PhotoAlbumTemplate: React.SFC<ITemplate> = ({
 }) => {
     const langKey = getCurrentLangKey(langs, defaultLangKey, pathname);
     const photoAlbumName = `images${pathname.replace(/\/\w*\/\w*/, '')}`.slice(0, -1);
-    const photoAlbumToShow = edges.filter((edge) => edge.node.relativeDirectory === photoAlbumName);
+    const photoAlbumToShow = edges.filter(
+        ({ node: { relativeDirectory } }) => relativeDirectory === photoAlbumName,
+    );
     const photoAlbumView = photoAlbumToShow.map(
         ({
             node: {
