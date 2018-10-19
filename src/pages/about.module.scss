@@ -1,7 +1,7 @@
 @import '../variables.module';
 
 .article {
-    padding: 2em;
+    padding: 0 2em;
 
     @media #{$large} {
         width: 37.5em;
