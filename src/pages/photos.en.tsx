@@ -21,33 +21,47 @@ const PhotosEn: React.SFC<IPhotos> = ({
     );
     const photoAlbums: Array<[]> = [];
 
-    photoAlbumNames.forEach((item) => {
+    photoAlbumNames.forEach((item: string) => {
         return photoAlbums.push(
             allFile.edges.filter((edge) => edge.node.relativeDirectory === item),
         );
     });
-    const photoAlbumCoversList = photoAlbums.map((photoAlbum) => (
-        <Link
-            className={styles.photoAlbumCoverWithTitle}
-            key={photoAlbum[0].node.childImageSharp.original.src}
-            to={`photos${photoAlbum[0].node.relativeDirectory.replace(/images/, '')}/`}
-        >
-            <Img
-                alt={`${photoAlbum[0].node.relativeDirectory.replace(/images\//, '')} cover`}
-                className={styles.wrapper}
-                outerWrapperClassName={styles.item}
-                sizes={photoAlbum[0].node.childImageSharp.sizes}
-            />
-            <div className={styles.title}>
-                <span>
-                    {photoAlbum[0].node.relativeDirectory
-                        .replace(/images\/\d\d\d\d-\d\d-\d\d-/, '')
-                        .replace(/-/g, ' ')}
-                </span>
-                <span>{photoAlbum.length}</span>
-            </div>
-        </Link>
-    ));
+    const photoAlbumCoversList = photoAlbums.map((photoAlbum: object[]) => {
+        const {
+            node: {
+                childImageSharp: {
+                    original: { src },
+                    sizes,
+                },
+                relativeDirectory,
+            },
+        } = photoAlbum[0];
+
+        return (
+            <Link
+                className={styles.photoAlbumCoverWithTitle}
+                key={src}
+                to={`photos${relativeDirectory.replace(/images/, '')}/`}
+            >
+                <Img
+                    alt={`${relativeDirectory.replace(/images\//, '')} cover`}
+                    className={styles.wrapper}
+                    fadeIn={true}
+                    outerWrapperClassName={styles.item}
+                    sizes={sizes}
+                    title={`${relativeDirectory.replace(/images\//, '')} cover`}
+                />
+                <div className={styles.title}>
+                    <span>
+                        {relativeDirectory
+                            .replace(/images\/\d\d\d\d-\d\d-\d\d-/, '')
+                            .replace(/-/g, ' ')}
+                    </span>
+                    <span>{photoAlbum.length}</span>
+                </div>
+            </Link>
+        );
+    });
 
     return (
         <article className={styles.article}>
@@ -73,21 +87,10 @@ export const PhotosEnQuery = graphql`
                 node {
                     childImageSharp {
                         original {
-                            height
                             src
-                            width
                         }
                         sizes {
-                            aspectRatio
-                            base64
-                            originalImg
-                            originalName
-                            sizes
-                            src
-                            srcSet
-                            srcSetWebp
-                            srcWebp
-                            tracedSVG
+                            ...GatsbyImageSharpSizes_withWebp
                         }
                     }
                     relativeDirectory

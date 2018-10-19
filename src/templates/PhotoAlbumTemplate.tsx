@@ -77,21 +77,10 @@ export const PhotoAlbumTemplateQuery = graphql`
                 node {
                     childImageSharp {
                         original {
-                            height
                             src
-                            width
                         }
                         sizes {
-                            aspectRatio
-                            base64
-                            originalImg
-                            originalName
-                            sizes
-                            src
-                            srcSet
-                            srcSetWebp
-                            srcWebp
-                            tracedSVG
+                            ...GatsbyImageSharpSizes_withWebp
                         }
                     }
                     relativeDirectory

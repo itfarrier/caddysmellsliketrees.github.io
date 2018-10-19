@@ -73,12 +73,12 @@
         "type": "git"
     },
     "scripts": {
-        "build": "gatsby build",
+        "build": "gatsby build --verbose",
         "clean": "rm -rf ./.cache/* && rm -rf ./public/*",
-        "deploy": "git push origin source && yarn run build && cp CNAME public/ && gh-pages -b master -d public",
-        "deployTest": "git push test && yarn run build && cp CNAME-TEST public/CNAME && gh-pages -b master -d public -o test",
-        "start": "gatsby develop",
-        "startProd": "yarn run build && gatsby serve"
+        "deploy": "yarn run clean && git push origin source && yarn run build && cp CNAME public/ && gh-pages -b master -d public",
+        "deployTest": "yarn run clean && git push test && yarn run build && cp CNAME-TEST public/CNAME && gh-pages -b master -d public -o test",
+        "start": "yarn run clean && gatsby develop --verbose",
+        "startProd": "yarn run clean && yarn run build && gatsby serve --verbose"
     },
     "version": "3.0.0"
 }
