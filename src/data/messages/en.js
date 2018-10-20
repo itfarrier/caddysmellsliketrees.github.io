@@ -6,9 +6,7 @@ module.exports = {
         donate: 'Donate!',
         home: 'Home',
         lyrics: 'Lyrics',
-        news: 'News',
         photos: 'Photos',
-        videos: 'Videos',
     },
     photoAlbums: [
         {
@@ -18,7 +16,7 @@ module.exports = {
                 year: 2016,
             },
             slug: '2016-11-05-museum-night-talk-after-midnight/',
-            title: 'museum night: talks after midnight',
+            title: 'Museum night: talks after midnight',
         },
         {
             date: {
@@ -27,7 +25,7 @@ module.exports = {
                 year: 2017,
             },
             slug: '2017-03-29-rehearsal/',
-            title: 'rehearsal',
+            title: 'Rehearsal',
         },
         {
             date: {
@@ -36,7 +34,7 @@ module.exports = {
                 year: 2017,
             },
             slug: '2017-04-19-rehearsal/',
-            title: 'rehearsal',
+            title: 'Rehearsal',
         },
         {
             date: {
@@ -45,7 +43,7 @@ module.exports = {
                 year: 2017,
             },
             slug: '2017-05-20-tea-yurt-birthday/',
-            title: 'tea yurt birthday',
+            title: 'Tea yurt birthday',
         },
         {
             date: {
@@ -54,7 +52,7 @@ module.exports = {
                 year: 2017,
             },
             slug: '2017-05-28-music-in-museum/',
-            title: 'music in museum',
+            title: 'Music in museum',
         },
         {
             date: {
@@ -63,7 +61,7 @@ module.exports = {
                 year: 2017,
             },
             slug: '2017-06-17-festival-spirit-of-time/',
-            title: 'festival “spirit of time”',
+            title: 'Festival “Spirit of time”',
         },
         {
             date: {
@@ -72,7 +70,7 @@ module.exports = {
                 year: 2017,
             },
             slug: '2017-08-12-museum-svetla-songs/',
-            title: 'museum “svetla’s songs”',
+            title: 'Museum “Svetla’s songs”',
         },
         {
             date: {

@@ -10,41 +10,50 @@ if (process.env.NODE_ENV === 'production') {
     }
 }
 
-module.exports = class HTML extends React.Component {
-    render() {
-        let css;
+const HTML = (props) => {
+    const {
+        body,
+        bodyAttributes,
+        headComponents,
+        htmlAttributes,
+        postBodyComponents,
+        preBodyComponents,
+    } = props;
 
-        if (process.env.NODE_ENV === 'production') {
-            css = <style id="gatsby-inlined-css" dangerouslySetInnerHTML={{ __html: stylesStr }} />;
-        }
+    let css;
 
-        return (
-            <html {...this.props.htmlAttributes}>
-                <head>
-                    <meta charSet="utf-8" />
-                    <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-                    <meta
-                        name="viewport"
-                        content="width=device-width, initial-scale=1, shrink-to-fit=no"
-                    />
-                    {this.props.headComponents}
-                    {css}
-                </head>
-                <body {...this.props.bodyAttributes}>
-                    {this.props.preBodyComponents}
-                    <div
-                        dangerouslySetInnerHTML={{ __html: this.props.body }}
-                        id="___gatsby"
-                        key={'body'}
-                        style={{
-                            display: 'flex',
-                            minHeight: '100vh',
-                            flexDirection: 'column',
-                        }}
-                    />
-                    {this.props.postBodyComponents}
-                </body>
-            </html>
-        );
+    if (process.env.NODE_ENV === 'production') {
+        css = <style dangerouslySetInnerHTML={{ __html: stylesStr }} id="gatsby-inlined-css" />;
     }
+
+    return (
+        <html {...htmlAttributes}>
+            <head>
+                <meta charSet="utf-8" />
+                <meta content="ie=edge" httpEquiv="x-ua-compatible" />
+                <meta
+                    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+                    name="viewport"
+                />
+                {headComponents}
+                {css}
+            </head>
+            <body {...bodyAttributes}>
+                {preBodyComponents}
+                <div
+                    dangerouslySetInnerHTML={{ __html: body }}
+                    id="___gatsby"
+                    key="body"
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        minHeight: '100vh',
+                    }}
+                />
+                {postBodyComponents}
+            </body>
+        </html>
+    );
 };
+
+export default HTML;

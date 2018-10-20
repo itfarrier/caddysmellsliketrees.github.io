@@ -6,9 +6,7 @@ module.exports = {
         donate: 'Поддержать!',
         home: 'Главная',
         lyrics: 'Тексты',
-        news: 'Новости',
         photos: 'Фото',
-        videos: 'Видео',
     },
     photoAlbums: [
         {

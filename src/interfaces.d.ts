@@ -169,6 +169,7 @@ export interface IPhotos {
 export interface ITemplate {
     data: IData;
     i18nMessages: II18nMessages;
+    langKey: string;
     location: {
         pathname: string;
     };

@@ -20,11 +20,13 @@ const PhotoAlbumTemplate: React.SFC<ITemplate> = ({
     i18nMessages,
     i18nMessages: {
         pageNames: { photos },
+        photoAlbums,
     },
     location: { pathname },
 }) => {
     const langKey = getCurrentLangKey(langs, defaultLangKey, pathname);
-    const photoAlbumName = `images${pathname.replace(/\/\w*\/\w*/, '')}`.slice(0, -1);
+    const pathnameToAlbumName = pathname.replace(/\/\w*\/\w*\//, '');
+    const photoAlbumName = `images/${pathnameToAlbumName}`.slice(0, -1);
     const photoAlbumToShow = edges.filter(
         ({ node: { relativeDirectory } }) => relativeDirectory === photoAlbumName,
     );
@@ -48,7 +50,14 @@ const PhotoAlbumTemplate: React.SFC<ITemplate> = ({
             </a>
         ),
     );
-    const subPage = pathname.replace(/\/\w*\/\w*\//, '').slice(0, -1);
+    const {
+        date: { day, month, year },
+        title,
+    } = photoAlbums.find((photoAlbumName) => photoAlbumName.slug === pathnameToAlbumName);
+    const subPage =
+        langKey === 'en'
+            ? `${title} — ${month}/${day}/${year}`
+            : `${title} — ${day}.${month}.${year}`;
 
     return (
         <article className={styles.article}>
