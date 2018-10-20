@@ -3,89 +3,89 @@ title: IGRUSHKI
 type: lyrics
 ---
 
-<h1>ИГРУШКИ</h1>
+<h1>IGRUSHKI</h1>
 
 <section>
 
-Сердце в прошлое обуто&thinsp;&mdash;&thinsp;\
-я ударился об утро:\
-зажужжало за диваном\
-всё, что детство задевало.
+Serdce v proshloe obuto&thinsp;&mdash;&thinsp;\
+ja udarilsja ob utro:\
+zazhuzhzhalo za divanom\
+vsjo, chto detstvo zadevalo.
 
-Кличут первые игрушки,\
-говорят наоборот,\
-помнят лампочки и груши\
-мой беззубый смелый рот.
+Klichut pervye igrushki,\
+govorjat naoborot,\
+pomnjat lampochki i grushi\
+moj bezzubyj smelyj rot.
 
-Если носок дырявый,\
-Значит это червяк\
-вылез прямо из правой\
-ноги плясать краковяк.
+Esli nosok dyrjavyj,\
+Znachit jeto chervjak\
+vylez prjamo iz pravoj\
+nogi pljasat' krakovjak.
 
-Дерево&thinsp;&mdash;&thinsp;это ступеньки!\
-Лестницу&thinsp;&mdash;&thinsp;только в прыжок!\
-Содранные коленки\
-Я стирал в порошок!
+Derevo&thinsp;&mdash;&thinsp;jeto stupen'ki!\
+Lestnicu&thinsp;&mdash;&thinsp;tol'ko v pryzhok!\
+Sodrannye kolenki\
+Ja stiral v poroshok!
 
-Сердце в прошлое обуто&thinsp;&mdash;&thinsp;\
-я ударился об утро:\
-зажужжало за диваном\
-всё, что детство задевало.
+Serdce v proshloe obuto&thinsp;&mdash;&thinsp;\
+ja udarilsja ob utro:\
+zazhuzhzhalo za divanom\
+vsjo, chto detstvo zadevalo.
 
-Мудрый дедушка баюкал,\
-был всегда в очках и брюках.\
-В пряже бабушка жила,\
-будто это кожура.
+Mudryj dedushka bajukal,\
+byl vsegda v ochkah i brjukah.\
+V prjazhe babushka zhila,\
+budto jeto kozhura.
 
-У двери росла засечка&thinsp;&mdash;&thinsp;\
-каждый месяц по чуть&#8208;чуть&thinsp;&mdash;&thinsp;\
-поднимала человечка,\
-чтобы будущим обуть.
+U dveri rosla zasechka&thinsp;&mdash;&thinsp;\
+kazhdyj mesjac po chut'&#8208;chut'&thinsp;&mdash;&thinsp;\
+podnimala chelovechka,\
+chtoby budushhim obut'.
 
-Мама&thinsp;&mdash;&thinsp;это поцелуи\
-в руки, в локти, в лоб, в живот.\
-Папа&thinsp;&mdash;&thinsp;это тот, кто в клюве\
-держит то, что не живёт.
+Mama&thinsp;&mdash;&thinsp;jeto pocelui\
+v ruki, v lokti, v lob, v zhivot.\
+Papa&thinsp;&mdash;&thinsp;jeto tot, kto v kljuve\
+derzhit to, chto ne zhivjot.
 
-Мама всегда покупала\
-новые ложки в дом&thinsp;&mdash;&thinsp;\
-ложка за маму стала\
-самым строгим отцом!
+Mama vsegda pokupala\
+novye lozhki v dom&thinsp;&mdash;&thinsp;\
+lozhka za mamu stala\
+samym strogim otcom!
 
-Правда всегда на стенах!\
-Руки не держат ложь!\
-С усами из мыльной пены\
-я на пирата похож!
+Pravda vsegda na stenah!\
+Ruki ne derzhat lozh'!\
+S usami iz myl'noj peny\
+ja na pirata pohozh!
 
-<h2>БЛЮЗ КАПИТАНА ВЛАДА</h2>
+<h2>BLJuZ KAPITANA VLADA</h2>
 
-Я пират\
-я закопал\
-клад\
-в ванне моей\
-я повелитель морей
+Ja pirat\
+ja zakopal\
+klad\
+v vanne moej\
+ja povelitel' morej
 
-Я грозный пират\
-Я Капитан\
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Влад\
-я морской волк\
-а на руке крутая переводная наколка
+Ja groznyj pirat\
+Ja Kapitan\
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Vlad\
+ja morskoj volk\
+a na ruke krutaja perevodnaja nakolka
 
 <h2>***</h2>
 
-Сердце в прошлое обуто&thinsp;&mdash;&thinsp;\
-я ударился об утро:\
-зажужжало за диваном\
-всё, что детство задевало.
+Serdce v proshloe obuto&thinsp;&mdash;&thinsp;\
+ja udarilsja ob utro:\
+zazhuzhzhalo za divanom\
+vsjo, chto detstvo zadevalo.
 
-Первобытные рисунки\
-спрятал я надёжно в сумке.\
-Моя мама&thinsp;&mdash;&thinsp;кенгуру,\
-это значит, не умру.
+Pervobytnye risunki\
+sprjatal ja nadjozhno v sumke.\
+Moja mama&thinsp;&mdash;&thinsp;kenguru,\
+jeto znachit, ne umru.
 
-Это значит, сердце будто\
-бьётся головой об утро&thinsp;&mdash;&thinsp;\
-стрелки на часах идут.\
-Я живой. Я есть. Я тут.
+Jeto znachit, serdce budto\
+b'jotsja golovoj ob utro&thinsp;&mdash;&thinsp;\
+strelki na chasah idut.\
+Ja zhivoj. Ja est'. Ja tut.
 
 </section>

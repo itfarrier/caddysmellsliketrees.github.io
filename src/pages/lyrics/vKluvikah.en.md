@@ -3,23 +3,23 @@ title: V KL'UVIKAH
 type: lyrics
 ---
 
-<h1>В&nbsp;КЛЮВИКАХ</h1>
+<h1>V&nbsp;KLJUVIKAH</h1>
 
 <section>
 
-Однажды я проснулся нараспев!\
-Случайно я проснулся нараспашку&thinsp;&mdash;&thinsp;\
-мне всё казалось талым, как во сне,\
-и мятым, словно рукава рубашки.
+Odnazhdy ja prosnulsja naraspev!\
+Sluchajno ja prosnulsja naraspashku&thinsp;&mdash;&thinsp;\
+mne vsjo kazalos' talym, kak vo sne,\
+i mjatym, slovno rukava rubashki.
 
-А я был запонкой железной и сверчком!\
-Я свечкой был! Я утру был не равен!\
-Оно меня будило маяком,\
-а я переболел, перенаправил.
+A ja byl zaponkoj zheleznoj i sverchkom!\
+Ja svechkoj byl! Ja utru byl ne raven!\
+Ono menja budilo majakom,\
+a ja perebolel, perenapravil.
 
-Да, я проснулся, но совсем не спал,\
-и высунулся в середину утра.\
-Я встал ногами прямо на диван\
-и закричал, что счастлив был как будто!
+Da, ja prosnulsja, no sovsem ne spal,\
+i vysunulsja v seredinu utra.\
+Ja vstal nogami prjamo na divan\
+i zakrichal, chto schastliv byl kak budto!
 
 </section>

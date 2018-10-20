@@ -3,46 +3,46 @@ title: VNUTRI GERBARIYA
 type: lyrics
 ---
 
-<h1>ВНУТРИ ГЕРБАРИЯ</h1>
+<h1>VNUTRI GERBARIJA</h1>
 
 <section>
 
-сегодня особенно ветрено\
-особенно в чаще\
-особенно в чаше\
-леса особенно ветрено
+segodnja osobenno vetreno\
+osobenno v chashhe\
+osobenno v chashe\
+lesa osobenno vetreno
 
-лежим на жухлой листве\
-в обнимку нагие\
-в облипку ноги и\
-рёбра на мокрой листве
+lezhim na zhuhloj listve\
+v obnimku nagie\
+v oblipku nogi i\
+rjobra na mokroj listve
 
-вокруг закруглились деревья\
-шумящим забором\
-шумят им за бором\
-вселенные будто деревья
+vokrug zakruglilis' derev'ja\
+shumjashhim zaborom\
+shumjat im za borom\
+vselennye budto derev'ja
 
-в верху разрыхлилось солнце\
-течёт косыми лучами\
-течёт косуля&#8208;м[и э]чами\
-в верху расширялось солнце
+v verhu razryhlilos' solnce\
+techjot kosymi luchami\
+techjot kosulja&#8208;m[i je]chami\
+v verhu rasshirjalos' solnce
 
-а у тебя волосы пальцы\
-я собираю из них ладони\
-и молюсь на них как итальянцы\
-сикстинской мадонне\
-а у меня голова тайник\
-ошибок всего человечества\
-ты мой безумный тик\
-и это никак не лечится\
-не выветрится не уйдёт\
-а если смотреть с неба\
-наше ложе огромный рот\
-где мы кусочками хлеба\
-насущного днесь разлеглись\
-лежим на краю у центра
+a u tebja volosy pal'cy\
+ja sobiraju iz nih ladoni\
+i moljus' na nih kak ital'jancy\
+sikstinskoj madonne\
+a u menja golova tajnik\
+oshibok vsego chelovechestva\
+ty moj bezumnyj tik\
+i jeto nikak ne lechitsja\
+ne vyvetritsja ne ujdjot\
+a esli smotret' s neba\
+nashe lozhe ogromnyj rot\
+gde my kusochkami hleba\
+nasushhnogo dnes' razleglis'\
+lezhim na kraju u centra
 
-Стянулась тучами высь\
-и спрятала нас от ветра.
+Stjanulas' tuchami vys'\
+i sprjatala nas ot vetra.
 
 </section>

@@ -3,76 +3,76 @@ title: CHERNOKNIZHNICA
 type: lyrics
 ---
 
-<h1>ЧЕРНОКНИЖНИЦА</h1>
+<h1>CHERNOKNIZHNICA</h1>
 
 <section>
 
-Ничего не пишется&thinsp;&mdash;&thinsp;\
-стал я выше месяца.\
-Это чернокнижница,\
-серп сковав из месяца,\
-срезала мне волосы&thinsp;&mdash;&thinsp;\
-сделала обманутым.\
-Загремел я совестью,\
-спрятанной карманами.\
-Я на стол их вывернул&thinsp;&mdash;&thinsp;\
-там игра да золото\
-ставят перед выбором,\
-загибают воротом.\
-Весь я перемешанный\
-с памятью о будущем\
-превращаюсь в пешего\
-в человечье чудище.
+Nichego ne pishetsja&thinsp;&mdash;&thinsp;\
+stal ja vyshe mesjaca.\
+Jeto chernoknizhnica,\
+serp skovav iz mesjaca,\
+srezala mne volosy&thinsp;&mdash;&thinsp;\
+sdelala obmanutym.\
+Zagremel ja sovest'ju,\
+sprjatannoj karmanami.\
+Ja na stol ih vyvernul&thinsp;&mdash;&thinsp;\
+tam igra da zoloto\
+stavjat pered vyborom,\
+zagibajut vorotom.\
+Ves' ja peremeshannyj\
+s pamjat'ju o budushhem\
+prevrashhajus' v peshego\
+v chelovech'e chudishhe.
 
-Ой да ой!\
-Эль да лай!\
-Пой да пой,\
-да играй!\
-Доиграй до запетых\
-до оборванных нот&thinsp;&mdash;&thinsp;\
-и ты срежешь секрет\
-этих рук, будто плод\
-Ой да ой!\
-Лай да лай!\
-Пой да пой,\
-да играй.\
-Доиграй до конца,\
-и тогда я войду.\
-У начала кольца\
-рыба бьётся во льду.
+Oj da oj!\
+Jel' da laj!\
+Poj da poj,\
+da igraj!\
+Doigraj do zapetyh\
+do oborvannyh not&thinsp;&mdash;&thinsp;\
+i ty srezhesh' sekret\
+jetih ruk, budto plod\
+Oj da oj!\
+Laj da laj!\
+Poj da poj,\
+da igraj.\
+Doigraj do konca,\
+i togda ja vojdu.\
+U nachala kol'ca\
+ryba b'jotsja vo l'du.
 
-Ой ты, чернокнижница,\
-где черешня лопнула,\
-там ничто не движется&thinsp;&mdash;&thinsp;\
-пустота да стёкла там.\
-Ни во что не верится.\
-Ничего не кружится.\
-Белый месяц пенится,\
-звёзды будто кружева.\
-Ночь моргает с берега.\
-Слышишь, чернокнижница!\
-Ты меня не сберегла\
-Слышишь, слышишь&thinsp;&mdash;&thinsp;пишется!\
-Слышишь, расступается!\
-Песня распоясалась!\
-Рыба бултыхается,\
-только бают ясли нас.
+Oj ty, chernoknizhnica,\
+gde chereshnja lopnula,\
+tam nichto ne dvizhetsja&thinsp;&mdash;&thinsp;\
+pustota da stjokla tam.\
+Ni vo chto ne veritsja.\
+Nichego ne kruzhitsja.\
+Belyj mesjac penitsja,\
+zvjozdy budto kruzheva.\
+Noch' morgaet s berega.\
+Slyshish', chernoknizhnica!\
+Ty menja ne sberegla\
+Slyshish', slyshish'&thinsp;&mdash;&thinsp;pishetsja!\
+Slyshish', rasstupaetsja!\
+Pesnja raspojasalas'!\
+Ryba bultyhaetsja,\
+tol'ko bajut jasli nas.
 
-Эль да лэй!\
-Лай да лал!\
-Пел да пел,\
-да играл.\
-Доиграл до запетых\
-до оборванных нот&thinsp;&mdash;&thinsp;\
-и ты срезал секрет\
-этих рук, будто плод.\
-Ой да ой!\
-Лай да лай!\
-Пой да пой,\
-да играй!\
-Доиграй до конца,\
-и тогда мы войдём&thinsp;&mdash;&thinsp;\
-у начала кольца\
-будем рыбой вдвоём.
+Jel' da ljej!\
+Laj da lal!\
+Pel da pel,\
+da igral.\
+Doigral do zapetyh\
+do oborvannyh not&thinsp;&mdash;&thinsp;\
+i ty srezal sekret\
+jetih ruk, budto plod.\
+Oj da oj!\
+Laj da laj!\
+Poj da poj,\
+da igraj!\
+Doigraj do konca,\
+i togda my vojdjom&thinsp;&mdash;&thinsp;\
+u nachala kol'ca\
+budem ryboj vdvojom.
 
 </section>

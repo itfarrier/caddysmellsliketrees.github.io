@@ -3,77 +3,77 @@ title: PEREPEL
 type: lyrics
 ---
 
-<h1>ПЕРЕПЕЛ</h1>
+<h1>PEREPEL</h1>
 
 <section>
 
-переехал&#8208;перевыполнил\
-перегрыз&#8208;переломил
+pereehal&#8208;perevypolnil\
+peregryz&#8208;perelomil
 
-перерос и&nbsp;перекрикивал\
-переделал&#8208;перелил
+pereros i&nbsp;perekrikival\
+peredelal&#8208;perelil
 
-перелил&#8208;лил&#8208;лил&#8208;лил&#8208;лил&#8208;лил&#8208;лил
+perelil&#8208;lil&#8208;lil&#8208;lil&#8208;lil&#8208;lil&#8208;lil
 
-Передумал!\
-Перестал!
+Peredumal!\
+Perestal!
 
-Я&nbsp;тебя показывал трём солнцам&thinsp;&mdash;&thinsp;два потухли,\
-крайнее осталось не&nbsp;причём.\
-Я&nbsp;несу в&nbsp;карманах только руки\
-и&nbsp;останусь, видно, новичком.
+Ja&nbsp;tebja pokazyval trjom solncam&thinsp;&mdash;&thinsp;dva potuhli,\
+krajnee ostalos' ne&nbsp;prichjom.\
+Ja&nbsp;nesu v&nbsp;karmanah tol'ko ruki\
+i&nbsp;ostanus', vidno, novichkom.
 
-перевыполнил&#8208;переехал\
-переосмыслил&#8208;пересмотрел\
-перебежал&#8208;пережал&#8208;перерезал\
-перепел твой перепел\
-Ой, перепел!
+perevypolnil&#8208;pereehal\
+pereosmyslil&#8208;peresmotrel\
+perebezhal&#8208;perezhal&#8208;pererezal\
+perepel tvoj perepel\
+Oj, perepel!
 
-перепел пел&#8208;пел&#8208;пел&#8208;пере&#8208;пел\
-да&nbsp;перебрал
+perepel pel&#8208;pel&#8208;pel&#8208;pere&#8208;pel\
+da&nbsp;perebral
 
-перепел пел&#8208;пел&#8208;пел&#8208;пере&#8208;пел
+perepel pel&#8208;pel&#8208;pel&#8208;pere&#8208;pel
 
-Переделал!\
-Перестал!
+Peredelal!\
+Perestal!
 
-Пе&#8208;ре&#8208;пел твой пе&#8208;ре&#8208;пел!
+Pe&#8208;re&#8208;pel tvoj pe&#8208;re&#8208;pel!
 
-Я&nbsp;тебя показывал трём солнцам&thinsp;&mdash;&thinsp;два потухли,\
-крайнее осталось не&nbsp;причём.\
-Я&nbsp;несу в&nbsp;карманах только руки\
-и&nbsp;останусь, видно, новичком.
+Ja&nbsp;tebja pokazyval trjom solncam&thinsp;&mdash;&thinsp;dva potuhli,\
+krajnee ostalos' ne&nbsp;prichjom.\
+Ja&nbsp;nesu v&nbsp;karmanah tol'ko ruki\
+i&nbsp;ostanus', vidno, novichkom.
 
-Я&nbsp;тебя показывал трём солнцам&thinsp;&mdash;&thinsp;два потухли,\
-крайнее осталось не&nbsp;причём.\
-Я&nbsp;несу в&nbsp;карманах только спрятанные руки\
-и&nbsp;останусь, видно, новичком.
+Ja&nbsp;tebja pokazyval trjom solncam&thinsp;&mdash;&thinsp;dva potuhli,\
+krajnee ostalos' ne&nbsp;prichjom.\
+Ja&nbsp;nesu v&nbsp;karmanah tol'ko sprjatannye ruki\
+i&nbsp;ostanus', vidno, novichkom.
 
-Я&nbsp;живу сутуло, незаметно греет руки\
-тёплая карманная вода.\
-В&nbsp;небе по&nbsp;углам искал дорогу сытый путник,\
-но&nbsp;в&nbsp;сахаре железная звезда.
+Ja&nbsp;zhivu sutulo, nezametno greet ruki\
+tjoplaja karmannaja voda.\
+V&nbsp;nebe po&nbsp;uglam iskal dorogu sytyj putnik,\
+no&nbsp;v&nbsp;sahare zheleznaja zvezda.
 
-Перепел твой перепел!\
-Ох, перепел!
+Perepel tvoj perepel!\
+Oh, perepel!
 
 <h2>***</h2>
 
-Я&nbsp;тебя показывал трём солнцам&thinsp;&mdash;&thinsp;два потухли,\
-крайнее осталось не&nbsp;причём.\
-Я&nbsp;несу в&nbsp;карманах только руки\
-и&nbsp;останусь, видно, новичком.
+Ja&nbsp;tebja pokazyval trjom solncam&thinsp;&mdash;&thinsp;dva potuhli,\
+krajnee ostalos' ne&nbsp;prichjom.\
+Ja&nbsp;nesu v&nbsp;karmanah tol'ko ruki\
+i&nbsp;ostanus', vidno, novichkom.
 
-Сытым новичком! Мне крепко руки вяжет\
-тёплая карманная вода!\
-Сахарные звёзды тают, как на&nbsp;пляже\
-липкая медуза, как звезда.
+Sytym novichkom! Mne krepko ruki vjazhet\
+tjoplaja karmannaja voda!\
+Saharnye zvjozdy tajut, kak na&nbsp;pljazhe\
+lipkaja meduza, kak zvezda.
 
-Я&nbsp;тебя показывал трём солнцам&thinsp;&mdash;&thinsp;два потухли,\
-крайнее смеялось, загадав\
-то, о&nbsp;чём жужжат пустые ульи:\
-мы&nbsp;верёвки или провода?
+Ja&nbsp;tebja pokazyval trjom solncam&thinsp;&mdash;&thinsp;dva potuhli,\
+krajnee smejalos', zagadav\
+to, o&nbsp;chjom zhuzhzhat pustye ul'i:\
+my&nbsp;verjovki ili provoda?
 
-Передумал и&nbsp;не&nbsp;угадал.
+Peredumal i&nbsp;ne&nbsp;ugadal.
 
 </section>

@@ -3,39 +3,39 @@ title: LES
 type: lyrics
 ---
 
-<h1>ЛЕС</h1>
+<h1>LES</h1>
 
 <section>
 
-мысли превратив в шаг\
-словно размотав шар\
-мы спускаемся вниз\
-руки превратив в близь
+mysli prevrativ v shag\
+slovno razmotav shar\
+my spuskaemsja vniz\
+ruki prevrativ v bliz'
 
-спрятав за спиной мир\
-ноги превратив в ширь\
-мы идём с тобой в лес\
-он дрожит от нас весь
+sprjatav za spinoj mir\
+nogi prevrativ v shir'\
+my idjom s toboj v les\
+on drozhit ot nas ves'
 
-путь станет нашей змеёй\
-все деревья землёй\
-птицы будут петь марш\
-это только страх наш
+put' stanet nashej zmejoj\
+vse derev'ja zemljoj\
+pticy budut pet' marsh\
+jeto tol'ko strah nash
 
-не расплавить нас&thinsp;&mdash;&thinsp;сталь\
-мы срослись в костёр пальц\
-я в твою иглу вдет\
-нам с тобой один след\
-нам с тобой один лес\
-тропы превратив в крест\
-перед нами вся жизнь\
-превращает ширь в близь
+ne rasplavit' nas&thinsp;&mdash;&thinsp;stal'\
+my sroslis' v kostjor pal'c\
+ja v tvoju iglu vdet\
+nam s toboj odin sled\
+nam s toboj odin les\
+tropy prevrativ v krest\
+pered nami vsja zhizn'\
+prevrashhaet shir' v bliz'
 
-перед нами наш шанс\
-мысли превратить в транс\
-лес таил в себе секрет\
-времени вообще нет\
-времени вообще нет\
-времени вообще нет
+pered nami nash shans\
+mysli prevratit' v trans\
+les tail v sebe sekret\
+vremeni voobshhe net\
+vremeni voobshhe net\
+vremeni voobshhe net
 
 </section>

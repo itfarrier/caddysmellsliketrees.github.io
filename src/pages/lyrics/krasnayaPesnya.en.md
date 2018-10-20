@@ -3,51 +3,51 @@ title: KRASNAYA PESN'YA
 type: lyrics
 ---
 
-<h1>КРАСНАЯ ПЕСНЯ</h1>
+<h1>KRASNAJA PESNJA</h1>
 
 <section>
 
-Вспомни\
-и спой мне
+Vspomni\
+i spoj mne
 
-Пусть рыбы станут нотами!\
-Спой мне о том, что ты жив.\
-Спой мне о том, что дредноуты\
-тонут в тебе, как моржи.\
-Тонут и не всплывают,\
-оседают на дне.\
-Киты, титаники, сваи\
-грозят твоей глубине!
+Pust' ryby stanut notami!\
+Spoj mne o tom, chto ty zhiv.\
+Spoj mne o tom, chto drednouty\
+tonut v tebe, kak morzhi.\
+Tonut i ne vsplyvajut,\
+osedajut na dne.\
+Kity, titaniki, svai\
+grozjat tvoej glubine!
 
-Выпусти рыб из горла&thinsp;&mdash;&thinsp;\
-начни свою красную песню!\
-Почувствуй, как ты оторван,\
-вымучен и неизвестен.\
-Почувствуй, как близко радость,\
-как она пахнет шпалами,\
-снегом еловым и стадом,\
-кровью и караванами.\
-Пусть птицы станут нотами!\
-Спой мне о том, кем ты был,\
-когда были люди смотаны\
-в узел и брошены в ил.\
-Спой мне о том, что было\
-после войны за воду.\
-Спой нам, как церковь крестила\
-ракеты, часы и заводы.
+Vypusti ryb iz gorla&thinsp;&mdash;&thinsp;\
+nachni svoju krasnuju pesnju!\
+Pochuvstvuj, kak ty otorvan,\
+vymuchen i neizvesten.\
+Pochuvstvuj, kak blizko radost',\
+kak ona pahnet shpalami,\
+snegom elovym i stadom,\
+krov'ju i karavanami.\
+Pust' pticy stanut notami!\
+Spoj mne o tom, kem ty byl,\
+kogda byli ljudi smotany\
+v uzel i brosheny v il.\
+Spoj mne o tom, chto bylo\
+posle vojny za vodu.\
+Spoj nam, kak cerkov' krestila\
+rakety, chasy i zavody.
 
-Выпусти горлиц из горла&thinsp;&mdash;&thinsp;\
-начни свою красную песню!\
-Почувствуй, как ты оторван,\
-вымучен и неизвестен.\
-Почувствуй, как близко радость,\
-как она пахнет ранами,\
-кровью и виноградом,\
-солью и караваями.
+Vypusti gorlic iz gorla&thinsp;&mdash;&thinsp;\
+nachni svoju krasnuju pesnju!\
+Pochuvstvuj, kak ty otorvan,\
+vymuchen i neizvesten.\
+Pochuvstvuj, kak blizko radost',\
+kak ona pahnet ranami,\
+krov'ju i vinogradom,\
+sol'ju i karavajami.
 
-Высыпи землю из горла&thinsp;&mdash;&thinsp;\
-начни свою красную песню!\
-Дрейфующий буревестник\
-зовёт на другую сторону.
+Vysypi zemlju iz gorla&thinsp;&mdash;&thinsp;\
+nachni svoju krasnuju pesnju!\
+Drejfujushhij burevestnik\
+zovjot na druguju storonu.
 
 </section>

@@ -3,35 +3,35 @@ title: GERBARIJ
 type: lyrics
 ---
 
-<h1>ГЕРБАРИЙ</h1>
+<h1>GERBARIJ</h1>
 
-<h2>э´л’ь</h2>
+<h2>je´l’'</h2>
 
 <section>
 
-Мы с тобой в холодных подземельях\
-целовались в сахарный огонь!\
-Вынесли нас хрупкие олени\
-на рогах, похожих на ладонь.
+My s toboj v holodnyh podzemel'jah\
+celovalis' v saharnyj ogon'!\
+Vynesli nas hrupkie oleni\
+na rogah, pohozhih na ladon'.
 
-Речка с разветвлёнными хвостами\
-задевала путников, шипя.\
-Рыбы в ней тонувшими свистками\
-пропускали время сквозь себя.
+Rechka s razvetvljonnymi hvostami\
+zadevala putnikov, shipja.\
+Ryby v nej tonuvshimi svistkami\
+propuskali vremja skvoz' sebja.
 
-Лез на лес зелёной тканью парус,\
-мышцами деревья напряглись&thinsp;&mdash;&thinsp;\
-и сползла трухою рыхлой старость,\
-оголяя меж стволами жизнь!
+Lez na les zeljonoj tkan'ju parus,\
+myshcami derev'ja naprjaglis'&thinsp;&mdash;&thinsp;\
+i spolzla truhoju ryhloj starost',\
+ogoljaja mezh stvolami zhizn'!
 
-Так сложились кости леса в судно.\
-Где&#8208;то тут в оленях и рогах\
-мы с тобой вросли в тугие судьбы\
-тропами на выжженных руках.
+Tak slozhilis' kosti lesa v sudno.\
+Gde&#8208;to tut v olenjah i rogah\
+my s toboj vrosli v tugie sud'by\
+tropami na vyzhzhennyh rukah.
 
-Мы плывём по Солнцу,\
-наш корабль чует запах гари.\
-Там, где мы проснёмся,\
-там и расцветёт гербарий.
+My plyvjom po Solncu,\
+nash korabl' chuet zapah gari.\
+Tam, gde my prosnjomsja,\
+tam i rascvetjot gerbarij.
 
 </section>

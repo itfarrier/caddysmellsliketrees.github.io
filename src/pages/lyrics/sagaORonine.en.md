@@ -3,110 +3,110 @@ title: SAGA O RONINE
 type: lyrics
 ---
 
-<h1>САГА О РОНИНЕ</h1>
+<h1>SAGA O RONINE</h1>
 
 <section>
 
-<h2>I. Ронение</h2>
+<h2>I. Ronenie</h2>
 
-Утром ранним\
-пикой солнц\
-ранил ронина\
-Муссон
+Utrom rannim\
+pikoj solnc\
+ranil ronina\
+Musson
 
-ронин ранен\
-уронил\
-пальцев камень\
-в жидкий ил\
-ронин ранен\
-ранен в бок\
-из него стекает\
-Бог\
-Бог бесстрашья\
-Бог войны\
-чёрным в чаши\
-чашей в сны\
-сном в ладони\
-ими в миг\
-ранен ронин\
-он настиг\
-лошадь вора\
-стал травой\
-для коровы\
-бежевой\
-он упал\
-удар меча\
-пряча в теле\
-хохоча
+ronin ranen\
+uronil\
+pal'cev kamen'\
+v zhidkij il\
+ronin ranen\
+ranen v bok\
+iz nego stekaet\
+Bog\
+Bog besstrash'ja\
+Bog vojny\
+chjornym v chashi\
+chashej v sny\
+snom v ladoni\
+imi v mig\
+ranen ronin\
+on nastig\
+loshad' vora\
+stal travoj\
+dlja korovy\
+bezhevoj\
+on upal\
+udar mecha\
+prjacha v tele\
+hohocha
 
-Утром ранним\
-солнцем пик\
-ранил ронина\
-Родник
+Utrom rannim\
+solncem pik\
+ranil ronina\
+Rodnik
 
-он упал лежал угрём\
-вспоминая водоём\
-вор стоял&#8208;стоял угрюм\
-вор старел а ронин юн\
-юн навечно\
-он теперь\
-тёплый вечер\
-или зверь\
-или голова змеи\
-или мокрый ком земли\
-или пена или пень\
-или тело\
-или тень\
-время в ронине само\
-словно море зацвело\
-Утром ранним\
-солнцем пик\
-ранил ронина\
-Двойник
+on upal lezhal ugrjom\
+vspominaja vodojom\
+vor stojal&#8208;stojal ugrjum\
+vor starel a ronin jun\
+jun navechno\
+on teper'\
+tjoplyj vecher\
+ili zver'\
+ili golova zmei\
+ili mokryj kom zemli\
+ili pena ili pen'\
+ili telo\
+ili ten'\
+vremja v ronine samo\
+slovno more zacvelo\
+Utrom rannim\
+solncem pik\
+ranil ronina\
+Dvojnik
 
-<h2>II. Встречный конь</h2>
+<h2>II. Vstrechnyj kon'</h2>
 
-налево&thinsp;&mdash;&thinsp;воль\
-направо&thinsp;&mdash;&thinsp;раб\
-умчался конь\
-под лунный храп\
-я там пропел\
-я там пропал\
-налево&thinsp;&mdash;&thinsp;вел\
-направо&thinsp;&mdash;&thinsp;пар\
-налево&thinsp;&mdash;&thinsp;вел\
-я так велел\
-направо&thinsp;&mdash;&thinsp;пар\
-конь там попал\
-по центру&thinsp;&mdash;&thinsp;в речь,\
-по центру&thinsp;&mdash;&thinsp;в чернь\
-он&thinsp;&mdash;&thinsp;рыба&#8208;меч\
-летящий челн
+nalevo&thinsp;&mdash;&thinsp;vol'\
+napravo&thinsp;&mdash;&thinsp;rab\
+umchalsja kon'\
+pod lunnyj hrap\
+ja tam propel\
+ja tam propal\
+nalevo&thinsp;&mdash;&thinsp;vel\
+napravo&thinsp;&mdash;&thinsp;par\
+nalevo&thinsp;&mdash;&thinsp;vel\
+ja tak velel\
+napravo&thinsp;&mdash;&thinsp;par\
+kon' tam popal\
+po centru&thinsp;&mdash;&thinsp;v rech',\
+po centru&thinsp;&mdash;&thinsp;v chern'\
+on&thinsp;&mdash;&thinsp;ryba&#8208;mech\
+letjashhij cheln
 
-конь нёс даров\
-он не здоров\
-больная кровь\
-внутри болталась\
-конь флягой был\
-искал мой мир\
-но только ил\
-вокруг и гадость
+kon' njos darov\
+on ne zdorov\
+bol'naja krov'\
+vnutri boltalas'\
+kon' fljagoj byl\
+iskal moj mir\
+no tol'ko il\
+vokrug i gadost'
 
-налево&thinsp;&mdash;&thinsp;лев\
-направо&thinsp;&mdash;&thinsp;прах\
-я всё проел\
-я весь пропах\
-налево&thinsp;&mdash;&thinsp;вел\
-направо&thinsp;&mdash;&thinsp;пар\
-конь весь летел\
-и нёс свой дар\
-налево&thinsp;&mdash;&thinsp;лов\
-конь нёс мне слов\
-направо&thinsp;&mdash;&thinsp;пир\
-конь воздух пил\
-в котором время\
-чёрный сок\
-конь нёсся зверем\
-я умолк
+nalevo&thinsp;&mdash;&thinsp;lev\
+napravo&thinsp;&mdash;&thinsp;prah\
+ja vsjo proel\
+ja ves' propah\
+nalevo&thinsp;&mdash;&thinsp;vel\
+napravo&thinsp;&mdash;&thinsp;par\
+kon' ves' letel\
+i njos svoj dar\
+nalevo&thinsp;&mdash;&thinsp;lov\
+kon' njos mne slov\
+napravo&thinsp;&mdash;&thinsp;pir\
+kon' vozduh pil\
+v kotorom vremja\
+chjornyj sok\
+kon' njossja zverem\
+ja umolk
 
 </section>

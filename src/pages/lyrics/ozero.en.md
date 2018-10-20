@@ -3,56 +3,56 @@ title: OZERO
 type: lyrics
 ---
 
-<h1>ОЗЕРО</h1>
+<h1>OZERO</h1>
 
 <section>
 
-Вечер тих.\
-Начерти\
-на&nbsp;воде,\
-овод где,\
-мокрый знак&thinsp;&mdash;&thinsp;\
-мог&nbsp;ли знать,\
-как вечер их\
-тих.
+Vecher tih.\
+Nacherti\
+na&nbsp;vode,\
+ovod gde,\
+mokryj znak&thinsp;&mdash;&thinsp;\
+mog&nbsp;li znat',\
+kak vecher ih\
+tih.
 
-Мальчик в&nbsp;лодке речку трогал,\
-или лодка тянет воду.\
-Руки закатав в&nbsp;тюльпаны,\
-мальчик тянет одеяло.
+Mal'chik v&nbsp;lodke rechku trogal,\
+ili lodka tjanet vodu.\
+Ruki zakatav v&nbsp;tjul'pany,\
+mal'chik tjanet odejalo.
 
-Это солнце в&nbsp;камышах\
-Прячет золото в&nbsp;мешках.\
-Это время на&nbsp;воде\
-Водомеркой делит день.
+Jeto solnce v&nbsp;kamyshah\
+Prjachet zoloto v&nbsp;meshkah.\
+Jeto vremja na&nbsp;vode\
+Vodomerkoj delit den'.
 
-Это цапля&thinsp;&mdash;&thinsp;часовой&thinsp;&mdash;&thinsp;\
-Правой тикает ногой.\
-Это мальчик в&nbsp;лодке лишней\
-Зацветает белой вишней.
+Jeto caplja&thinsp;&mdash;&thinsp;chasovoj&thinsp;&mdash;&thinsp;\
+Pravoj tikaet nogoj.\
+Jeto mal'chik v&nbsp;lodke lishnej\
+Zacvetaet beloj vishnej.
 
-Вечер тих.\
-Начерти\
-на&nbsp;воде,\
-овод где,\
-мокрый знак&thinsp;&mdash;&thinsp;\
-мог&nbsp;ли знать,\
-как вечер их\
-тих.
+Vecher tih.\
+Nacherti\
+na&nbsp;vode,\
+ovod gde,\
+mokryj znak&thinsp;&mdash;&thinsp;\
+mog&nbsp;li znat',\
+kak vecher ih\
+tih.
 
-Эту лодку утопи\
-уткой пойманной в&nbsp;топи\
-и&nbsp;с&nbsp;лягушками из&nbsp;воска\
-с&nbsp;головой нырни в&nbsp;извёстку
+Jetu lodku utopi\
+utkoj pojmannoj v&nbsp;topi\
+i&nbsp;s&nbsp;ljagushkami iz&nbsp;voska\
+s&nbsp;golovoj nyrni v&nbsp;izvjostku
 
-Рыбы плавной чешуёй\
-Воду гладят под водой\
-И&nbsp;смыкают пузырями\
-то, что мы&nbsp;ещё не&nbsp;знаем.
+Ryby plavnoj cheshujoj\
+Vodu gladjat pod vodoj\
+I&nbsp;smykajut puzyrjami\
+to, chto my&nbsp;eshhjo ne&nbsp;znaem.
 
-Это вечер&thinsp;&mdash;&thinsp;зелен лён&thinsp;&mdash;&thinsp;\
-тянет сердце на&nbsp;бутон.\
-В&nbsp;этот вечер, время сквозь\
-Сердце с&nbsp;озером сплелось.
+Jeto vecher&thinsp;&mdash;&thinsp;zelen ljon&thinsp;&mdash;&thinsp;\
+tjanet serdce na&nbsp;buton.\
+V&nbsp;jetot vecher, vremja skvoz'\
+Serdce s&nbsp;ozerom splelos'.
 
 </section>

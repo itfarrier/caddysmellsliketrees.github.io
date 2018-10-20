@@ -3,46 +3,46 @@ title: TEREM
 type: lyrics
 ---
 
-<h1>ТЕРЕМ</h1>
+<h1>TEREM</h1>
 
 <section>
 
-Время говорило со мной на японском,\
-Сжимало меня в иероглиф оно.
+Vremja govorilo so mnoj na japonskom,\
+Szhimalo menja v ieroglif ono.
 
-Время показало мне, как оставаться плоским,\
-Но я непослушный сматывался веретеном.
+Vremja pokazalo mne, kak ostavat'sja ploskim,\
+No ja neposlushnyj smatyvalsja veretenom.
 
-Тянется путь\
-меченой тенью,\
-я ищу терем,\
-способный обуть.
+Tjanetsja put'\
+mechenoj ten'ju,\
+ja ishhu terem,\
+sposobnyj obut'.
 
-Мне казалось, я&thinsp;&mdash;&thinsp;это только намёки,\
-Простые мотивы, чужие слова.
+Mne kazalos', ja&thinsp;&mdash;&thinsp;jeto tol'ko namjoki,\
+Prostye motivy, chuzhie slova.
 
-Но дорога говорила мне, что в ливень мы не\
-намокнем.\
-Вода барабанит о руки мои&thinsp;&mdash;&thinsp;жернова.
+No doroga govorila mne, chto v liven' my ne\
+namoknem.\
+Voda barabanit o ruki moi&thinsp;&mdash;&thinsp;zhernova.
 
-Тянется путь\
-меченой тенью,\
-я ищу терем, способный обуть.
+Tjanetsja put'\
+mechenoj ten'ju,\
+ja ishhu terem, sposobnyj obut'.
 
-Время показало мне двенадцать ударов,\
-но я не почувствовал ни одного.
+Vremja pokazalo mne dvenadcat' udarov,\
+no ja ne pochuvstvoval ni odnogo.
 
-Я выпал в окно, подражая Икару&thinsp;&mdash;&thinsp;\
-под кожей моей перьями дрожало стекло.
+Ja vypal v okno, podrazhaja Ikaru&thinsp;&mdash;&thinsp;\
+pod kozhej moej per'jami drozhalo steklo.
 
-теплится время\
-путь мой наручник\
-светит сквозь ночь мне\
-брошенный терем\
-терем дом\
-терем который\
-способен обуть\
-я крадусь вором\
-боюсь вздохнуть
+teplitsja vremja\
+put' moj naruchnik\
+svetit skvoz' noch' mne\
+broshennyj terem\
+terem dom\
+terem kotoryj\
+sposoben obut'\
+ja kradus' vorom\
+bojus' vzdohnut'
 
 </section>

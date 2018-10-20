@@ -3,38 +3,38 @@ title: MALO
 type: lyrics
 ---
 
-<h1>МАЛО</h1>
+<h1>MALO</h1>
 
 <section>
 
-Ой, как мне воздуха мало&thinsp;&mdash;&thinsp;\
-пью я воздух пиалой,\
-пью и не могу напиться&thinsp;&mdash;&thinsp;\
-воздух я клюю птицей.
+Oj, kak mne vozduha malo&thinsp;&mdash;&thinsp;\
+p'ju ja vozduh pialoj,\
+p'ju i ne mogu napit'sja&thinsp;&mdash;&thinsp;\
+vozduh ja kljuju pticej.
 
-Ой, как земли&#8208;то мне мало&thinsp;&mdash;&thinsp;\
-ем я землю стаканом,\
-ем и не могу наесться&thinsp;&mdash;&thinsp;\
-с нею я съедаю детство.
+Oj, kak zemli&#8208;to mne malo&thinsp;&mdash;&thinsp;\
+em ja zemlju stakanom,\
+em i ne mogu naest'sja&thinsp;&mdash;&thinsp;\
+s neju ja s#edaju detstvo.
 
-Ой, как огня&#8208;то мне мало&thinsp;&mdash;&thinsp;\
-лью огонь в себя алый,\
-лью и подливаю масла\
-и пою огнём астру.
+Oj, kak ognja&#8208;to mne malo&thinsp;&mdash;&thinsp;\
+l'ju ogon' v sebja alyj,\
+l'ju i podlivaju masla\
+i poju ognjom astru.
 
-Ой, как воды&#8208;то мне мало&thinsp;&mdash;&thinsp;\
-сколько вод утекало,\
-столько был тогда сухой\
-полыхающей травой.
+Oj, kak vody&#8208;to mne malo&thinsp;&mdash;&thinsp;\
+skol'ko vod utekalo,\
+stol'ko byl togda suhoj\
+polyhajushhej travoj.
 
-Мгла за глаза легла,\
-невесть куда звала,\
-невестою звалась,\
-лаяла и вилась.
+Mgla za glaza legla,\
+nevest' kuda zvala,\
+nevestoju zvalas',\
+lajala i vilas'.
 
-Я за глазами свил\
-из веток и светил\
-гнёзда, и в них птенцы\
-воском клювов жгут венцы.
+Ja za glazami svil\
+iz vetok i svetil\
+gnjozda, i v nih ptency\
+voskom kljuvov zhgut vency.
 
 </section>

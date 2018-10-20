@@ -3,31 +3,31 @@ title: MAL'CHIK-BATISKAF
 type: lyrics
 ---
 
-<h1>МАЛЬЧИК&#8208;БАТИСКАФ</h1>
+<h1>MAL'CHIK&#8208;BATISKAF</h1>
 
 <section>
 
-Я научился слышать, как во мне\
-журчит вода, как в этой глубине\
-всё море жидким солнцем обыскав,\
-ко мне вернулся мальчик&#8208;батискаф.\
-Он говорил со мной на языке\
-кораллов&thinsp;&mdash;&thinsp;он оправдывался мне!\
-В слезах его я камешки искал,\
-которые он выковал из скал.
+Ja nauchilsja slyshat', kak vo mne\
+zhurchit voda, kak v jetoj glubine\
+vsjo more zhidkim solncem obyskav,\
+ko mne vernulsja mal'chik&#8208;batiskaf.\
+On govoril so mnoj na jazyke\
+korallov&thinsp;&mdash;&thinsp;on opravdyvalsja mne!\
+V slezah ego ja kameshki iskal,\
+kotorye on vykoval iz skal.
 
-Я голову поймал сетями рук&thinsp;&mdash;&thinsp;\
-прыжками рыба рисовала круг\
-и неспокойно хлюпала губами&thinsp;&mdash;&thinsp;\
-рвалась наружу. Превратилась в камень,\
-когда узнала, что искомый клад\
-задавлен не подошвой дна, а над\
-водой летает слабым альбатросом,\
-глотающим воды тугие тросы\
-и рыб крылатых ловящим мешком.\
-Мой мальчик, научись ходить пешком.
+Ja golovu pojmal setjami ruk&thinsp;&mdash;&thinsp;\
+pryzhkami ryba risovala krug\
+i nespokojno hljupala gubami&thinsp;&mdash;&thinsp;\
+rvalas' naruzhu. Prevratilas' v kamen',\
+kogda uznala, chto iskomyj klad\
+zadavlen ne podoshvoj dna, a nad\
+vodoj letaet slabym al'batrosom,\
+glotajushhim vody tugie trosy\
+i ryb krylatyh lovjashhim meshkom.\
+Moj mal'chik, nauchis' hodit' peshkom.
 
-Теперь я часто слышу, как во мне\
-ребёнок бегает за птицей по воде.
+Teper' ja chasto slyshu, kak vo mne\
+rebjonok begaet za pticej po vode.
 
 </section>

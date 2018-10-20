@@ -3,46 +3,46 @@ title: TO LI
 type: lyrics
 ---
 
-<h1>ТО&nbsp;ЛИ</h1>
+<h1>TO&nbsp;LI</h1>
 
 <section>
 
-То&nbsp;ли месяц выл\
-То&nbsp;ли мелкий бес\
-То&nbsp;ли я&nbsp;исчез\
-То&nbsp;ли не&nbsp;прочесть
+To&nbsp;li mesjac vyl\
+To&nbsp;li melkij bes\
+To&nbsp;li ja&nbsp;ischez\
+To&nbsp;li ne&nbsp;prochest'
 
-То&nbsp;ли не&nbsp;был я\
-То&nbsp;ли тополь я\
-То&nbsp;ли пепел я\
-То&nbsp;ли тлею
+To&nbsp;li ne&nbsp;byl ja\
+To&nbsp;li topol' ja\
+To&nbsp;li pepel ja\
+To&nbsp;li tleju
 
-То&nbsp;ли дело я\
-То&nbsp;ли тело я\
-То&nbsp;ли колом я\
-Колотая рана
+To&nbsp;li delo ja\
+To&nbsp;li telo ja\
+To&nbsp;li kolom ja\
+Kolotaja rana
 
-То&nbsp;ли ветер я\
-То&nbsp;ли вытерт я\
-То&nbsp;ли верю я\
-То&nbsp;ли рано
+To&nbsp;li veter ja\
+To&nbsp;li vytert ja\
+To&nbsp;li verju ja\
+To&nbsp;li rano
 
-То&nbsp;ли не&nbsp;был я\
-То&nbsp;ли тополь я\
-То&nbsp;ли пепел я\
-То&nbsp;ли тлею
+To&nbsp;li ne&nbsp;byl ja\
+To&nbsp;li topol' ja\
+To&nbsp;li pepel ja\
+To&nbsp;li tleju
 
-То&nbsp;ли дело я\
-То&nbsp;ли дело я\
-Посреди полян\
-Никому не&nbsp;зрею
+To&nbsp;li delo ja\
+To&nbsp;li delo ja\
+Posredi poljan\
+Nikomu ne&nbsp;zreju
 
-То&nbsp;ли я&nbsp;исчез\
-Только я&nbsp;исчез\
-То&nbsp;ли месяц ныл\
-То&nbsp;ли шея
+To&nbsp;li ja&nbsp;ischez\
+Tol'ko ja&nbsp;ischez\
+To&nbsp;li mesjac nyl\
+To&nbsp;li sheja
 
-То&nbsp;летаю\
-То&nbsp;ли тлею
+To&nbsp;letaju\
+To&nbsp;li tleju
 
 </section>

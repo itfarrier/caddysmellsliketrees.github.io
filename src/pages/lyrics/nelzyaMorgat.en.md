@@ -7,61 +7,61 @@ type: lyrics
 
 <section>
 
-Куда ни&nbsp;глянь,\
-одна полынь.\
-Как будто янь\
-впитала инь.
+Kuda ni&nbsp;gljan',\
+odna polyn'.\
+Kak budto jan'\
+vpitala in'.
 
-Куда ни&nbsp;глянь,\
-один и&nbsp;тот\
-же&nbsp;сон&thinsp;&mdash;&thinsp;и&nbsp;я\
-на&nbsp;нем затёрт\
-смешным деньком,\
-где все поют\
-про чудный дом\
-и&nbsp;про семью.\
-А&nbsp;я? Что я?\
-Куда мне встать?\
-На&nbsp;задний ряд?\
-Нельзя моргать.\
-Нельзя моргать.\
-Нельзя моргать.\
-Не&nbsp;загораживать\
-людей.
+Kuda ni&nbsp;gljan',\
+odin i&nbsp;tot\
+zhe&nbsp;son&thinsp;&mdash;&thinsp;i&nbsp;ja\
+na&nbsp;nem zatjort\
+smeshnym den'kom,\
+gde vse pojut\
+pro chudnyj dom\
+i&nbsp;pro sem'ju.\
+A&nbsp;ja? Chto ja?\
+Kuda mne vstat'?\
+Na&nbsp;zadnij rjad?\
+Nel'zja morgat'.\
+Nel'zja morgat'.\
+Nel'zja morgat'.\
+Ne&nbsp;zagorazhivat'\
+ljudej.
 
-Нельзя моргать.\
-Нельзя моргать.\
-Смотреть перед собой\
-и&nbsp;петь\
-про чудный дом\
-и&nbsp;про семью,\
-в&nbsp;которой я\
-не&nbsp;поселюсь.\
-Стоять в&nbsp;ряду,\
-смотреть прямей&thinsp;&mdash;&thinsp;\
-все вспышку ждут,\
-а&nbsp;что за&nbsp;ней?\
-А&nbsp;кто из&nbsp;нас останется?\
-Нельзя моргать.\
-Нельзя моргать.\
-Нельзя избавиться.
+Nel'zja morgat'.\
+Nel'zja morgat'.\
+Smotret' pered soboj\
+i&nbsp;pet'\
+pro chudnyj dom\
+i&nbsp;pro sem'ju,\
+v&nbsp;kotoroj ja\
+ne&nbsp;poseljus'.\
+Stojat' v&nbsp;rjadu,\
+smotret' prjamej&thinsp;&mdash;&thinsp;\
+vse vspyshku zhdut,\
+a&nbsp;chto za&nbsp;nej?\
+A&nbsp;kto iz&nbsp;nas ostanetsja?\
+Nel'zja morgat'.\
+Nel'zja morgat'.\
+Nel'zja izbavit'sja.
 
-Нельзя моргать.\
-Нельзя моргать.\
-Стою обезоруженный.\
-Куда ни&nbsp;глянь,\
-всё будет так,\
-как будто&nbsp;бы заслужено.\
-Нельзя моргать.\
-Нельзя моргать.\
-Нельзя избавиться.\
-Всё будет так.\
-Всё будет так,\
-как будто это нравится.
+Nel'zja morgat'.\
+Nel'zja morgat'.\
+Stoju obezoruzhennyj.\
+Kuda ni&nbsp;gljan',\
+vsjo budet tak,\
+kak budto&nbsp;by zasluzheno.\
+Nel'zja morgat'.\
+Nel'zja morgat'.\
+Nel'zja izbavit'sja.\
+Vsjo budet tak.\
+Vsjo budet tak,\
+kak budto jeto nravitsja.
 
-Сухая ткань\
-быстрее глаз\
-впитает нас.\
-Впитает нас.
+Suhaja tkan'\
+bystree glaz\
+vpitaet nas.\
+Vpitaet nas.
 
 </section>

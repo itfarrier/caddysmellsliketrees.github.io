@@ -3,36 +3,36 @@ title: TEPLO BEZDONNOE
 type: lyrics
 ---
 
-<h1>ТЕПЛО БЕЗДОННОЕ</h1>
+<h1>TEPLO BEZDONNOE</h1>
 
 <section>
 
-стекло оконное\
-тепло ладонное\
-тепло бездонное\
-а я&thinsp;&mdash;&thinsp;бездомная
+steklo okonnoe\
+teplo ladonnoe\
+teplo bezdonnoe\
+a ja&thinsp;&mdash;&thinsp;bezdomnaja
 
-камнями острыми\
-даль баламуть!\
-ласковые гнёзда\
-ласточкина грудь
+kamnjami ostrymi\
+dal' balamut'!\
+laskovye gnjozda\
+lastochkina grud'
 
-Днём и ночью я пою, как дышу,\
-Если надо, и железо сокрушу.
+Dnjom i noch'ju ja poju, kak dyshu,\
+Esli nado, i zhelezo sokrushu.
 
-тепло оконное\
-стекло ладонное\
-в стекле&thinsp;&mdash;&thinsp;бездонная\
-тепло бездомное
+teplo okonnoe\
+steklo ladonnoe\
+v stekle&thinsp;&mdash;&thinsp;bezdonnaja\
+teplo bezdomnoe
 
-родимых выкликнуть\
-очами свеч\
-по&#8208;птичьи выкрикнуть\
-очами жечь
+rodimyh vykliknut'\
+ochami svech\
+po&#8208;ptich'i vykriknut'\
+ochami zhech'
 
-Днём и ночью я пою, как дышу,\
-Если надо, и железо сокрушу.\
-Пойте&#8208;пойте, голубые стебельки,\
-Как стальные закалённые клинки!
+Dnjom i noch'ju ja poju, kak dyshu,\
+Esli nado, i zhelezo sokrushu.\
+Pojte&#8208;pojte, golubye stebel'ki,\
+Kak stal'nye zakaljonnye klinki!
 
 </section>

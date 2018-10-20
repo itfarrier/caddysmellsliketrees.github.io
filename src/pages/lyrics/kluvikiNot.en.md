@@ -3,54 +3,54 @@ title: KL'UVIKI NOT
 type: lyrics
 ---
 
-<h1>КЛЮВИКИ НОТ</h1>
+<h1>KLJUVIKI NOT</h1>
 
 <section>
 
-столько стекла\
-масляным утром блестит\
-солнце вплести\
-в локоть угла\
-мне хочется быть\
-первым кто запоёт\
-тот кто начнёт полёт\
-хочет забыть
+stol'ko stekla\
+masljanym utrom blestit\
+solnce vplesti\
+v lokot' ugla\
+mne hochetsja byt'\
+pervym kto zapojot\
+tot kto nachnjot poljot\
+hochet zabyt'
 
-столько во мне\
-снов накопилось за ночь\
-я с муравейником точь&#8208;\
-в&#8208;точь по своей глубине\
-мне хочется быть\
-тем кто начнёт полёт\
-тот кто за нас поёт\
-хочет забыть
+stol'ko vo mne\
+snov nakopilos' za noch'\
+ja s muravejnikom toch'&#8208;\
+v&#8208;toch' po svoej glubine\
+mne hochetsja byt'\
+tem kto nachnjot poljot\
+tot kto za nas pojot\
+hochet zabyt'
 
-столько возни\
-перевернуться улицы\
-пробуют будто жужелицы\
-возьми\
-первый аккорд\
-хочется петь скворцом\
-хочется быть скворцом\
-утро привносит в сон\
-клювики нот
+stol'ko vozni\
+perevernut'sja ulicy\
+probujut budto zhuzhelicy\
+voz'mi\
+pervyj akkord\
+hochetsja pet' skvorcom\
+hochetsja byt' skvorcom\
+utro privnosit v son\
+kljuviki not
 
-столько стекла\
-масляным утром лилось\
-солнце вплелось\
-горлом орла\
-мне хочется быть\
-первым кто запоёт\
-тот кто начнёт полёт\
-хочет забыть
+stol'ko stekla\
+masljanym utrom lilos'\
+solnce vplelos'\
+gorlom orla\
+mne hochetsja byt'\
+pervym kto zapojot\
+tot kto nachnjot poljot\
+hochet zabyt'
 
-столько во мне\
-зёрен неспетых нот\
-тот кто поёт полёт\
-должен темнеть\
-мне хочется быть\
-оранжевокрылым скворцом\
-хочет забыть сквозь сон\
-тот, кто летит к тебе
+stol'ko vo mne\
+zjoren nespetyh not\
+tot kto pojot poljot\
+dolzhen temnet'\
+mne hochetsja byt'\
+oranzhevokrylym skvorcom\
+hochet zabyt' skvoz' son\
+tot, kto letit k tebe
 
 </section>

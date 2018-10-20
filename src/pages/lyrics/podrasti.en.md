@@ -3,60 +3,60 @@ title: PODRASTI
 type: lyrics
 ---
 
-<h1>ПОДРАСТИ</h1>
+<h1>PODRASTI</h1>
 
 <section>
 
-Ах, мне&nbsp;бы подрасти\
-Нельзя болтать ногами\
-И&nbsp;лишнего прохожим\
-Ах, мне&nbsp;бы подрасти
+Ah, mne&nbsp;by podrasti\
+Nel'zja boltat' nogami\
+I&nbsp;lishnego prohozhim\
+Ah, mne&nbsp;by podrasti
 
-Ах, мне&nbsp;бы подрасти\
-Кого&nbsp;бы сделать главным\
-Себя или гитару\
-Ах, мне&nbsp;бы подрасти
+Ah, mne&nbsp;by podrasti\
+Kogo&nbsp;by sdelat' glavnym\
+Sebja ili gitaru\
+Ah, mne&nbsp;by podrasti
 
-Ах, мне&nbsp;бы подрасти\
-И&nbsp;в&nbsp;патоке печали\
-Нащупать все потоки\
-Ах, мне&nbsp;бы подрасти
+Ah, mne&nbsp;by podrasti\
+I&nbsp;v&nbsp;patoke pechali\
+Nashhupat' vse potoki\
+Ah, mne&nbsp;by podrasti
 
-Ах, мне&nbsp;бы подрасти\
-Небом зарасти\
-От&nbsp;сих\
-До&nbsp;сих\
-И&nbsp;высмеяться в&nbsp;стих
+Ah, mne&nbsp;by podrasti\
+Nebom zarasti\
+Ot&nbsp;sih\
+Do&nbsp;sih\
+I&nbsp;vysmejat'sja v&nbsp;stih
 
-Ах, мне&nbsp;бы подрасти\
-Нырять в&nbsp;чужую воду\
-Вылеченной чайкой\
-Мне&nbsp;бы подрасти
+Ah, mne&nbsp;by podrasti\
+Nyrjat' v&nbsp;chuzhuju vodu\
+Vylechennoj chajkoj\
+Mne&nbsp;by podrasti
 
-Ах, мне&nbsp;бы подрасти\
-Калечить только руки,\
-Кольцевать\
-Ах, мне&nbsp;бы подрасти
+Ah, mne&nbsp;by podrasti\
+Kalechit' tol'ko ruki,\
+Kol'cevat'\
+Ah, mne&nbsp;by podrasti
 
-Ах, мне&nbsp;бы подрасти\
-Под деревом, под камнем\
-Мягким мхом уснуть\
-Мягким мхом уснуть
+Ah, mne&nbsp;by podrasti\
+Pod derevom, pod kamnem\
+Mjagkim mhom usnut'\
+Mjagkim mhom usnut'
 
-Ах, мне&nbsp;бы подрасти\
-До&nbsp;радости, до&nbsp;горя\
-Дорасти\
-До&nbsp;верности и&nbsp;ревности\
-Мости\
-До&nbsp;тёртости и&nbsp;крепкости\
-Ползти\
-И&nbsp;дерево засохшее\
-Спасти\
-Снести его\
-На&nbsp;снасти\
-Увезти\
-Ах&nbsp;мне&nbsp;бы подрасти
+Ah, mne&nbsp;by podrasti\
+Do&nbsp;radosti, do&nbsp;gorja\
+Dorasti\
+Do&nbsp;vernosti i&nbsp;revnosti\
+Mosti\
+Do&nbsp;tjortosti i&nbsp;krepkosti\
+Polzti\
+I&nbsp;derevo zasohshee\
+Spasti\
+Snesti ego\
+Na&nbsp;snasti\
+Uvezti\
+Ah&nbsp;mne&nbsp;by podrasti
 
-Мне&nbsp;бы дорасти до&nbsp;птах
+Mne&nbsp;by dorasti do&nbsp;ptah
 
 </section>
