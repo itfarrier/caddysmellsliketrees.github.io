@@ -1,0 +1,2 @@
+webpackJsonp([66884144875489],{502:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var l=n(9),u=function(){return l.createElement("div",null,l.createElement("h1",null,"НЕ НАЙДЕНО"),l.createElement("p",null,"Вы хотите смотреть страницу, которой не существует... Печально."))};t.default=u}});
+//# sourceMappingURL=component---src-pages-404-ru-tsx-e7ca865b9f1d9a62f30b.js.map

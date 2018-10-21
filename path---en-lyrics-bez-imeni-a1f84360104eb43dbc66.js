@@ -1,0 +1,2 @@
+webpackJsonp([0xc268a46be35a],{784:function(e,n){e.exports={data:{markdownRemark:{frontmatter:{title:"***",type:"lyrics"},html:"<h1>***</h1>\n<section>\n<p>kogda ona pahnet derev'yami<br>\nvsya vesna cvetyot u menya v gru‐<br>\ndi‐<br>\nrev'yami<br>\ntyoplye veki tvoi<br>\nteni v teni<br>\nmne oberegi<br>\nкогда<br>\noni<br>\npahnut derev'yami</p>\n</section>"},site:{siteMetadata:{languages:{defaultLangKey:"en",langs:["en","ru"]}}}},pathContext:{slug:"/en/lyrics/bezImeni/"}}}});
+//# sourceMappingURL=path---en-lyrics-bez-imeni-a1f84360104eb43dbc66.js.map

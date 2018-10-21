@@ -1,148 +1,512 @@
 {
   "assetsByChunkName": {
-    "path---lyrics-teplo-bezdonnoe": [
-      "path---lyrics-teplo-bezdonnoe-841a508ce00b0dbc2b3d.js",
-      "path---lyrics-teplo-bezdonnoe-841a508ce00b0dbc2b3d.js.map"
+    "path---en-photos-2018-07-29-o-music-first-music-festival-onthekamenka": [
+      "path---en-photos-2018-07-29-o-music-first-music-festival-onthekamenka-89d25654a0314875af62.js",
+      "path---en-photos-2018-07-29-o-music-first-music-festival-onthekamenka-89d25654a0314875af62.js.map"
     ],
-    "path---lyrics": [
-      "path---lyrics-5d04871c7f96586ef4ba.js",
-      "path---lyrics-5d04871c7f96586ef4ba.js.map"
+    "path---ru-lyrics-krasnaya-pesnya": [
+      "path---ru-lyrics-krasnaya-pesnya-33d17ee8d56c2013cec6.js",
+      "path---ru-lyrics-krasnaya-pesnya-33d17ee8d56c2013cec6.js.map"
     ],
-    "component---src-templates-lyrics-template-js": [
-      "component---src-templates-lyrics-template-js-f8272981627cb457d416.js",
-      "component---src-templates-lyrics-template-js-f8272981627cb457d416.js.map"
+    "path---en-photos-2018-04-20-biblionight": [
+      "path---en-photos-2018-04-20-biblionight-9a8abee97e0971020053.js",
+      "path---en-photos-2018-04-20-biblionight-9a8abee97e0971020053.js.map"
     ],
-    "component---src-pages-index-js": [
-      "component---src-pages-index-js-53071ebcec890bb3a73c.js",
-      "component---src-pages-index-js-53071ebcec890bb3a73c.js.map"
+    "component---src-templates-photo-album-template-tsx": [
+      "component---src-templates-photo-album-template-tsx-cbe72d083bdaaeef2da9.js",
+      "component---src-templates-photo-album-template-tsx-cbe72d083bdaaeef2da9.js.map"
     ],
-    "path---lyrics-bez-imeni": [
-      "path---lyrics-bez-imeni-349bc57176af5e18125d.js",
-      "path---lyrics-bez-imeni-349bc57176af5e18125d.js.map"
+    "component---src-pages-lyrics-ru-tsx": [
+      "component---src-pages-lyrics-ru-tsx-158f057648eeb1378503.js",
+      "component---src-pages-lyrics-ru-tsx-158f057648eeb1378503.js.map"
     ],
-    "path---lyrics-ozero": [
-      "path---lyrics-ozero-06c09965ebd9b2fefbef.js",
-      "path---lyrics-ozero-06c09965ebd9b2fefbef.js.map"
+    "path---en-photos-2017-10-19-flavored-flat": [
+      "path---en-photos-2017-10-19-flavored-flat-85cf592670f539972e01.js",
+      "path---en-photos-2017-10-19-flavored-flat-85cf592670f539972e01.js.map"
     ],
-    "path---lyrics-to-li": [
-      "path---lyrics-to-li-441ba9ac4bef6a3184f0.js",
-      "path---lyrics-to-li-441ba9ac4bef6a3184f0.js.map"
+    "component---src-layouts-index-tsx": [
+      "component---src-layouts-index-tsx-f073e70052127e933bf3.js",
+      "component---src-layouts-index-tsx-f073e70052127e933bf3.js.map"
     ],
-    "path---lyrics-gerbarij": [
-      "path---lyrics-gerbarij-4b9f5897735aa4c42630.js",
-      "path---lyrics-gerbarij-4b9f5897735aa4c42630.js.map"
+    "path---ru-photos-2018-02-24-musical-poetic-performance-me-in-child": [
+      "path---ru-photos-2018-02-24-musical-poetic-performance-me-in-child-6ac6e8b107fb22e8db50.js",
+      "path---ru-photos-2018-02-24-musical-poetic-performance-me-in-child-6ac6e8b107fb22e8db50.js.map"
+    ],
+    "path---ru-photos-2018-07-29-o-music-first-music-festival-onthekamenka": [
+      "path---ru-photos-2018-07-29-o-music-first-music-festival-onthekamenka-ac32ea4c5e3b33f303ee.js",
+      "path---ru-photos-2018-07-29-o-music-first-music-festival-onthekamenka-ac32ea4c5e3b33f303ee.js.map"
+    ],
+    "path---ru-lyrics-v-kluvikah": [
+      "path---ru-lyrics-v-kluvikah-edd6a51923d793eb7565.js",
+      "path---ru-lyrics-v-kluvikah-edd6a51923d793eb7565.js.map"
+    ],
+    "path---en-photos-2017-12-02-music-festival-fresh-names": [
+      "path---en-photos-2017-12-02-music-festival-fresh-names-395b9912e801ae09de02.js",
+      "path---en-photos-2017-12-02-music-festival-fresh-names-395b9912e801ae09de02.js.map"
+    ],
+    "path---en-lyrics-gerbarij": [
+      "path---en-lyrics-gerbarij-140db6a09341c6c9b5d2.js",
+      "path---en-lyrics-gerbarij-140db6a09341c6c9b5d2.js.map"
+    ],
+    "path---en-news": [
+      "path---en-news-86388e6f64d711516f05.js",
+      "path---en-news-86388e6f64d711516f05.js.map"
+    ],
+    "path---en-photos-2018-05-13-rehearsal": [
+      "path---en-photos-2018-05-13-rehearsal-988e6f98277cd367c1cc.js",
+      "path---en-photos-2018-05-13-rehearsal-988e6f98277cd367c1cc.js.map"
+    ],
+    "path---en-lyrics": [
+      "path---en-lyrics-5d1f62e13e11d9c23433.js",
+      "path---en-lyrics-5d1f62e13e11d9c23433.js.map"
+    ],
+    "component---src-pages-photos-ru-tsx": [
+      "component---src-pages-photos-ru-tsx-32479a91342846d70575.js",
+      "component---src-pages-photos-ru-tsx-32479a91342846d70575.js.map"
+    ],
+    "path---en-photos-2018-06-16-non-percussion-concert-on-the-art-coast": [
+      "path---en-photos-2018-06-16-non-percussion-concert-on-the-art-coast-67af2cd5d37abd05ca0d.js",
+      "path---en-photos-2018-06-16-non-percussion-concert-on-the-art-coast-67af2cd5d37abd05ca0d.js.map"
+    ],
+    "path---en-photos-2018-08-21-flowerbed-on-the-south-coast": [
+      "path---en-photos-2018-08-21-flowerbed-on-the-south-coast-2edd9d256ec3024867a7.js",
+      "path---en-photos-2018-08-21-flowerbed-on-the-south-coast-2edd9d256ec3024867a7.js.map"
+    ],
+    "path---en-lyrics-kluviki-not": [
+      "path---en-lyrics-kluviki-not-11defdee9a6b55799e19.js",
+      "path---en-lyrics-kluviki-not-11defdee9a6b55799e19.js.map"
+    ],
+    "path---ru-lyrics-igrushki": [
+      "path---ru-lyrics-igrushki-e4d7a0f6b6d41c8123eb.js",
+      "path---ru-lyrics-igrushki-e4d7a0f6b6d41c8123eb.js.map"
+    ],
+    "path---en-lyrics-perepel": [
+      "path---en-lyrics-perepel-56fb883ddc4779a03213.js",
+      "path---en-lyrics-perepel-56fb883ddc4779a03213.js.map"
+    ],
+    "path---ru-news": [
+      "path---ru-news-0330a4624946fd556a68.js",
+      "path---ru-news-0330a4624946fd556a68.js.map"
+    ],
+    "path---en-photos-2017-03-29-rehearsal": [
+      "path---en-photos-2017-03-29-rehearsal-77e5f63e732d8643d374.js",
+      "path---en-photos-2017-03-29-rehearsal-77e5f63e732d8643d374.js.map"
+    ],
+    "path---ru-photos-2018-08-03-svetla-songs": [
+      "path---ru-photos-2018-08-03-svetla-songs-b4a8d0fc7b8c9e4a7d79.js",
+      "path---ru-photos-2018-08-03-svetla-songs-b4a8d0fc7b8c9e4a7d79.js.map"
+    ],
+    "path---ru-photos-2017-08-18-art-coast": [
+      "path---ru-photos-2017-08-18-art-coast-5fab4ff544756288e875.js",
+      "path---ru-photos-2017-08-18-art-coast-5fab4ff544756288e875.js.map"
+    ],
+    "path---en-photos-2018-06-06-amphibrah-on-grass": [
+      "path---en-photos-2018-06-06-amphibrah-on-grass-c3a27a5277e43782c5ca.js",
+      "path---en-photos-2018-06-06-amphibrah-on-grass-c3a27a5277e43782c5ca.js.map"
+    ],
+    "path---ru-photos-2018-06-16-non-percussion-concert-on-the-art-coast": [
+      "path---ru-photos-2018-06-16-non-percussion-concert-on-the-art-coast-cf476676c86de2d68e65.js",
+      "path---ru-photos-2018-06-16-non-percussion-concert-on-the-art-coast-cf476676c86de2d68e65.js.map"
+    ],
+    "path---en-lyrics-nelzya-morgat": [
+      "path---en-lyrics-nelzya-morgat-13b516354c877f498bac.js",
+      "path---en-lyrics-nelzya-morgat-13b516354c877f498bac.js.map"
+    ],
+    "path---ru-photos-2018-08-21-flowerbed-on-the-south-coast": [
+      "path---ru-photos-2018-08-21-flowerbed-on-the-south-coast-38408ef3d6d0058e0624.js",
+      "path---ru-photos-2018-08-21-flowerbed-on-the-south-coast-38408ef3d6d0058e0624.js.map"
+    ],
+    "path---en-news-second-post": [
+      "path---en-news-second-post-ab215c0a8fd82479da41.js",
+      "path---en-news-second-post-ab215c0a8fd82479da41.js.map"
     ],
     "path---": [
-      "path----f2e4818c86ad71c36357.js",
-      "path----f2e4818c86ad71c36357.js.map"
+      "path----08c1df4cb0a34e2330c5.js",
+      "path----08c1df4cb0a34e2330c5.js.map"
     ],
-    "path---lyrics-chernoknizhnica": [
-      "path---lyrics-chernoknizhnica-a3dfeb202f4dce03725a.js",
-      "path---lyrics-chernoknizhnica-a3dfeb202f4dce03725a.js.map"
+    "path---ru-lyrics-nelzya-morgat": [
+      "path---ru-lyrics-nelzya-morgat-a1974905ad5c06f42172.js",
+      "path---ru-lyrics-nelzya-morgat-a1974905ad5c06f42172.js.map"
     ],
-    "path---lyrics-podrasti": [
-      "path---lyrics-podrasti-a8087de31689a079655d.js",
-      "path---lyrics-podrasti-a8087de31689a079655d.js.map"
+    "path---ru-photos-2018-09-08-art-coast-closing": [
+      "path---ru-photos-2018-09-08-art-coast-closing-78ef0986e9ce6f3b73a2.js",
+      "path---ru-photos-2018-09-08-art-coast-closing-78ef0986e9ce6f3b73a2.js.map"
     ],
-    "path---lyrics-perepel": [
-      "path---lyrics-perepel-223ce93949f4210e51ba.js",
-      "path---lyrics-perepel-223ce93949f4210e51ba.js.map"
+    "path---en-about": [
+      "path---en-about-472ddb5c4e68feb7b3a1.js",
+      "path---en-about-472ddb5c4e68feb7b3a1.js.map"
     ],
-    "path---lyrics-vnutri-gerbariya": [
-      "path---lyrics-vnutri-gerbariya-5624b043dd8b52897a39.js",
-      "path---lyrics-vnutri-gerbariya-5624b043dd8b52897a39.js.map"
+    "path---ru": [
+      "path---ru-6722d93b8e9851cc72ee.js",
+      "path---ru-6722d93b8e9851cc72ee.js.map"
+    ],
+    "path---en-lyrics-podrasti": [
+      "path---en-lyrics-podrasti-2da5ca74bb6dd06afce9.js",
+      "path---en-lyrics-podrasti-2da5ca74bb6dd06afce9.js.map"
+    ],
+    "path---en-photos-2018-02-24-musical-poetic-performance-me-in-child": [
+      "path---en-photos-2018-02-24-musical-poetic-performance-me-in-child-9d92d16bb7485728d11f.js",
+      "path---en-photos-2018-02-24-musical-poetic-performance-me-in-child-9d92d16bb7485728d11f.js.map"
+    ],
+    "component---src-pages-404-ru-tsx": [
+      "component---src-pages-404-ru-tsx-e7ca865b9f1d9a62f30b.js",
+      "component---src-pages-404-ru-tsx-e7ca865b9f1d9a62f30b.js.map"
+    ],
+    "path---en-photos-2017-09-03-non-museum-night-here-and-now": [
+      "path---en-photos-2017-09-03-non-museum-night-here-and-now-1731822efc78d8411ac1.js",
+      "path---en-photos-2017-09-03-non-museum-night-here-and-now-1731822efc78d8411ac1.js.map"
+    ],
+    "path---en-photos-2017-06-17-festival-spirit-of-time": [
+      "path---en-photos-2017-06-17-festival-spirit-of-time-9b676c349bcb372fdded.js",
+      "path---en-photos-2017-06-17-festival-spirit-of-time-9b676c349bcb372fdded.js.map"
+    ],
+    "path---en-photos-2017-05-28-music-in-museum": [
+      "path---en-photos-2017-05-28-music-in-museum-f3a4af5795eb099941fc.js",
+      "path---en-photos-2017-05-28-music-in-museum-f3a4af5795eb099941fc.js.map"
+    ],
+    "path---en-lyrics-terem": [
+      "path---en-lyrics-terem-01631b320f5c5ed685f6.js",
+      "path---en-lyrics-terem-01631b320f5c5ed685f6.js.map"
+    ],
+    "path---en-photos-2018-08-03-svetla-songs": [
+      "path---en-photos-2018-08-03-svetla-songs-4546cec1d1291319de0a.js",
+      "path---en-photos-2018-08-03-svetla-songs-4546cec1d1291319de0a.js.map"
+    ],
+    "path---en-photos-2017-12-24-caddy-smells-like-den": [
+      "path---en-photos-2017-12-24-caddy-smells-like-den-0739c04ba9eea8fc5049.js",
+      "path---en-photos-2017-12-24-caddy-smells-like-den-0739c04ba9eea8fc5049.js.map"
+    ],
+    "path---ru-photos-2017-05-20-tea-yurt-birthday": [
+      "path---ru-photos-2017-05-20-tea-yurt-birthday-28884ed25dc8851d1c71.js",
+      "path---ru-photos-2017-05-20-tea-yurt-birthday-28884ed25dc8851d1c71.js.map"
+    ],
+    "path---en-lyrics-krasnaya-pesnya": [
+      "path---en-lyrics-krasnaya-pesnya-23391dce09f67e9ceb95.js",
+      "path---en-lyrics-krasnaya-pesnya-23391dce09f67e9ceb95.js.map"
+    ],
+    "path---en-lyrics-malo": [
+      "path---en-lyrics-malo-2d51a6e2bb45b318bba7.js",
+      "path---en-lyrics-malo-2d51a6e2bb45b318bba7.js.map"
+    ],
+    "path---en-lyrics-teplo-bezdonnoe": [
+      "path---en-lyrics-teplo-bezdonnoe-5dc632a486efdfe05d93.js",
+      "path---en-lyrics-teplo-bezdonnoe-5dc632a486efdfe05d93.js.map"
+    ],
+    "path---en-photos-2018-01-21-station-of-culture-gagarin": [
+      "path---en-photos-2018-01-21-station-of-culture-gagarin-bcfa0c2217c2b4ea5b03.js",
+      "path---en-photos-2018-01-21-station-of-culture-gagarin-bcfa0c2217c2b4ea5b03.js.map"
+    ],
+    "path---ru-lyrics-chernoknizhnica": [
+      "path---ru-lyrics-chernoknizhnica-d969518ce3e91bff8932.js",
+      "path---ru-lyrics-chernoknizhnica-d969518ce3e91bff8932.js.map"
+    ],
+    "path---en-photos-2018-03-21-international-festival-poetry-world-day": [
+      "path---en-photos-2018-03-21-international-festival-poetry-world-day-ca913502705e12ffa8d2.js",
+      "path---en-photos-2018-03-21-international-festival-poetry-world-day-ca913502705e12ffa8d2.js.map"
+    ],
+    "path---ru-lyrics-malchik-batiskaf": [
+      "path---ru-lyrics-malchik-batiskaf-d25e4a700760e8046fe0.js",
+      "path---ru-lyrics-malchik-batiskaf-d25e4a700760e8046fe0.js.map"
+    ],
+    "path---ru-404": [
+      "path---ru-404-1e2d6ee6eb9f8872ccc0.js",
+      "path---ru-404-1e2d6ee6eb9f8872ccc0.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
-    "component---src-pages-lyrics-js": [
-      "component---src-pages-lyrics-js-921ad1a14eaa79fc9632.js",
-      "component---src-pages-lyrics-js-921ad1a14eaa79fc9632.js.map"
+    "path---ru-lyrics-ozero": [
+      "path---ru-lyrics-ozero-27016f9694029095e867.js",
+      "path---ru-lyrics-ozero-27016f9694029095e867.js.map"
     ],
-    "path---lyrics-igrushki": [
-      "path---lyrics-igrushki-241e4e0a12bbb96324ac.js",
-      "path---lyrics-igrushki-241e4e0a12bbb96324ac.js.map"
+    "path---en-photos-2018-09-01-summer-kitchen": [
+      "path---en-photos-2018-09-01-summer-kitchen-3258ce03d9459c9f0a63.js",
+      "path---en-photos-2018-09-01-summer-kitchen-3258ce03d9459c9f0a63.js.map"
     ],
-    "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-0a0ad351f240955ced0b.js",
-      "component---src-layouts-index-js-0a0ad351f240955ced0b.js.map"
+    "path---en-lyrics-chernoknizhnica": [
+      "path---en-lyrics-chernoknizhnica-c16ab3e3d6b3250d8b8c.js",
+      "path---en-lyrics-chernoknizhnica-c16ab3e3d6b3250d8b8c.js.map"
     ],
-    "path---lyrics-v-kluvikah": [
-      "path---lyrics-v-kluvikah-9860dbd2088e1fec56c6.js",
-      "path---lyrics-v-kluvikah-9860dbd2088e1fec56c6.js.map"
+    "path---ru-photos-2016-11-05-museum-night-talk-after-midnight": [
+      "path---ru-photos-2016-11-05-museum-night-talk-after-midnight-4a745372d8c85d253203.js",
+      "path---ru-photos-2016-11-05-museum-night-talk-after-midnight-4a745372d8c85d253203.js.map"
+    ],
+    "path---ru-lyrics-kluviki-not": [
+      "path---ru-lyrics-kluviki-not-e879d42bcea402b0a962.js",
+      "path---ru-lyrics-kluviki-not-e879d42bcea402b0a962.js.map"
+    ],
+    "path---en-404": [
+      "path---en-404-b9d96cc6a185ee52f554.js",
+      "path---en-404-b9d96cc6a185ee52f554.js.map"
+    ],
+    "path---en-photos-2017-08-18-art-coast": [
+      "path---en-photos-2017-08-18-art-coast-a80fd5e69af260030c5b.js",
+      "path---en-photos-2017-08-18-art-coast-a80fd5e69af260030c5b.js.map"
+    ],
+    "path---ru-news-second-post": [
+      "path---ru-news-second-post-10028023f05fc606b1a3.js",
+      "path---ru-news-second-post-10028023f05fc606b1a3.js.map"
+    ],
+    "path---ru-photos-2018-01-21-station-of-culture-gagarin": [
+      "path---ru-photos-2018-01-21-station-of-culture-gagarin-be8f2f183dcd3c5e4bfc.js",
+      "path---ru-photos-2018-01-21-station-of-culture-gagarin-be8f2f183dcd3c5e4bfc.js.map"
+    ],
+    "path---ru-photos-2017-05-28-music-in-museum": [
+      "path---ru-photos-2017-05-28-music-in-museum-7172ca8931c139933e4a.js",
+      "path---ru-photos-2017-05-28-music-in-museum-7172ca8931c139933e4a.js.map"
     ],
     "path---index": [
-      "path---index-a0e39f21c11f6a62c5ab.js",
-      "path---index-a0e39f21c11f6a62c5ab.js.map"
+      "path---index-1f75a8fde90ddc3b461b.js",
+      "path---index-1f75a8fde90ddc3b461b.js.map"
     ],
-    "path---lyrics-terem": [
-      "path---lyrics-terem-0feda03e78f7f80efeec.js",
-      "path---lyrics-terem-0feda03e78f7f80efeec.js.map"
+    "path---ru-photos-2018-05-13-rehearsal": [
+      "path---ru-photos-2018-05-13-rehearsal-fc11cb871694e9c394c2.js",
+      "path---ru-photos-2018-05-13-rehearsal-fc11cb871694e9c394c2.js.map"
     ],
-    "path---lyrics-kluviki-not": [
-      "path---lyrics-kluviki-not-0485c40e3e8abe195ee0.js",
-      "path---lyrics-kluviki-not-0485c40e3e8abe195ee0.js.map"
+    "path---ru-lyrics-bez-imeni": [
+      "path---ru-lyrics-bez-imeni-b4efc36c16b7c799ba6d.js",
+      "path---ru-lyrics-bez-imeni-b4efc36c16b7c799ba6d.js.map"
     ],
-    "path---lyrics-malchik-batiskaf": [
-      "path---lyrics-malchik-batiskaf-82a312c0a7cc65116ed4.js",
-      "path---lyrics-malchik-batiskaf-82a312c0a7cc65116ed4.js.map"
+    "path---en-photos-2017-05-20-tea-yurt-birthday": [
+      "path---en-photos-2017-05-20-tea-yurt-birthday-1c7d8bad364789e9515b.js",
+      "path---en-photos-2017-05-20-tea-yurt-birthday-1c7d8bad364789e9515b.js.map"
     ],
-    "component---src-pages-404-js": [
-      "component---src-pages-404-js-f9ea876824f15f70e43d.js",
-      "component---src-pages-404-js-f9ea876824f15f70e43d.js.map"
+    "path---ru-photos-2017-06-17-festival-spirit-of-time": [
+      "path---ru-photos-2017-06-17-festival-spirit-of-time-515c3a3ccd5fdd576af7.js",
+      "path---ru-photos-2017-06-17-festival-spirit-of-time-515c3a3ccd5fdd576af7.js.map"
+    ],
+    "component---src-pages-404-en-tsx": [
+      "component---src-pages-404-en-tsx-d988a8b6ff6b77f33f5e.js",
+      "component---src-pages-404-en-tsx-d988a8b6ff6b77f33f5e.js.map"
+    ],
+    "path---en-lyrics-v-kluvikah": [
+      "path---en-lyrics-v-kluvikah-cc229bfdabe7b21229d9.js",
+      "path---en-lyrics-v-kluvikah-cc229bfdabe7b21229d9.js.map"
+    ],
+    "path---ru-photos-2018-04-20-biblionight": [
+      "path---ru-photos-2018-04-20-biblionight-4f5228bc05f6b5d6e081.js",
+      "path---ru-photos-2018-04-20-biblionight-4f5228bc05f6b5d6e081.js.map"
+    ],
+    "path---ru-photos-2018-03-21-international-festival-poetry-world-day": [
+      "path---ru-photos-2018-03-21-international-festival-poetry-world-day-8aaedf0e3f949c5ea8ab.js",
+      "path---ru-photos-2018-03-21-international-festival-poetry-world-day-8aaedf0e3f949c5ea8ab.js.map"
+    ],
+    "path---ru-lyrics-saga-o-ronine": [
+      "path---ru-lyrics-saga-o-ronine-96ad308cf51928a0787c.js",
+      "path---ru-lyrics-saga-o-ronine-96ad308cf51928a0787c.js.map"
+    ],
+    "path---en-photos-2018-03-04-yushin-brothers": [
+      "path---en-photos-2018-03-04-yushin-brothers-22bfef7b81584b766342.js",
+      "path---en-photos-2018-03-04-yushin-brothers-22bfef7b81584b766342.js.map"
+    ],
+    "path---en-photos-2017-04-19-rehearsal": [
+      "path---en-photos-2017-04-19-rehearsal-d104caf7691f84203f44.js",
+      "path---en-photos-2017-04-19-rehearsal-d104caf7691f84203f44.js.map"
     ],
     "commons": [
-      "commons-c4d39eff34912577c24b.js",
+      "commons-78326bed5981df156434.js",
       "build-js-styles.css",
-      "commons-c4d39eff34912577c24b.js.map",
+      "commons-78326bed5981df156434.js.map",
       "build-js-styles.css.map"
     ],
-    "path---404-html": [
-      "path---404-html-a0e39f21c11f6a62c5ab.js",
-      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    "path---ru-photos-2017-12-02-music-festival-fresh-names": [
+      "path---ru-photos-2017-12-02-music-festival-fresh-names-840694a8a9ef3b9013c2.js",
+      "path---ru-photos-2017-12-02-music-festival-fresh-names-840694a8a9ef3b9013c2.js.map"
     ],
-    "path---lyrics-malo": [
-      "path---lyrics-malo-c820e9e66273be776835.js",
-      "path---lyrics-malo-c820e9e66273be776835.js.map"
+    "path---ru-photos": [
+      "path---ru-photos-616c3f5c4c986a4165d6.js",
+      "path---ru-photos-616c3f5c4c986a4165d6.js.map"
     ],
-    "path---lyrics-saga-o-ronine": [
-      "path---lyrics-saga-o-ronine-3fa86786000c6e601f49.js",
-      "path---lyrics-saga-o-ronine-3fa86786000c6e601f49.js.map"
+    "path---en-lyrics-to-li": [
+      "path---en-lyrics-to-li-1fae2f1104f03e72b0c3.js",
+      "path---en-lyrics-to-li-1fae2f1104f03e72b0c3.js.map"
     ],
-    "path---lyrics-les": [
-      "path---lyrics-les-d513f55883e58e00ac24.js",
-      "path---lyrics-les-d513f55883e58e00ac24.js.map"
+    "path---ru-about": [
+      "path---ru-about-f5a27a154cabc607f04d.js",
+      "path---ru-about-f5a27a154cabc607f04d.js.map"
+    ],
+    "component---src-pages-about-en-tsx": [
+      "component---src-pages-about-en-tsx-ceacce608417150678bb.js",
+      "component---src-pages-about-en-tsx-ceacce608417150678bb.js.map"
+    ],
+    "path---ru-photos-2017-12-24-caddy-smells-like-den": [
+      "path---ru-photos-2017-12-24-caddy-smells-like-den-55129cfc41902a26e0b2.js",
+      "path---ru-photos-2017-12-24-caddy-smells-like-den-55129cfc41902a26e0b2.js.map"
+    ],
+    "path---en-lyrics-ozero": [
+      "path---en-lyrics-ozero-9ca9e1983f9ab9ab4030.js",
+      "path---en-lyrics-ozero-9ca9e1983f9ab9ab4030.js.map"
+    ],
+    "path---ru-photos-2017-10-19-flavored-flat": [
+      "path---ru-photos-2017-10-19-flavored-flat-15cd664dd019b818c684.js",
+      "path---ru-photos-2017-10-19-flavored-flat-15cd664dd019b818c684.js.map"
+    ],
+    "path---ru-news-first-post": [
+      "path---ru-news-first-post-ed778d8954e5c7bb7f74.js",
+      "path---ru-news-first-post-ed778d8954e5c7bb7f74.js.map"
+    ],
+    "path---en-lyrics-igrushki": [
+      "path---en-lyrics-igrushki-be5aa8384ad4b9116647.js",
+      "path---en-lyrics-igrushki-be5aa8384ad4b9116647.js.map"
+    ],
+    "path---ru-lyrics-teplo-bezdonnoe": [
+      "path---ru-lyrics-teplo-bezdonnoe-0af8eb457bb798be4ea3.js",
+      "path---ru-lyrics-teplo-bezdonnoe-0af8eb457bb798be4ea3.js.map"
+    ],
+    "path---en-photos-2018-09-08-art-coast-closing": [
+      "path---en-photos-2018-09-08-art-coast-closing-82b13bc7c7a035108c5c.js",
+      "path---en-photos-2018-09-08-art-coast-closing-82b13bc7c7a035108c5c.js.map"
+    ],
+    "component---src-pages-photos-en-tsx": [
+      "component---src-pages-photos-en-tsx-d444ce056e3b7d751e4a.js",
+      "component---src-pages-photos-en-tsx-d444ce056e3b7d751e4a.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---en-lyrics-saga-o-ronine": [
+      "path---en-lyrics-saga-o-ronine-709b4679948d9f5833d8.js",
+      "path---en-lyrics-saga-o-ronine-709b4679948d9f5833d8.js.map"
+    ],
+    "path---en-lyrics-malchik-batiskaf": [
+      "path---en-lyrics-malchik-batiskaf-1738225e97445b6c66f3.js",
+      "path---en-lyrics-malchik-batiskaf-1738225e97445b6c66f3.js.map"
+    ],
+    "path---ru-lyrics-les": [
+      "path---ru-lyrics-les-48c3fa9ec1902c1c3e59.js",
+      "path---ru-lyrics-les-48c3fa9ec1902c1c3e59.js.map"
+    ],
+    "path---en-lyrics-bez-imeni": [
+      "path---en-lyrics-bez-imeni-a1f84360104eb43dbc66.js",
+      "path---en-lyrics-bez-imeni-a1f84360104eb43dbc66.js.map"
+    ],
+    "path---en-news-first-post": [
+      "path---en-news-first-post-7ee87353dd261e049e00.js",
+      "path---en-news-first-post-7ee87353dd261e049e00.js.map"
+    ],
+    "path---ru-lyrics-podrasti": [
+      "path---ru-lyrics-podrasti-99d2931c6991f015b80f.js",
+      "path---ru-lyrics-podrasti-99d2931c6991f015b80f.js.map"
+    ],
+    "path---ru-lyrics-gerbarij": [
+      "path---ru-lyrics-gerbarij-7b0fe47a03b8a2f5d8d6.js",
+      "path---ru-lyrics-gerbarij-7b0fe47a03b8a2f5d8d6.js.map"
+    ],
+    "component---src-pages-index-tsx": [
+      "component---src-pages-index-tsx-832075fa67815b45f665.js",
+      "component---src-pages-index-tsx-832075fa67815b45f665.js.map"
+    ],
+    "path---ru-lyrics-terem": [
+      "path---ru-lyrics-terem-661e51eda54bb477f49e.js",
+      "path---ru-lyrics-terem-661e51eda54bb477f49e.js.map"
+    ],
+    "component---src-pages-news-ru-tsx": [
+      "component---src-pages-news-ru-tsx-a8c667c21fe2fbfe2ab1.js",
+      "component---src-pages-news-ru-tsx-a8c667c21fe2fbfe2ab1.js.map"
+    ],
+    "path---en-photos-2016-11-05-museum-night-talk-after-midnight": [
+      "path---en-photos-2016-11-05-museum-night-talk-after-midnight-27d062a59fd8be6aa401.js",
+      "path---en-photos-2016-11-05-museum-night-talk-after-midnight-27d062a59fd8be6aa401.js.map"
+    ],
+    "path---ru-photos-2018-03-04-yushin-brothers": [
+      "path---ru-photos-2018-03-04-yushin-brothers-93f0046ab7317b60baea.js",
+      "path---ru-photos-2018-03-04-yushin-brothers-93f0046ab7317b60baea.js.map"
+    ],
+    "component---src-pages-news-en-tsx": [
+      "component---src-pages-news-en-tsx-b09bfe086f1cc194e8ad.js",
+      "component---src-pages-news-en-tsx-b09bfe086f1cc194e8ad.js.map"
+    ],
+    "path---ru-photos-2018-06-06-amphibrah-on-grass": [
+      "path---ru-photos-2018-06-06-amphibrah-on-grass-85d7a7d24a567ba4801e.js",
+      "path---ru-photos-2018-06-06-amphibrah-on-grass-85d7a7d24a567ba4801e.js.map"
+    ],
     "app": [
-      "app-8aeed13b3b2d08a1f47c.js",
+      "app-ca5831db0e1c09df619e.js",
       "build-js-styles.css",
-      "app-8aeed13b3b2d08a1f47c.js.map",
+      "app-ca5831db0e1c09df619e.js.map",
       "build-js-styles.css.map"
     ],
-    "path---lyrics-bez-imeni-2": [
-      "path---lyrics-bez-imeni-2-6f22941ef04d51f0b268.js",
-      "path---lyrics-bez-imeni-2-6f22941ef04d51f0b268.js.map"
+    "path---en-photos": [
+      "path---en-photos-53ab4b590d55fee0647f.js",
+      "path---en-photos-53ab4b590d55fee0647f.js.map"
     ],
-    "path---404": [
-      "path---404-a0e39f21c11f6a62c5ab.js",
-      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    "path---ru-lyrics": [
+      "path---ru-lyrics-5094f6f7e8004a5ce5ba.js",
+      "path---ru-lyrics-5094f6f7e8004a5ce5ba.js.map"
     ],
-    "component---src-pages-about-js": [
-      "component---src-pages-about-js-639fabbacbf3e3eaeec7.js",
-      "component---src-pages-about-js-639fabbacbf3e3eaeec7.js.map"
+    "component---src-pages-index-en-tsx": [
+      "component---src-pages-index-en-tsx-27ee950215d008ab3b1c.js",
+      "component---src-pages-index-en-tsx-27ee950215d008ab3b1c.js.map"
     ],
-    "path---about": [
-      "path---about-a0e39f21c11f6a62c5ab.js",
-      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    "path---ru-lyrics-malo": [
+      "path---ru-lyrics-malo-7cc56a3c4665ec1c6559.js",
+      "path---ru-lyrics-malo-7cc56a3c4665ec1c6559.js.map"
     ],
-    "path---lyrics-krasnaya-pesnya": [
-      "path---lyrics-krasnaya-pesnya-075c14a5ee64f12878df.js",
-      "path---lyrics-krasnaya-pesnya-075c14a5ee64f12878df.js.map"
+    "path---ru-lyrics-perepel": [
+      "path---ru-lyrics-perepel-9b24b5f387e208443cbb.js",
+      "path---ru-lyrics-perepel-9b24b5f387e208443cbb.js.map"
+    ],
+    "path---en": [
+      "path---en-cb7552daa6da55e7c330.js",
+      "path---en-cb7552daa6da55e7c330.js.map"
+    ],
+    "component---src-pages-lyrics-en-tsx": [
+      "component---src-pages-lyrics-en-tsx-4a887a2483757ee5f309.js",
+      "component---src-pages-lyrics-en-tsx-4a887a2483757ee5f309.js.map"
+    ],
+    "path---ru-photos-2018-09-01-summer-kitchen": [
+      "path---ru-photos-2018-09-01-summer-kitchen-411fca1dd42ce40a6f90.js",
+      "path---ru-photos-2018-09-01-summer-kitchen-411fca1dd42ce40a6f90.js.map"
+    ],
+    "path---en-lyrics-les": [
+      "path---en-lyrics-les-3960a52811bec3202256.js",
+      "path---en-lyrics-les-3960a52811bec3202256.js.map"
+    ],
+    "component---src-templates-lyrics-and-news-template-tsx": [
+      "component---src-templates-lyrics-and-news-template-tsx-84025c22ebdb400676ac.js",
+      "component---src-templates-lyrics-and-news-template-tsx-84025c22ebdb400676ac.js.map"
+    ],
+    "path---ru-photos-2018-08-26-art-festival-baikal-live": [
+      "path---ru-photos-2018-08-26-art-festival-baikal-live-8b257d4985e382e1d732.js",
+      "path---ru-photos-2018-08-26-art-festival-baikal-live-8b257d4985e382e1d732.js.map"
+    ],
+    "path---en-photos-2018-08-26-art-festival-baikal-live": [
+      "path---en-photos-2018-08-26-art-festival-baikal-live-9e57c8799073b53886d7.js",
+      "path---en-photos-2018-08-26-art-festival-baikal-live-9e57c8799073b53886d7.js.map"
+    ],
+    "path---ru-photos-2017-03-29-rehearsal": [
+      "path---ru-photos-2017-03-29-rehearsal-4c7ed03b9df0ebd9bd11.js",
+      "path---ru-photos-2017-03-29-rehearsal-4c7ed03b9df0ebd9bd11.js.map"
+    ],
+    "path---ru-lyrics-to-li": [
+      "path---ru-lyrics-to-li-b967d3c24e1d955bf800.js",
+      "path---ru-lyrics-to-li-b967d3c24e1d955bf800.js.map"
+    ],
+    "path---ru-photos-2017-04-19-rehearsal": [
+      "path---ru-photos-2017-04-19-rehearsal-2e795610c1affc9ff1d5.js",
+      "path---ru-photos-2017-04-19-rehearsal-2e795610c1affc9ff1d5.js.map"
+    ],
+    "path---ru-photos-2017-09-03-non-museum-night-here-and-now": [
+      "path---ru-photos-2017-09-03-non-museum-night-here-and-now-7fc4230404b5ac08c290.js",
+      "path---ru-photos-2017-09-03-non-museum-night-here-and-now-7fc4230404b5ac08c290.js.map"
+    ],
+    "component---src-pages-about-ru-tsx": [
+      "component---src-pages-about-ru-tsx-fedcd0525e4c3c453a26.js",
+      "component---src-pages-about-ru-tsx-fedcd0525e4c3c453a26.js.map"
+    ],
+    "path---en-lyrics-vnutri-gerbariya": [
+      "path---en-lyrics-vnutri-gerbariya-ab1ac0e910a64f144f14.js",
+      "path---en-lyrics-vnutri-gerbariya-ab1ac0e910a64f144f14.js.map"
+    ],
+    "component---src-pages-index-ru-tsx": [
+      "component---src-pages-index-ru-tsx-9353ab817beafea9ec5c.js",
+      "component---src-pages-index-ru-tsx-9353ab817beafea9ec5c.js.map"
+    ],
+    "path---ru-lyrics-vnutri-gerbariya": [
+      "path---ru-lyrics-vnutri-gerbariya-da5aba4d2b298a5278a3.js",
+      "path---ru-lyrics-vnutri-gerbariya-da5aba4d2b298a5278a3.js.map"
     ]
   }
 }

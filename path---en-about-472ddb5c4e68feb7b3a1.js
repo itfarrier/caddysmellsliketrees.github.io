@@ -1,0 +1,2 @@
+webpackJsonp([63962516548452],{783:function(a,e){a.exports={data:{allFile:{edges:[{node:{publicURL:"/static/technicalRider-71cec078160ce29da6a66a896a4a5158.pdf"}}]}},pathContext:{slug:"/en/about/",langKey:"en"}}}});
+//# sourceMappingURL=path---en-about-472ddb5c4e68feb7b3a1.js.map

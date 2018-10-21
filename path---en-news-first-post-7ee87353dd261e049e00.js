@@ -1,0 +1,2 @@
+webpackJsonp([0xc2ba130b3bf0],{804:function(t,e){t.exports={data:{markdownRemark:{frontmatter:{title:"First Post",type:"post"},html:"<h1>First Post</h1>\n<p>Some content</p>"},site:{siteMetadata:{languages:{defaultLangKey:"en",langs:["en","ru"]}}}},pathContext:{slug:"/en/news/firstPost/"}}}});
+//# sourceMappingURL=path---en-news-first-post-7ee87353dd261e049e00.js.map
