@@ -51,9 +51,9 @@
 <url> <loc>https://test.caddysmellsliketrees.ru/en/photos/2018-09-08-art-coast-closing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/ru/photos/2018-09-08-art-coast-closing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/en/news/firstPost/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://test.caddysmellsliketrees.ru/ru/news/firstPost/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/en/news/secondPost/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/ru/news/secondPost/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://test.caddysmellsliketrees.ru/ru/news/firstPost/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/bezImeni/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/ru/lyrics/bezImeni/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/chernoknizhnica/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -63,9 +63,9 @@
 <url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/igrushki/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/ru/lyrics/igrushki/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/kluvikiNot/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://test.caddysmellsliketrees.ru/ru/lyrics/kluvikiNot/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/krasnayaPesnya/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/ru/lyrics/krasnayaPesnya/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://test.caddysmellsliketrees.ru/ru/lyrics/kluvikiNot/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/les/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/ru/lyrics/les/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/malchikBatiskaf/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -74,9 +74,9 @@
 <url> <loc>https://test.caddysmellsliketrees.ru/ru/lyrics/malo/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/nelzyaMorgat/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/ru/lyrics/nelzyaMorgat/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/ozero/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/ru/lyrics/ozero/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/perepel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/ozero/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/ru/lyrics/perepel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/en/lyrics/podrasti/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://test.caddysmellsliketrees.ru/ru/lyrics/podrasti/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
