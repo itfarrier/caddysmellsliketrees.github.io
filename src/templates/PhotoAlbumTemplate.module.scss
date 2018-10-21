@@ -1,47 +1,7 @@
-@import '../variables.module';
-
-.article {
-    display: flex;
-    flex-flow: wrap;
-    align-content: flex-start;
-    align-items: center;
-    justify-content: center;
-    margin: 3em 0 0;
-}
-
-.photoAlbumCoverWithTitle {
-    position: relative;
-    margin: 1em;
-}
+@import '../pages/photos.module';
 
 .item {
-    display: flex;
-    width: 90vw;
-    height: 55vw;
-    flex-shrink: 0;
+    @extend .item;
+
     padding: 0.5em;
-
-    @media #{$large} {
-        width: 30em;
-        height: 20em;
-    }
-}
-
-.title {
-    position: absolute;
-    bottom: 0.5em;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    color: #f0f0f0;
-    font-family: 'Hagin Caps', sans-serif;
-
-    span {
-        padding: 0 1em;
-    }
-}
-
-.wrapper {
-    width: 100%;
-    border-radius: 0.1875em;
 }
