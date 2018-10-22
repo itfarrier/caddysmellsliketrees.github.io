@@ -3,11 +3,19 @@ import Countdown from 'react-countdown-now';
 
 import * as styles from './index.module.scss';
 
-const IndexEn: React.SFC = () => (
+import { IIndex } from '../interfaces';
+
+const IndexEn: React.SFC<IIndex> = ({
+    data: {
+        site: {
+            siteMetadata: { dateOfEvent },
+        },
+    },
+}) => (
     <article className={styles.article}>
         <div className={styles.untilShow}>Until the next show of Caddy:</div>
         <Countdown
-            date="01 Sep 2019 20:00"
+            date={dateOfEvent}
             renderer={({ days, hours, minutes }) => (
                 <div className={styles.countdown}>
                     <div className={styles.block}>
@@ -50,5 +58,15 @@ const IndexEn: React.SFC = () => (
         </svg>
     </article>
 );
+
+export const IndexEnQuery = graphql`
+    query IndexEnQuery {
+        site {
+            siteMetadata {
+                dateOfEvent
+            }
+        }
+    }
+`;
 
 export default IndexEn;

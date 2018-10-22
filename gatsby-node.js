@@ -1,4 +1,3 @@
-const { createFilePath } = require(`gatsby-source-filesystem`);
 const path = require('path');
 
 const languages = require('./src/data/languages');
@@ -57,21 +56,21 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             result.data.allDirectory.edges.forEach(({ node }) => {
                 langs.forEach((lang) => {
                     createPage({
-                        path: `${lang}/photos/${node.fields.slug}`,
                         component: path.resolve('./src/templates/PhotoAlbumTemplate.tsx'),
                         context: {
                             slug: `${lang}/photos/${node.fields.slug}`,
                         },
+                        path: `${lang}/photos/${node.fields.slug}`,
                     });
                 });
             });
             result.data.allMarkdownRemark.edges.forEach(({ node }) => {
                 createPage({
-                    path: node.fields.slug,
                     component: path.resolve('./src/templates/LyricsAndNewsTemplate.tsx'),
                     context: {
                         slug: node.fields.slug,
                     },
+                    path: node.fields.slug,
                 });
             });
             resolve();

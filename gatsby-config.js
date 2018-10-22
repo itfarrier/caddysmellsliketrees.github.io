@@ -248,6 +248,7 @@ module.exports = {
         'gatsby-plugin-sharp',
     ],
     siteMetadata: {
+        dateOfEvent: '31 Dec 2018 00:00',
         languages,
         siteUrl: 'https://caddysmellsliketrees.ru',
     },

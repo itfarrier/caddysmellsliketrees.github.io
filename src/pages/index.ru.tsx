@@ -3,11 +3,19 @@ import Countdown from 'react-countdown-now';
 
 import * as styles from './index.module.scss';
 
-const IndexRu: React.SFC = () => (
+import { IIndex } from '../interfaces';
+
+const IndexRu: React.SFC<IIndex> = ({
+    data: {
+        site: {
+            siteMetadata: { dateOfEvent },
+        },
+    },
+}) => (
     <article className={styles.article}>
         <div className={styles.untilShow}>До следующего концерта Кэдди:</div>
         <Countdown
-            date="01 Sep 2019 20:00"
+            date={dateOfEvent}
             renderer={({ days, hours, minutes }) => {
                 function declOfNum(time: number, titles: string[]) {
                     const cases = [2, 0, 1, 1, 1, 2];
@@ -66,5 +74,15 @@ const IndexRu: React.SFC = () => (
         </svg>
     </article>
 );
+
+export const IndexRuQuery = graphql`
+    query IndexRuQuery {
+        site {
+            siteMetadata {
+                dateOfEvent
+            }
+        }
+    }
+`;
 
 export default IndexRu;
