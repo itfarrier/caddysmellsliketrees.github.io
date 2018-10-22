@@ -1,0 +1,2 @@
+webpackJsonp([65447664733261],{887:function(t,e){t.exports={data:{site:{siteMetadata:{dateOfEvent:"31 Dec 2018 00:00"}}},pathContext:{slug:"/ru/",langKey:"ru"}}}});
+//# sourceMappingURL=path---ru-6f84220e599ad924c77d.js.map
