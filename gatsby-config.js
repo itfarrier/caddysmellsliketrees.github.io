@@ -249,6 +249,6 @@ module.exports = {
     ],
     siteMetadata: {
         languages,
-        siteUrl: 'https://test.caddysmellsliketrees.ru',
+        siteUrl: 'https://caddysmellsliketrees.ru',
     },
 };
