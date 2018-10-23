@@ -1,3 +1,5 @@
+import IndexRu from './pages/index.ru';
+
 export interface IAbout {
     data: IData;
     i18nMessages: II18nMessages;
@@ -76,10 +78,12 @@ export interface IData {
     };
     site: {
         siteMetadata: {
+            dateOfEvent: string;
             languages: {
                 defaultLangKey: string;
                 langs: ILangs[];
             };
+            siteUrl: string;
         };
     };
 }
