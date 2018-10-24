@@ -1,3 +1,4 @@
+import { graphql, StaticQuery } from 'gatsby';
 import Link from 'gatsby-link';
 import * as React from 'react';
 
@@ -31,30 +32,33 @@ const LyricsRu: React.SFC<ILyrics> = ({
     </React.Fragment>
 );
 
-export const LyricsRuQuery = graphql`
-    query LyricsRuQuery {
-        allMarkdownRemark(
-            filter: {
-                fields: { langKey: { regex: "/ru/" } }
-                frontmatter: { type: { eq: "lyrics" } }
-            }
-            sort: { fields: [frontmatter___title], order: ASC }
-        ) {
-            edges {
-                node {
-                    fields {
-                        langKey
-                        slug
+export default (props) => (
+    <StaticQuery
+        query={graphql`
+            query LyricsRuQuery {
+                allMarkdownRemark(
+                    filter: {
+                        fields: { langKey: { regex: "/ru/" } }
+                        frontmatter: { type: { eq: "lyrics" } }
                     }
-                    frontmatter {
-                        date
-                        title
+                    sort: { fields: [frontmatter___title], order: ASC }
+                ) {
+                    edges {
+                        node {
+                            fields {
+                                langKey
+                                slug
+                            }
+                            frontmatter {
+                                date
+                                title
+                            }
+                            id
+                        }
                     }
-                    id
                 }
             }
-        }
-    }
-`;
-
-export default LyricsRu;
+        `}
+        render={(data) => <LyricsRu data={data} {...props} />}
+    />
+);

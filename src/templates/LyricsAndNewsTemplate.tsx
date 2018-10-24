@@ -1,3 +1,4 @@
+import { graphql, StaticQuery } from 'gatsby';
 import { getCurrentLangKey } from 'ptz-i18n';
 import * as React from 'react';
 
@@ -51,24 +52,27 @@ const LyricsAndNewsTemplate: React.SFC<ITemplate> = ({
     );
 };
 
-export const LyricsAndNewsTemplateQuery = graphql`
-    query LyricsAndNewsTemplateQuery($path: String!) {
-        markdownRemark(fields: { slug: { eq: $path } }) {
-            frontmatter {
-                title
-                type
-            }
-            html
-        }
-        site {
-            siteMetadata {
-                languages {
-                    defaultLangKey
-                    langs
+export default (props) => (
+    <StaticQuery
+        query={graphql`
+            query LyricsAndNewsTemplateQuery($path: String!) {
+                markdownRemark(fields: { slug: { eq: $path } }) {
+                    frontmatter {
+                        title
+                        type
+                    }
+                    html
+                }
+                site {
+                    siteMetadata {
+                        languages {
+                            defaultLangKey
+                            langs
+                        }
+                    }
                 }
             }
-        }
-    }
-`;
-
-export default LyricsAndNewsTemplate;
+        `}
+        render={(data) => <LyricsAndNewsTemplate data={data} {...props} />}
+    />
+);

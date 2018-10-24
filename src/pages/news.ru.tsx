@@ -1,3 +1,4 @@
+import { graphql, StaticQuery } from 'gatsby';
 import Link from 'gatsby-link';
 import * as React from 'react';
 
@@ -54,30 +55,33 @@ const NewsRu: React.SFC<INewsRu> = ({
     </React.Fragment>
 );
 
-export const NewsRuQuery = graphql`
-    query NewsRuQuery {
-        allMarkdownRemark(
-            filter: {
-                fields: { langKey: { regex: "/ru/" } }
-                frontmatter: { type: { eq: "post" } }
-            }
-            sort: { fields: [frontmatter___date], order: DESC }
-        ) {
-            edges {
-                node {
-                    fields {
-                        langKey
-                        slug
+export default (props) => (
+    <StaticQuery
+        query={graphql`
+            query NewsRuQuery {
+                allMarkdownRemark(
+                    filter: {
+                        fields: { langKey: { regex: "/ru/" } }
+                        frontmatter: { type: { eq: "post" } }
                     }
-                    frontmatter {
-                        date
-                        title
+                    sort: { fields: [frontmatter___date], order: DESC }
+                ) {
+                    edges {
+                        node {
+                            fields {
+                                langKey
+                                slug
+                            }
+                            frontmatter {
+                                date
+                                title
+                            }
+                            id
+                        }
                     }
-                    id
                 }
             }
-        }
-    }
-`;
-
-export default NewsRu;
+        `}
+        render={(data) => <NewsRu data={data} {...props} />}
+    />
+);

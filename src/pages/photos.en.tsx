@@ -1,3 +1,4 @@
+import { graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import Link from 'gatsby-link';
 import * as React from 'react';
@@ -79,33 +80,36 @@ const PhotosEn: React.SFC<IPhotos> = ({
     );
 };
 
-export const PhotosEnQuery = graphql`
-    query PhotosEnQuery {
-        allDirectory(filter: { relativePath: { regex: "/images//" } }) {
-            edges {
-                node {
-                    fields {
-                        slug
+export default (props) => (
+    <StaticQuery
+        query={graphql`
+            query PhotosEnQuery {
+                allDirectory(filter: { relativePath: { regex: "/images//" } }) {
+                    edges {
+                        node {
+                            fields {
+                                slug
+                            }
+                        }
+                    }
+                }
+                allFile(filter: { relativePath: { regex: "/images/" } }) {
+                    edges {
+                        node {
+                            childImageSharp {
+                                original {
+                                    src
+                                }
+                                sizes {
+                                    ...GatsbyImageSharpSizes_withWebp
+                                }
+                            }
+                            relativeDirectory
+                        }
                     }
                 }
             }
-        }
-        allFile(filter: { relativePath: { regex: "/images/" } }) {
-            edges {
-                node {
-                    childImageSharp {
-                        original {
-                            src
-                        }
-                        sizes {
-                            ...GatsbyImageSharpSizes_withWebp
-                        }
-                    }
-                    relativeDirectory
-                }
-            }
-        }
-    }
-`;
-
-export default PhotosEn;
+        `}
+        render={(data) => <PhotosEn data={data} {...props} />}
+    />
+);

@@ -1,3 +1,4 @@
+import { graphql, StaticQuery } from 'gatsby';
 import * as React from 'react';
 
 import Head from '../components/Head';
@@ -93,16 +94,19 @@ const AboutRu: React.SFC<IAbout> = ({
     );
 };
 
-export const AboutRuQuery = graphql`
-    query AboutRuQuery {
-        allFile(filter: { relativePath: { regex: "/documents/" } }) {
-            edges {
-                node {
-                    publicURL
+export default (props) => (
+    <StaticQuery
+        query={graphql`
+            query AboutRuQuery {
+                allFile(filter: { relativePath: { regex: "/documents/" } }) {
+                    edges {
+                        node {
+                            publicURL
+                        }
+                    }
                 }
             }
-        }
-    }
-`;
-
-export default AboutRu;
+        `}
+        render={(data) => <AboutRu data={data} {...props} />}
+    />
+);

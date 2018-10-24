@@ -1,3 +1,4 @@
+import { graphql, StaticQuery } from 'gatsby';
 import * as React from 'react';
 import Countdown from 'react-countdown-now';
 
@@ -75,14 +76,17 @@ const IndexRu: React.SFC<IIndex> = ({
     </article>
 );
 
-export const IndexRuQuery = graphql`
-    query IndexRuQuery {
-        site {
-            siteMetadata {
-                dateOfEvent
+export default (props) => (
+    <StaticQuery
+        query={graphql`
+            query IndexRuQuery {
+                site {
+                    siteMetadata {
+                        dateOfEvent
+                    }
+                }
             }
-        }
-    }
-`;
-
-export default IndexRu;
+        `}
+        render={(data) => <IndexRu data={data} {...props} />}
+    />
+);

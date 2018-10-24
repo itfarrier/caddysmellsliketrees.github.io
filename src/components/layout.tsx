@@ -1,3 +1,4 @@
+import { graphql, StaticQuery } from 'gatsby';
 import 'intl';
 import 'intl/locale-data/jsonp/en';
 import 'intl/locale-data/jsonp/ru';
@@ -9,11 +10,11 @@ import * as ru from 'react-intl/locale-data/ru';
 
 addLocaleData([...en, ...ru]);
 
-import Footer from '../components/Footer';
-import Head from '../components/Head';
-import Header from '../components/Header';
+import Footer from './Footer';
+import Head from './Head';
+import Header from './Header';
 
-import * as styles from './index.module.scss';
+import * as styles from './layout.module.scss';
 
 import { IIndexLayout } from '../interfaces';
 
@@ -44,24 +45,27 @@ const IndexLayout: React.SFC<IIndexLayout> = (props) => {
                     pathname={pathname}
                 />
                 <div className={styles.space} />
-                <main className={styles.main}>{children({ i18nMessages, langKey, ...props })}</main>
+                <main className={styles.main}>{children}</main>
                 <Footer langs={langsMenu} />
             </React.Fragment>
         </IntlProvider>
     );
 };
 
-export const IndexLayoutQuery = graphql`
-    query IndexLayoutQuery {
-        site {
-            siteMetadata {
-                languages {
-                    defaultLangKey
-                    langs
+export default (props) => (
+    <StaticQuery
+        query={graphql`
+            query IndexLayoutQuery {
+                site {
+                    siteMetadata {
+                        languages {
+                            defaultLangKey
+                            langs
+                        }
+                    }
                 }
             }
-        }
-    }
-`;
-
-export default IndexLayout;
+        `}
+        render={(data) => <IndexLayout data={data} {...props} />}
+    />
+);

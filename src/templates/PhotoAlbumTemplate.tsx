@@ -1,3 +1,4 @@
+import { graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import { getCurrentLangKey } from 'ptz-i18n';
 import * as React from 'react';
@@ -72,41 +73,44 @@ const PhotoAlbumTemplate: React.SFC<ITemplate> = ({
     );
 };
 
-export const PhotoAlbumTemplateQuery = graphql`
-    query PhotoAlbumTemplateQuery {
-        allDirectory {
-            edges {
-                node {
-                    fields {
-                        slug
+export default (props) => (
+    <StaticQuery
+        query={graphql`
+            query PhotoAlbumTemplateQuery {
+                allDirectory {
+                    edges {
+                        node {
+                            fields {
+                                slug
+                            }
+                        }
+                    }
+                }
+                allFile(filter: { relativePath: { regex: "/images/" } }) {
+                    edges {
+                        node {
+                            childImageSharp {
+                                original {
+                                    src
+                                }
+                                sizes {
+                                    ...GatsbyImageSharpSizes_withWebp
+                                }
+                            }
+                            relativeDirectory
+                        }
+                    }
+                }
+                site {
+                    siteMetadata {
+                        languages {
+                            defaultLangKey
+                            langs
+                        }
                     }
                 }
             }
-        }
-        allFile(filter: { relativePath: { regex: "/images/" } }) {
-            edges {
-                node {
-                    childImageSharp {
-                        original {
-                            src
-                        }
-                        sizes {
-                            ...GatsbyImageSharpSizes_withWebp
-                        }
-                    }
-                    relativeDirectory
-                }
-            }
-        }
-        site {
-            siteMetadata {
-                languages {
-                    defaultLangKey
-                    langs
-                }
-            }
-        }
-    }
-`;
-
-export default PhotoAlbumTemplate;
+        `}
+        render={(data) => <PhotoAlbumTemplate data={data} {...props} />}
+    />
+);
